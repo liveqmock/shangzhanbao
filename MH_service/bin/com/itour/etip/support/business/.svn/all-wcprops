@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 272
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business
+END
+RoleAuthorityBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/RoleAuthorityBusiness.java
+END
+ProcessRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/ProcessRegistryBusiness.java
+END
+IServiceRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IServiceRegistryBusiness.java
+END
+EtipMsgRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/EtipMsgRegistryBusiness.java
+END
+IProcessTaskRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IProcessTaskRegistryBusiness.java
+END
+IRoleTaskBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IRoleTaskBusiness.java
+END
+ProcessInstanceBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/ProcessInstanceBusiness.java
+END
+IRoleAuthorityBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IRoleAuthorityBusiness.java
+END
+IProcessRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IProcessRegistryBusiness.java
+END
+CalenderEventBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/CalenderEventBusiness.java
+END
+IGeneralDicBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IGeneralDicBusiness.java
+END
+IEtipMsgRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IEtipMsgRegistryBusiness.java
+END
+IRoleRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IRoleRegistryBusiness.java
+END
+IProcessInstanceBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/IProcessInstanceBusiness.java
+END
+RoleTaskBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/RoleTaskBusiness.java
+END
+ICalenderEventBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/ICalenderEventBusiness.java
+END
+GeneralDicBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/GeneralDicBusiness.java
+END
+RoleRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/RoleRegistryBusiness.java
+END
+ServiceRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/ServiceRegistryBusiness.java
+END
+ProcessTaskRegistryBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/business/ProcessTaskRegistryBusiness.java
+END

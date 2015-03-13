@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaseData>
+	<Grades>
+		<Grade>
+			<Code>1</Code>
+			<Name>主推</Name>
+		</Grade>
+		<Grade>
+			<Code>2</Code>
+			<Name>次推</Name>
+		</Grade>
+		<Grade>
+			<Code>3</Code>
+			<Name>普通</Name>
+		</Grade>
+	</Grades>
+</BaseData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>1.2</jsp-version>
+	<tag>
+	  <name>PageRoll</name>
+	  <tag-class>com.mini.util.PageRollTag</tag-class>
+	  <body-content>empty</body-content>
+	</tag>
+<!-- 	<tag> -->
+<!-- 	  <name>tool</name> -->
+<!-- 	  <tag-class>com.mini.util.PageToolTag</tag-class> -->
+<!-- 	  <body-content>empty</body-content> -->
+<!-- 	  <attribute> -->
+<!-- 	    <name>name</name> -->
+<!-- 	    <required>true</required> -->
+<!-- 	    <rtexprvalue>true</rtexprvalue> -->
+<!-- 	  </attribute> -->
+<!-- 	  <attribute> -->
+<!-- 	    <name>value</name> -->
+<!-- 	    <required>true</required> -->
+<!-- 	    <rtexprvalue>true</rtexprvalue> -->
+<!-- 	  </attribute> -->
+<!-- 	</tag> -->
+<!-- 	<tag> -->
+<!-- 	  <name>editor</name> -->
+<!-- 	  <tag-class>com.ctn.util.ReadDetailed</tag-class> -->
+<!-- 	  <body-content>empty</body-content> -->
+<!-- 	  <attribute> -->
+<!-- 	    <name>path</name> -->
+<!-- 	    <required>true</required> -->
+<!-- 	    <rtexprvalue>true</rtexprvalue> -->
+<!-- 	  </attribute> -->
+<!-- 	</tag> -->
+</taglib>

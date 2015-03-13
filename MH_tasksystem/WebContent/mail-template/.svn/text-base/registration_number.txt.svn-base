@@ -1,0 +1,16 @@
+<p>
+	<span style="font-size:14px;">亲爱的用户：</span> 
+</p>
+<p>
+	<span style="font-size:14px;">&nbsp; &nbsp; 您好！您已经完成注册过程，现将随机生成的6位密码发送至您的邮箱。请您妥善保管。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#E53333;">登陆账户：${to}</span><span style="color:#E53333;"></span><span style="color:#E53333;"></span><br />
+</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#E53333;">&nbsp; &nbsp; 登录密码：${password}</span></span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#E53333;">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><a href="http://localhost:8080/toindex.jsp">立即登录</a> 
+</p>

@@ -1,0 +1,655 @@
+.user {
+	-webkit-background-clip: padding-box;
+	border-bottom: 1px solid #ddd;
+	border-radius: 6px;
+	line-height: 40px;
+	width: 400px;
+	height: 500px;
+	box-shadow: 2px 2px 30px #909090;
+	position: fixed;
+	top: 20%;
+	left: 32%;
+	background: #F2F2F2;
+	z-index: 100;
+}
+
+.div1 {
+	height: 40px;
+	line-height: 45px;
+	margin-top: 10px;
+}
+
+.div1 span {
+	font-weight: 700;
+	font-size: 14px;
+	color: rgb(121, 121, 121);
+	text-align: right;
+	width: 70px;
+	height: 40px;
+	display: block;
+	float: left;
+}
+
+.div1 input {
+	width: 273px;
+	height: 40px;
+	float: left;
+}
+
+.div1  select {
+	font-weight: 200;
+	color: rgb(121, 121, 121);
+	text-align: left;
+	width: 88px;
+	height: 35px;
+	float: left;
+}
+
+.errorp {
+	font-weight: 200;
+	color: rgb(255, 0, 0);
+	font-size: 13px;
+	float: right;
+	margin-right: 40px;
+}
+
+.div9 {
+	margin-top: 10px;
+	width: 95%;
+	margin-left: 5px;
+}
+
+.div9 span {
+	font-size: 12px;
+	line-height: 1;
+	color: red;
+}
+
+.div4 {
+	background-color: #FFFFFF;
+	width: 375px;
+	height: 46px;
+	margin: 0;
+	margin-left: 1%;
+	margin-top: 20px;
+	clear: left;
+}
+
+.div4 img {
+	width: 106px;
+	height: 29px;
+	margin-left: 5%;
+	margin-top: 2%;
+	float: left;
+}
+
+.div6 {
+	background:
+		url(../../../../../images/mini/purchase/goumai/rectangle_u58.png);
+	width: 22px;
+	height: 22px;
+	float: right;
+	margin-top: 3%;
+	margin-right: 5%;
+}
+
+.div6 img {
+	width: 14px;
+	height: 14px;
+	text-align: center;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+.div8 input {
+	width: 200px;
+	height: 35px;
+	font-weight: 200;
+	color: #FFFFFF;
+	font-size: 13px;
+	border: none;
+	background: #FF0000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 5%;
+}
+
+.div8 input:hover {
+	background-color: #FF6600;
+}
+
+.div8_1 {
+	height: 60px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.div8_1 input {
+	width: 200px;
+	height: 35px;
+	font-weight: 200;
+	color: #FFFFFF;
+	font-size: 13px;
+	border: none;
+	background: #FF0000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 5%;
+}
+
+.div8_1 input:hover {
+	background-color: #FF6600;
+}
+
+.closed {
+	font-weight: 200;
+	font-size: 14px;
+	color: rgb(107, 107, 107);
+	text-align: center;
+	float: right;
+	margin: 0 10px 10px 10px;
+}
+
+.closed a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.top_pay {
+	height: 40px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.container {
+	width: 100%;
+	/* 	max-width: 1000px; */
+	margin: 0 auto;
+	clear: both
+}
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+#s_city {
+	margin-left: 5px;
+}
+
+#s_county {
+	margin-left: 5px;
+}
+
+#userAddress {
+	margin-top: 2px;
+}
+
+.backeBut {
+	display: none;
+}
+
+.order_title {
+	font-family: 'Arial Negreta', 'Arial';
+	font-weight: 700;
+	font-size: 24px;
+	color: #79798B;
+	text-align: center;
+	display: block;
+}
+
+.orderSpan {
+	font-weight: 700;
+	font-size: 18px;
+	color: #79798B;
+	display: block;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.order_hr {
+	height: 2px;
+	background-color: #79798B;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.order_hr_s {
+	height: 1px;
+	background-color: #79798B;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.order_div1 {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #79798B;
+	font-weight: 700;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 3%;
+}
+
+.order_div1 span {
+	display: block;
+	float: left;
+	width: 30%;
+}
+
+.order_div1 label {
+	display: block;
+	float: left;
+	width: 70%;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.orderTitle {
+	font-weight: 700;
+	font-size: 20px;
+	color: #79798B;
+	height: 40px;
+	margin-left: 3%;
+}
+
+.order_changyong {
+	height: auto;
+	margin-left: 1%;
+	color: #79798B;
+}
+
+.order_changyong #order_address {
+	line-height: 1;
+}
+
+#selectAddress {
+	z-index: 999;
+	position: absolute;
+	width: 100%;
+	background-color: #F2F2F2;
+	height: 100%;
+}
+
+#selectAddress_a {
+	color: red;
+	text-align: left;
+	text-decoration: none;
+	cursor: pointer;
+}
+.redsolid{
+	display: block;
+	width: 22px;
+	height: 22px;
+	border: 2px #F40505 solid;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 3%;
+	cursor: pointer;
+}
+.redsolid_div{
+	width: 18px;
+	height: 18px;
+	background-color: #EA0A0A;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+/*平板*/
+@media ( max-width :800px) {
+	.user {
+		-webkit-background-clip: padding-box;
+		border-bottom: 1px solid #ddd;
+		border-radius: 6px;
+		line-height: 40px;
+		width: 100%;
+		height: 100%;
+		box-shadow: 2px 2px 30px #909090;
+		position: fixed;
+		top: 0;
+		left: 0%;
+		background: #F2F2F2;
+		z-index: 888;
+		overflow-y: auto;
+	}
+	.play {
+		width: 95%;
+		height: auto;
+	}
+	.leftImg {
+		width: 95%;
+		height: auto;
+	}
+	.right {
+		width: 100%;
+		height: auto;
+		clear: left;
+		margin: 0;
+	}
+	.rightDiv3 {
+		background:
+			url(../../../../../images/mini/purchase/goumai/rectangle_u45.png);
+		height: 71px;
+		line-height: 71px;
+	}
+	.rightbut input {
+		background:
+			url(../../../../../images/mini/purchase/goumai/button_u35.png);
+		width: 213px;
+		height: 28px;
+		margin-top: 10px;
+	}
+	.rightbut input:hover {
+		background:
+			url(../../../../../images/mini/purchase/goumai/button_u35_mouseOver.png);
+	}
+	.rightbut {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	/*填写信息*/
+	.div1 input {
+		width: 100%;
+		height: 30px;
+	}
+	.div1 select {
+		width: 100%;
+	}
+	.div1 span {
+		text-align: left;
+	}
+	.conleft {
+		width: 100%;
+	}
+	.div4 {
+		background-color: #FFFFFF;
+		width: 100%;
+		height: 40px;
+		margin-left: 0;
+	}
+	.div5 {
+		background:
+			url(../../../../../images/mini/purchase/goumai/rectangle_u95.png);
+		width: 100%;
+		height: 40px;
+	}
+	.div6 {
+		background:
+			url(../../../../../images/mini/purchase/goumai/rectangle_u58.png);
+		width: 22px;
+		height: 22px;
+		float: right;
+		margin-top: 3%;
+		margin-right: 0%;
+	}
+	.div8 input {
+		background-color: #FF0000;
+		width: 100%;
+		height: 34px;
+		margin-right: 0px;
+	}
+	.div8 input:hover {
+		border-color: #FF6600;
+	}
+	.top_pay {
+		height: 2%;
+	}
+	.container {
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+	.clearfix:after {
+		clear: both;
+		content: ' ';
+		display: block;
+		font-size: 0;
+		line-height: 0;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+	#s_city {
+		margin-left: 0px;
+	}
+	#s_county {
+		margin-left: 0px;
+	}
+	.backeBut {
+		display: block;
+		width: 50px;
+		height: 25px;
+		background-color: #C9C9C9;
+		text-align: center;
+		margin-top: 5px;
+		padding-top: 2px;
+		float: right;
+		border-radius: 5px;
+		line-height: 25px;
+	}
+	.errorp {
+		float: right;
+		margin-right: 0;
+	}
+	.backeBut font {
+		color: white
+	}
+	.backeBut a {
+		text-decoration: none;
+	}
+	.closed {
+		display: none;
+	}
+	#s_city {
+		margin-top: 5px;
+	}
+	#s_county {
+		margin-top: 5px;
+	}
+	#userAddress {
+		margin-top: 5px;
+	}
+	.div8_1 {
+		margin-left: 0;
+		width: 100%;
+		position: inherit;
+		float: left;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.div8_1 input {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+
+}
+
+@media ( max-width :600px) {
+	.user {
+		-webkit-background-clip: padding-box;
+		border-bottom: 1px solid #ddd;
+		border-radius: 6px;
+		line-height: 40px;
+		width: 100%;
+		height: 100%;
+		box-shadow: 2px 2px 30px #909090;
+		position: fixed;
+		top: 0;
+		left: 0%;
+		background: #F2F2F2;
+		z-index: 888;
+	}
+	.play {
+		width: 95%;
+		height: auto;
+	}
+	.leftImg {
+		width: 95%;
+		height: auto;
+	}
+	.right {
+		width: 100%;
+		height: auto;
+		clear: left;
+		margin: 0;
+	}
+	.rightDiv3 {
+		background:
+			url(../../../../../images/mini/purchase/goumai/rectangle_u45.png);
+		height: 71px;
+		line-height: 71px;
+	}
+	.rightbut input {
+		background:
+			url(../../../../../images/mini/purchase/goumai/button_u35.png);
+		width: 213px;
+		height: 28px;
+		margin-top: 10px;
+	}
+	.rightbut input:hover {
+		background:
+			url(../../../../../images/mini/purchase/goumai/button_u35_mouseOver.png);
+	}
+	.rightbut {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	/*填写信息*/
+	.div1 input {
+		width: 100%;
+		height: 30px
+	}
+	.div1 select {
+		width: 100%;
+	}
+	.div1 span {
+		text-align: left;
+	}
+	.conleft {
+		width: 100%;
+	}
+	.div4 {
+		background-color: #FFFFFF;
+		width: 100%;
+		height: 40px;
+		margin-left: 0;
+	}
+	.div5 {
+		background:
+			url(../../../../../images/mini/purchase/goumai/rectangle_u95.png);
+		width: 100%;
+		height: 40px;
+	}
+	.div6 {
+		background:
+			url(../../../../../images/mini/purchase/goumai/rectangle_u58.png);
+		width: 22px;
+		height: 22px;
+		float: right;
+		margin-top: 3%;
+		margin-right: 0%;
+	}
+	.div8 input {
+		background-color: #FF0000;
+		width: 100%;
+		height: 34px;
+		margin-right: 0px;
+	}
+	.div8 input:hover {
+		border-color: #FF6600;
+	}
+	.top_pay {
+		height: 2%;
+	}
+	.container {
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+	.clearfix:after {
+		clear: both;
+		content: ' ';
+		display: block;
+		font-size: 0;
+		line-height: 0;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+	#s_city {
+		margin-left: 0px;
+	}
+	#s_county {
+		margin-left: 0px;
+	}
+	.backeBut {
+		display: block;
+		width: 50px;
+		height: 25px;
+		background-color: #C9C9C9;
+		text-align: center;
+		margin-top: 5px;
+		padding-top: 2px;
+		float: right;
+		border-radius: 5px;
+		line-height: 25px;
+	}
+	.errorp {
+		float: right;
+		margin-right: 0;
+	}
+	.backeBut font {
+		color: white
+	}
+	.backeBut a {
+		text-decoration: none;
+	}
+	.closed {
+		display: none;
+	}
+	#s_city {
+		margin-top: 5px;
+	}
+	#s_county {
+		margin-top: 5px;
+	}
+	#userAddress {
+		margin-top: 5px;
+	}
+	.div8_1 input {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+		.order_div1 {
+		margin-top: 5%;
+	}
+
+}

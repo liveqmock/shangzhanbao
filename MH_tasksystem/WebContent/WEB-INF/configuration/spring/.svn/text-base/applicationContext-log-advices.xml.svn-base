@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- START SNIPPET: beans -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://cxf.apache.org/jaxws http://cxf.apache.org/schema/jaxws.xsd">
+
+	<!-- 桌面消息：指的是通知到用户桌面上的消息，在特殊业务中触发， 属于一种特殊的数据库日志。-->
+	<bean id="desktopAdvice" class="com.itour.etip.pub.kit.log.DesktopMethodBeforeAdvice" />
+	<!-- 方法前置日志：切面定义 -->
+	<bean id="preLogAdvice" class="com.itour.etip.pub.kit.log.LogMethodBeforeAdvice" />
+	<!-- 方法后置日志：切面定义 -->
+	<bean id="postLogAdvice" class="com.itour.etip.pub.kit.log.LogAfterReturningAdvice" />
+	<!-- 方法例外日志：切面定义 -->
+	<bean id="exceptionLogAdvice" class="com.itour.etip.pub.kit.log.LogExceptionAdvice" />
+
+	<!-- 桌面消息：切入点定义 -->
+	<bean id="desktopPointCut"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="pattern">
+			<value>.*.*</value>
+		</property>
+		<property name="advice">
+			<ref local="desktopAdvice" />
+		</property>
+	</bean>
+	<!-- 方法前置数据日志切入点定义 -->
+	<bean id="preLogPointCut"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="pattern">
+			<value>.*.*</value>
+		</property>
+		<property name="advice">
+			<ref local="preLogAdvice" />
+		</property>
+	</bean>
+	<!-- 方法后置数据库日志：切入点定义 -->
+	<bean id="postLogPointCut"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="pattern">
+			<value>.*.*</value>
+		</property>
+		<property name="advice">
+			<ref local="postLogAdvice" />
+		</property>
+	</bean>
+	<!-- 方法例外数据库日志：切入点定义 -->
+	<bean id="exceptionLogPointCut"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="pattern">
+			<value>.*.*</value>
+		</property>
+		<property name="advice">
+			<ref local="exceptionLogAdvice" />
+		</property>
+	</bean>
+
+	<!-- PO -->
+	<bean id="messageLogPersistence"
+		class="com.itour.etip.support.persistence.MessageLogPersistence"></bean>
+	<bean id="messageDesktopPersistence"
+		class="com.itour.etip.support.persistence.MessageDesktopPersistence"></bean>
+	<bean id="etipMsgRegistryPersistence" class="com.itour.etip.pub.kit.jms.EtipMsgRegistryPersistence"></bean>
+
+
+	<!-- SO -->
+	<!-- 不使用切面的方式 -->
+	<bean id="messageLogService" class="com.itour.etip.support.service.MessageLogService">
+		<property name="messageLogPersistence" ref="messageLogPersistence" />
+	</bean>
+
+	<bean id="messageDesktopService" class="com.itour.etip.support.service.MessageDesktopService">
+		<property name="messageDesktopPersistence" ref="messageDesktopPersistence" />
+	</bean>
+
+</beans>

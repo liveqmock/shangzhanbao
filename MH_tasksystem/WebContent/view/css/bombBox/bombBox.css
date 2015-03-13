@@ -1,0 +1,22 @@
+.alert_oDiv {background:#E4E4E4;}
+.alert_backg {width:100%;height:5000px;top:0px;left:0px;position:absolute;z-index:998;background:#FFF;opacity:0;filter:alpha(opacity:0)}
+.alert_frame {width:340px;height:120px;background:#E9E9E9;-moz-border-radius: 5px;border-radius: 5px;left:50%;top:50%;position:fixed;z-index:1031;display:inline;margin:-60px 0 0 -170px;opacity:1;filter:alpha(opacity:0);box-shadow:2px 2px 30px #909090;}
+.alert_frame .top_l {width:5px;height:5px;float:left;overflow:hidden;}
+.alert_frame .top_c {width:330px;height:5px;float:left;overflow:hidden;}
+.alert_frame .top_r {width:5px;height:5px;float:left;overflow:hidden;}
+.alert_frame .con {width:100%;height:110px;float:left;overflow:hidden;}
+.alert_frame .con_l {width:5px;height:100%;float:left;overflow:hidden;}
+.alert_frame .con_c {width:330px;height:100%;float:left;overflow:hidden;}
+.alert_frame .con_r {width:5px;height:100%;float:left;overflow:hidden;}
+.alert_frame .bot_l {width:5px;height:5px;float:left;overflow:hidden;}
+.alert_frame .bot_c {width:330px;height:5px;float:left;overflow:hidden;}
+.alert_frame .bot_r {width:5px;height:5px;float:left;overflow:hidden;}
+.alert_frame .alert_tit {width:328px;height:35px;float:left;color:#000;line-height:27px; border:0px;}
+.alert_frame .alert_tit h2 {float:left;text-indent:2px;font-size:25px;font-weight:bold;font-family:"\u5FAE\u8F6F\u96C5\u9ED1";margin-top: 20px;margin-left: 20px;}
+.alert_frame .alert_tit em {width:8px;height:7px;overflow:hidden;float:right;cursor:pointer;background:url(../../images/bombBox/gnbimgs.gif) no-repeat;display:inline;margin:10px 10px 0 0;}
+.alert_frame .alert_tit em.hove {background:url(../../images/bombBox/gnbimgs.gif) no-repeat -8px 0;}
+.alert_frame .alert_con {width:330px;height:81px;float:left;border:0;}
+.size {width:100%;height:45px;text-align:center;line-height:45px;color:#000;}
+.but {width:100%;height:22px;text-align:center;line-height:22px;}
+.button {width:55px;height:22px;text-align:center;line-height:22px;color:#fff;background:url(../../images/bombBox/but.jpg) no-repeat;border:none;display:inline;margin:0 8px;cursor:pointer;}
+.title {width:800px;height:35px;color:#fff;line-height:35px;font-family:Verdana;font-weight:bold;text-align:left;margin:20px auto 0 auto;font-size:24px;}

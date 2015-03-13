@@ -1,0 +1,23 @@
+尊敬的用户：<br />
+&nbsp; &nbsp; 您好，以下是您所填写的注册信息,现已发送至您的邮箱，请妥善保管。<br />
+<br />
+&nbsp; &nbsp; 企业全称：<span style="color:#E53333;">${companyChName};</span><br />
+&nbsp; &nbsp; 企业全称(英文)：<span style="color:#E53333;">${companyEnName};</span><br />
+&nbsp; &nbsp; 企业现地址：<span style="color:#E53333;">${nowAddress};</span><br />
+&nbsp; &nbsp; 企业注册地址:<span style="color:#E53333;"> ${blAddress};</span><br />
+&nbsp; &nbsp; 公司电话总机：<span style="color:#E53333;">${companyPhone};</span><br />
+&nbsp; &nbsp; 邮政编码：<span style="color:#E53333;">${postalCode};</span><br />
+&nbsp; &nbsp; 业务申请部门：<span style="color:#E53333;">${depChName};</span><br />
+&nbsp; &nbsp; 业务申请部门(英文)：<span style="color:#E53333;">${depEnName};</span><br />
+&nbsp; &nbsp; 人事部电话：<span style="color:#E53333;">${hrPhone};</span><br />
+&nbsp; &nbsp; 企业联系人：<span style="color:#E53333;">${linkManName};</span><br />
+&nbsp; &nbsp; 手机号码：<span style="color:#E53333;">${linkManMoble};</span><br />
+&nbsp; &nbsp; 联系人职务：<span style="color:#E53333;">${linkManJob};</span><br />
+&nbsp; &nbsp; 联系人邮箱：<span style="color:#E53333;">${linkManMail};</span><br />
+&nbsp; &nbsp; 完整域名：<span style="color:#E53333;">${domainName};</span><br />
+&nbsp; &nbsp; 网站名称：<span style="color:#E53333;">${webName};</span><br />
+&nbsp; &nbsp; ICP备案号：<span style="color:#E53333;">${icp};</span><br />
+&nbsp; &nbsp; 域名注册信息：<span style="color:#E53333;">${registerInfo};</span><br />
+&nbsp; &nbsp; 上传营业执照电子版：<span style="color:#E53333;">${blImg};</span><br />
+<br />
+&nbsp; &nbsp;感谢您使用ctn平台。<br />

@@ -1,0 +1,119 @@
+	body{
+		margin:0 auto;
+		line-height:50px;
+	}
+	div,span,h1,h2,h3,h4,h5,h6,from,input,ul,li,img{
+		padding:0;
+		margin:0;
+	}
+	#frame_top{}
+	#frame_top h1{
+		font-size:16px;
+		color:#fff;
+		margin:0 20px;
+		float:left;
+		
+	}
+	#frame_top h2{
+		float:left;
+		margin:0px 0 0 190px;
+	}
+
+	#frame_Title {
+		width:100%;
+		height:59px;
+		border-bottom:1px solid #c1c1c1;
+		background:#ececec;
+		float:left;
+		color:#444;
+		
+	}
+	#frame_Title h1 {
+		font-size:20px;
+		font-family:"яе╨з";
+		float:left;
+		text-align:right;
+		display:inline;
+		width:180px;
+		padding:0;
+		margin:0;
+	}
+	#frame_Title p {
+	font-size: 14px;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	height: 55px;
+	line-height: 20px;
+	width: 70%;
+	overflow: hidden;
+	display: inline;
+	position: absolute;
+	top: 0;
+	left: 185px;
+	}
+
+
+.imgTemp{
+	float:right;
+	cursor:pointer;
+	width:24px;
+	height:24px;
+	line-height:16px;
+	text-align:center;
+	color:#4e4e4e;
+	border-radius:8px;
+	font-weight:bold;
+	margin:px 10px;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+.weixinDivTop{
+font-family: 'Heiti SC Medium', 'Heiti SC';
+font-weight: 700;
+font-size: 16px;
+color: #FF6600;
+text-align: center;
+line-height: 28px;
+padding-top: 80px;
+}
+.weixinDivTop_img{
+background: url("../../../../images/share/rectangle_u19.png");
+width: 280px;
+height: 280px;
+text-align: center;
+margin:  0 auto;
+margin-top: 10px;
+}
+.weixinDivTop_img img{
+width: 240px;
+height: 240px;
+padding-top: 20px;
+padding-left: 2px;
+}
+.weixinDivTop_p a{
+font-family: 'Heiti SC Light', 'Heiti SC';
+font-weight: 200;
+text-decoration: underline;
+color: #999999;
+}
+.wexinDiv_hr{
+width: 597px;
+height: 1px;
+background-color: #888;
+margin-top: 80px;
+}
+.weixininput{
+text-align:  center;
+padding-top: 20px;
+padding-right: 40px;
+}
+.weixininput a{
+font-family: 'Heiti SC Light', 'Heiti SC';
+font-weight: 200;
+text-decoration: underline;
+color: #0099CC;
+font-size: 13px;
+padding-left: 20px;
+}

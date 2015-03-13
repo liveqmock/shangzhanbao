@@ -1,0 +1,55 @@
+/*grid*/
+.grid_1 {width: 11.5%;}
+.grid_2 {width: 86.5%;}
+.grid_4 {width: 60%;}
+.grid_1, .grid_2, .grid_3, .grid_4 {
+	float:left;
+	display:block;
+	margin: 0 2% 1% 0;
+}
+.grid_3 {
+	width: 46%;
+	margin:0 0 0 0;
+	float:left
+}
+@media screen and (max-width:768px){
+.grid_4 {width: 55%;}	
+	
+}
+@media screen and (max-width:480px) {
+.grid_1 {width: 97%;}
+.grid_2 {width: 100%;}
+.grid_4 {width: 95%;}
+.grid_1, .grid_2, .grid_3, .grid_4 {
+ float:left;
+ display:block;
+ margin: 0 2% 1% 0;
+}
+.grid_3 {
+	width: 90%;
+	margin:0 0 0 0;
+	float:left
+}
+}
+/*clear*/
+.clear {
+	clear:both;
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+	width:0;
+	height:0;
+}
+.clearfix:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+* html .clearfix, * first-child+html .clearfix {
+	zoom:1;
+}

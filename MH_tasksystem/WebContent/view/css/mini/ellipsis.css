@@ -1,0 +1,23 @@
+#fortest {
+	position: absolute;
+	border: 1px solid green;
+	display: none;
+}
+
+.ellipsis {
+	/* white-space: nowrap; */
+	overflow: hidden;
+	-o-text-overflow: ellipsis; /* Opera */
+	text-overflow: ellipsis; /* IE, Safari (WebKit) */
+}
+
+/* .ellipsis:hover {
+	text-overflow:inherit;
+	overflow: visible;
+	white-space: pre-wrap;
+}
+#graphic_title:hover {
+	text-overflow:inherit;
+	overflow: visible;
+	white-space: pre-wrap;
+} */

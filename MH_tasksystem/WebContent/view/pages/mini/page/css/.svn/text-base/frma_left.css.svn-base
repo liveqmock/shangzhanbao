@@ -1,0 +1,616 @@
+body{
+	margin:0 auto;
+	font-size:12px;
+}
+div,span,h1,h2,h3,h4,h5,h6,from,input,ul,li,img{
+	padding:0;
+	margin:0;
+}
+.font_Money{
+	font-size:16px;
+}
+.clear{
+	clear:both;
+}
+.right{
+	float:right;
+}
+a.blueLine{
+	color:#a72a16;
+	text-decoration:underline;
+}
+a.blueLine:hover{
+	color:#c95846;
+	text-decoration:underline;
+}
+
+.input_bg{
+	border:1px solid #abadb3;
+	background:#fff;
+	height:33px;
+	line-height:33px;
+	color:#333;
+	font-size:12px;
+	margin:5px 0;
+	padding:0 5px;
+}
+.textarea_bg{
+	border:1px solid #abadb3;
+	background:#fff;
+	height:20px;
+	line-height:20px;
+	color:#333;
+	font-size:12px;
+	margin:5px 0;
+	padding:0 5px;
+}
+a.Btn_Upload {
+	background:url(../images/frame_btnbg.png) no-repeat 0 0;
+	width:67px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	color:#fff;
+	overflow:hidden;
+	text-decoration:none;
+	
+}
+a.Btn_Upload:hover{
+	background:url(../images/frame_btnbg.png) no-repeat 0 0;
+	width:67px;
+	height:30px;
+	display:block;
+	font-weight:bold;
+	overflow:hidden;
+	text-decoration:underline;
+}
+.Btn_next {
+	width:70px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	color:#fff;	
+	border: none;
+	overflow:hidden;
+	cursor: pointer;
+	text-decoration:none;
+	background-color: rgb(218, 100, 77);
+}
+a.Btn_red {
+	background:url(../images/frame_btnbg.png) no-repeat 0 -97px;
+	width:67px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	color:#fff;
+	overflow:hidden;
+	text-decoration:none;
+
+}
+a.Btn_red:hover{
+	background:url(../images/frame_btnbg.png) no-repeat -68px  -97px;
+	width:67px;
+	height:30px;
+	display:block;
+	overflow:hidden;
+	text-decoration:none;
+
+}
+.Btn_buy {
+	background:#B4B4B4;
+	width:74px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border:none;
+	font-size:12px;
+	display:block;
+	color:#fff;
+	overflow:hidden;
+	text-decoration:none;
+}
+a.Btn_more {
+	background:url(../images/frame_btnbg.png) no-repeat -111px -32px;
+	width:110px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	color:#fff;
+	overflow:hidden;
+	text-decoration:none
+}
+a.Btn_more:hover{
+	background:url(../images/frame_btnbg.png) no-repeat 0 -32px;
+	width:110px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	color:#fff;
+	overflow:hidden;
+	text-decoration:none
+}
+
+#Frma_Left_top{
+	width:300px;
+	float:left;
+	height:38px;
+	line-height:38px;
+	font-size:14px;
+	background:url(../images/frame_left_titlebg1.jpg) no-repeat left top;
+	color:#fff;
+	text-indent:30px;
+	font-weight:bold;
+}
+
+#edit_frma_left{
+	width:300px;
+	float:left;
+	height:38px;
+	line-height:38px;
+	font-size:14px;
+	background:#AE5040;
+	color:#fff;
+	text-indent:30px;
+	font-weight:bold;
+}
+
+#Frma_Left_top span{
+	margin-right: 57px;
+	float: right;
+	font-weight:normal
+}
+#Frma_Left_Starp1{
+	width:250px;
+	float:left;
+	margin:10px 0 10px 25px;
+	
+}
+#Frma_Left_Starp1 h1{
+	font-size:14px;
+	color:#fff;
+	height:35px;
+	background:url(../images/frame_left_line.jpg) repeat-x left bottom;
+	margin:15px 0;
+	}
+.Frma_Left_Starp1_tab{
+	width:260px;
+	float:left;
+	margin:0 0 10px 0;
+	background:#fff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.Frma_Left_Starp1_tab h2{
+	font-size:14px;
+	line-height:23px;
+	color:#333;
+	background:url(../images/frame_left_line.jpg) repeat-x left bottom;
+	margin:5px 0;
+	padding:3px 10px;
+}
+.Frma_Left_Starp1_tab h2 span{
+	float:right;
+	font-size:12px;
+	font-weight:normal;
+}
+.Frma_Left_Starp1_tab .FormTab{
+	margin:5px 10px;
+	float:left;
+	color:#333;
+	font-size:12px;
+}
+.Frma_Left_Starp1_tab .FormTab p{
+	line-height:30px;
+	width:250px;
+	margin:0;
+	padding:0;
+	float:left
+}
+.Frma_Left_Starp1_tab .FormTab p span{
+	margin:0;
+	float:left
+}
+.Frma_Left_Starp1_tab .FormTab p font{
+	margin:-2px 0 0 5px; 
+	float:left;
+}
+.Frma_Left_Starp1_tab .FormBtn{
+	margin:10px 10px;
+	float:left;
+	width:240px;
+	background:url(../images/frame_left_line.jpg) repeat-x left top;
+	padding-top:10px;
+}
+.Frma_Left_Starp1_tab .DispalyDiv{
+width: 205px;
+background: #d3d3d3;
+float: left;
+color: #334454;
+margin-bottom: 10px;
+}
+.Frma_Left_Starp1_tab .DispalyDiv span{
+	float:left;
+	line-height:18px;
+	padding:10px 0 0 10px;
+	width:160px;
+}
+.Frma_Left_Starp1_Text{
+	width:200px;
+	margin:0;
+	float:left
+	
+}
+.Frma_Left_Starp1_Text p{
+	line-height:20px;
+	color:#333;
+	padding:0;
+	margin:0 0 5px 0;
+}
+.Frma_Left_Starp1_Btn{
+	width:240px;
+	float:left;
+	margin:10px 0 10px 15px;
+}
+.Frma_Left_Starp1_Btn span{
+	float:left;
+	margin:0 10px 0 0;
+}
+
+.weixinDivTop{
+font-family: 'Heiti SC Medium', 'Heiti SC';
+font-weight: 700;
+font-size: 16px;
+color: #FF6600;
+text-align: center;
+line-height: 28px;
+padding-top: 80px;
+}
+.weixinDivTop_img{
+background: url("../../../../images/share/rectangle_u19.png");
+width: 280px;
+height: 280px;
+text-align: center;
+margin:  0 auto;
+margin-top: 10px;
+}
+.weixinDivTop_img img{
+width: 240px;
+height: 240px;
+padding-top: 20px;
+padding-left: 2px;
+}
+.weixinDivTop_p{
+	margin-top: 30px;
+}
+.weixinDivTop_p a{
+font-family: 'Heiti SC Light', 'Heiti SC';
+font-weight: 200;
+text-decoration: underline;
+color: #999999;
+}
+.wexinDiv_hr{
+width: 597px;
+height: 1px;
+background-color: #888;
+margin-top: 80px;
+}
+.weixininput{
+text-align:  center;
+padding-top: 20px;
+padding-right: 40px;
+}
+.weixininput a{
+font-family: 'Heiti SC Light', 'Heiti SC';
+font-weight: 200;
+text-decoration: underline;
+color: #0099CC;
+font-size: 13px;
+padding-left: 20px;
+}
+.leftback{
+background:url(../../../../../images/mini/purchase/goumai/leftbg.jpg) repeat-y left top;
+}
+/* .Frma_Left_Starp1{
+width:95%;
+padding:2%;
+height:auto;
+}
+.Frma_Left_Starp1_tab{
+width: 100%;
+float: left;
+margin: 0 0 10px 0;
+background: #fff;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+} */
+.formcon span{
+
+color: #333;
+font-size: 12px;
+padding: 4%;
+display: block;
+}
+.formcon div{
+padding:0px 0px 0px 4%;
+}
+.formcon div textarea{
+width: 80%;
+height: 50px;
+border: 1px solid #abadb3;
+background: #fff;
+line-height: 20px;
+color: #333;
+font-size: 12px;
+margin: 5px 0;
+padding: 0 5px;
+resize:none;
+}
+.formcon_div3{
+height:70px;
+}
+.formcon_div3 span{
+float:left;
+display:block;
+width:17%;
+}
+.formcon_div3 div{
+float:left;
+display:block;
+width:98%;
+}
+.formcon_div3 div input{ 
+	color: #000000;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    height: 34px;
+    text-align: left;
+    text-decoration: none;
+	width: 69px;
+	float: left;
+	box-sizing: border-box;
+    padding: 1px 0;
+}
+.formcon_div3   a{ 
+	font-weight: 700;
+	color: #999999;
+	font-size: 12px;
+	text-align: right;
+	display: block;
+	margin-top: 0px;
+	line-height: 3;
+	margin-right: 5%;
+	text-decoration:none;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+}
+.formcon_div4{
+height:auto;
+clear:left;
+margin: 4%;
+margin-bottom:8%;
+}
+.formcon_div4 div{
+background:url(../../../../../images/mini/purchase/goumai/button_u104.png);
+width:128px;
+height:29px;
+}
+.formcon_div4 div:hover{
+background:url(../../../../../images/mini/purchase/goumai/button_u104_mouseOver.png);
+}
+.formcon_div4 div span{
+	color: #ffffff;
+    font-weight: 200;
+	text-align: center;
+	line-height: 20px;
+	}
+.Frma_Left_Starp1 h2{
+	color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    display: block;
+    clear: left;
+	}
+	.upload_div {
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 0;
+	height:150px;
+}
+.line {
+position: relative;
+margin: 0 auto;
+width: 300px;
+text-align: left;
+height: 100px;
+margin: 4%;
+}
+.line span.span {
+float: left;
+padding-top: 2px;
+}
+inputstyle {
+border: 1px solid #BEBEBE;
+width: 170px;
+float: left;
+height: 23px;
+line-height: 23px;
+background: #FFF;
+z-index: 99;
+}
+.file_btn {
+float: left;
+margin-left: 8px;
+margin-top: 2px;
+z-index: 1;
+width: 50px;
+height: 25px;
+line-height: 25px;
+background: #CCCCCC;
+cursor: pointer;
+font-size: 13px;
+text-align: center;
+border: none;
+}
+.file {
+position: absolute;
+left: 0;
+width: 250px;
+top: 0;
+height: 25px;
+filter: alpha(opacity=0);
+opacity: 0;
+cursor: pointer;
+}
+.formcon_quxiao{
+background:url(../../../../../images/mini/purchase/goumai/button_u110.png);
+width:70px;
+height:34px;
+display: block;
+float: left;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+line-height: 34px;
+font-size:12px;
+margin-left:25px;
+text-decoration: none;
+
+}
+.formcon_quxiao:hover{
+background:url(../../../../../images/mini/purchase/goumai/button_u110_mouseOver.png);
+}
+.formcon_save{
+width:70px;
+height:34px;
+display: block;
+float: left;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+line-height: 34px;
+font-size:12px;
+margin-left:10px;
+text-decoration: none;
+background-color: #b25242;
+}
+.formcon_save:hover{
+color: #ffffff;
+cursor: pointer;
+background:#33CCFF;
+}
+
+.div4 {
+width: 230px;
+height: 40px;
+margin: 0;
+margin-left: 1%;
+margin-top: 10px;
+clear: left;
+background-color: #eaeef0;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+.div4 img {
+width: 70px;
+height: 19px;
+margin-left: 5%;
+margin-top: 10px;
+}
+.div6 {
+background: url(../../../../../images/mini/purchase/goumai/rectangle_u140.png);
+width: 15px;
+height: 15px;
+float: right;
+margin-top:15px;
+margin-right: 10px;
+}
+.div6 img {
+width: 9px;
+height: 9px;
+text-align: center;
+margin-left: 3px;
+margin-top: 3px;
+margin-right: 3%;
+}
+
+.font{
+	color: #333333;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 20px;
+    margin-top: 10px;
+display: block;
+}
+.div7{
+width: 230px;
+height: 60px;
+margin: 0;
+margin-left: 1%;
+margin-top: 10px;
+clear: left;
+background-color: #eaeef0;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+.div7 input{
+	color: #000000;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    height: 40px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    width: 210px;
+    margin: 10px;
+}
+.Btn_tiao{
+width: 137px;
+height: 30px;
+color: #FFFFFF;
+display: block;
+float: left;
+border: none;
+background-color: #B4B4B4;
+line-height: 30px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+margin-right: 40px;
+}
+.Btn_buys {
+	background:#B4B4B4;
+	width:74px;
+	height:30px;
+	border: none;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	cursor:pointer;
+	color:#fff;
+	overflow:hidden;
+	text-decoration:none;
+}

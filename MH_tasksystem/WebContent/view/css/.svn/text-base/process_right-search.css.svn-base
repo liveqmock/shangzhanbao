@@ -1,0 +1,599 @@
+﻿#middle6{
+	  width:auto;
+      height:auto;
+}
+
+#middle1{
+  width:atuo;
+  height:auto;
+}
+
+/*----开始左侧定义-------*/
+#left{
+  width:210px;
+  height:auto;
+  min-height:470px;
+  margin-right:5px;
+  float:left;
+}
+
+#left-contet{
+   width:204px;
+   height:auto;
+   min-height:464px;;
+   margin:3px;
+   background-color:#FFF;
+}
+
+#middle6{
+	  width:auto;
+      height:auto;
+}
+
+/*----开始左侧定义---------------*/
+#left-menu{
+  width:210px;
+  height:500px;
+  border-top:3px solid #57286E;
+  border-bottom:3px solid #BFA4CD;
+  margin-right:5px;
+  float:left;
+}
+
+#menu-mleftb{
+ width:3px;
+ float:left;
+ height:500px;
+}
+
+#middle-menu{
+ width:207px;
+ float:right;
+ height:500px;
+}
+
+#menu-content{
+ width:202px;
+ float:left;
+}
+#menu-mrightb{
+ width:3px;
+ float:right;
+ height:500px;
+}
+
+/*开始酒店快速查询*/
+#hotel-search{
+   width:204px;
+   heigth:150px;
+}
+.search-title1{
+	width:174px;
+	height:31px;
+	line-height:26px;
+	background-image: url(../images/leftsearch-title1-bj.gif);
+	background-repeat: no-repeat;
+	padding-left:30px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+.history{
+	width:194px;
+	height:150px;
+	padding:5px;
+
+}
+
+
+.history li{
+    width:194px;
+	height:25px;
+	line-height:25px;
+	float:left;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+/*----开始左侧定义---------------*/
+#left-search{
+  width:210px;
+  height:722px;
+  border-top:3px solid #57286E;
+  border-bottom:3px solid #BFA4CD;
+  margin-right:5px;
+  float:left;
+}
+
+#left-search2{
+  width:210px;
+  height:722px;
+  border-top:3px solid #57286E;
+  border-bottom:3px solid #BFA4CD;
+  margin-right:5px;
+  float:left;
+}
+
+#left-content{
+ background-color:#fff;
+ margin:3px;
+}
+
+#mleftb{
+ width:3px;
+ float:left;
+ height:722px;
+}
+
+#middle-right{
+ width:207px;
+ float:right;
+ height:722px;
+}
+
+#search-content{
+ width:202px;
+ float:left;
+}
+#mrightb{
+ width:3px;
+ float:right;
+ height:722px;
+}
+
+/*----开始酒店详细左侧定义---------------*/
+#left-search1{
+  width:210px;
+ height:1070px;
+  border-top:3px solid #57286E;
+  border-bottom:3px solid #BFA4CD;
+  margin-right:5px;
+  float:left;
+}
+
+#mleftb1{
+ width:3px;
+ float:left;
+ height:1070px;
+}
+
+#middle-right1{
+ width:207px;
+ float:right;
+ height:1070px;
+}
+
+#search-content1{
+ width:202px;
+ float:left;
+}
+#mrightb1{
+ width:3px;
+ float:right;
+ height:1070px;
+}
+
+/*开始酒店快速查询*/
+#hotel-search{
+   width:204px;
+   height:auto;
+}
+.search-title1{
+	width:174px;
+	height:31px;
+	line-height:26px;
+	background-image: url(../images/leftsearch-title1-bj.gif);
+	background-repeat: no-repeat;
+	padding-left:30px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.search{
+	width:194px;
+	height:auto;
+	padding:5px;
+
+}
+
+/*开始缩小搜索范围*/
+.search2{
+	width:194px;
+	height:auto;
+	padding:5px;
+
+}
+
+.search-title2{
+	width:174px;
+	height:31px;
+	line-height:31px;
+	background-image: url(../images/leftsearch-title2-bj.gif);
+	background-repeat: no-repeat;
+	padding-left:30px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+#PARENT{
+ width:192px;
+}
+
+#nav {
+	width:192px;
+    line-height: 27px; 
+	list-style-type: none;
+	text-align:left;
+	padding:0px;
+	margin:0px;	
+}
+
+#nav a {
+	width: 192px; 
+	display: block;
+}
+
+#nav li {
+    width:192px; 
+	text-align:center;
+	border-bottom:#A597B1 1px solid; 
+	float:left;
+	margin:0px;
+}
+
+#nav li a:hover{
+    
+}
+
+#nav a{
+color:#444444;		
+}
+
+#nav a:link  {
+   text-decoration:none;	
+}
+
+#nav a:visited  {
+    color:#090201; 
+	text-decoration:none;
+}
+#nav a:hover  {
+	color:#3D0A6A;text-decoration:none;
+	
+}
+
+#nav li ul {
+	width: 192px;
+	list-style:none;
+	text-align:left;
+	float:left;
+}
+#nav li ul li{
+	width:192px;
+	float:left;
+	list-style-type: none;	
+}
+
+#nav li ul a{ 
+         width:192px;
+		 height:27px;
+		 margin:0px;
+		 padding:0px;
+}
+
+#nav li ul a:link  {
+	color:#000;
+	text-decoration:none;
+}
+
+#nav li ul a:visited  {
+	color:#666;
+}
+
+#nav li ul a:hover {
+	color:#3D0A6A;
+	text-decoration:none;
+	font-weight:border;
+}
+
+#nav li:hover ul {
+	left: auto;
+	width:192px;
+}
+#nav li.sfhover ul {
+	left: auto;
+}
+#content {
+	clear: left; 
+}
+#nav ul.collapsed {
+	display: none;
+}
+
+/*结束左侧定义*/
+
+
+/*右侧定义*/
+#right{
+  width:784px;
+  height:auto;
+  font-size:12px;
+  border-top:1px solid #9DE96F;
+  background-color:#F4FDEE;
+  float:right;
+}
+
+select,input,img,select{vertical-align:middle;}
+
+
+.contentTable1 {
+	border-collapse:collapse;
+	width:100%;
+	background-color:#F4FDEE;
+}
+
+
+.contentTable_lace {
+	/*background-image:url(../images/basedata/content_table_lace.gif);*/
+    /*background-repeat: repeat-x;*/
+	background-color:#DAEDCF;
+	height: 25px;
+	font-weight:bold;
+	color:#000;
+	text-align:center;
+}
+
+.contentTable_row1 {
+	color:#000;
+	height: 22px;
+	background-color: #F4FCED;
+	text-align:center;
+	border-collapse:collapse;
+	border-bottom:1px dashed #CACBCD;
+}
+
+.STYLE6 {
+	color: #444444;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#daohang1{
+ line-height:30px;
+ height:30px;
+ font-size:12px;
+ vertical-align:middle;
+}
+
+#left-tu{
+  width:120px;
+  height:auto;
+  padding:10px;
+}
+
+#left-wenzi{
+  width:120px;
+  height:auto;
+  padding:10px;
+  padding-top:0px;
+}
+
+#fenye5{
+  width:784px;
+  height:25px;
+  line-height:25px;
+  text-align:center;
+  background-color:#D7D7D7;
+  float:right;
+}
+
+/*酒店详细信息右侧定义*/
+.hotel-name{
+	color:#339900;
+	font-size:14px;
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+	padding-left:20px;
+	maring-bottom:10px;
+    background-color: #C9F5AC;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #66CC33;
+	border-bottom-color: #66CC33;
+}
+
+.hotel-info{
+	padding:5px;
+	border:1px solid #8DB2E3;
+}
+
+
+.hotel-info span{
+   font-weight:bold;
+
+}
+.hotel-info li{
+	line-height:25px;
+	float:left;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+
+.hotel-dianping{
+	width:160px;
+	height:160px;
+	padding:5px;
+
+}
+
+.hotel-dianping span{
+   font-weight:bold;
+   font-size:18px;
+   color:#FF0000;
+}
+
+.hotel-dianping li{
+    width:160px;
+	height:20px;
+	line-height:20px;
+	float:left;
+}
+
+.hotel-dianping1{
+	width:120px;
+	height:100px;
+
+}
+
+.hotel-dianping1 span{
+   font-weight:bold;
+   font-size:18px;
+   color:#FF0000;
+}
+
+.hotel-dianping1 li{
+    width:160px;
+	height:15px;
+	line-height:15px;
+	float:left;
+}
+
+.liebiao{
+ height:auto;
+ margin:10px;
+}
+
+
+.hotel-house{
+  height:auto;
+}
+
+.hotel-name span{
+  float:right;
+  padding-right:20px;
+  color:#000000;
+  font-size:12px;
+  text-align:center;
+}
+.hotel-name li{
+  float:left;
+  height:30px;
+  line-height:30px;
+  vertical-align:middle;
+}
+
+.hotel-house-content{
+ height:auto;
+ padding:10px;
+}
+
+
+/*酒店介绍--变化的图片定义*/
+.box390 {
+	width:271px;
+	height:269px;
+	border:1px solid #A09EA4;
+	overflow:hidden;
+	float:left;
+	margin-top:5px;
+}
+
+.focus_t1 {
+
+}
+
+.focus_tbg1 {
+    width:272px; 
+	height:60px; 
+	float:rigth;
+}
+
+.focus_butc2 {
+}
+
+.focus_tbg2 {
+width:714px;
+}
+
+#focus_but1 {
+	float: left;
+}
+
+#focus_but2 {
+	float: left;
+}
+
+.box386 {
+	float: left;
+	width:260px;
+	height:195px;
+}
+
+#focus_text1 {
+	text-align:left;
+	width:260px;
+	height:195px;
+}
+
+ 
+#focus_text2 {
+	display: none;
+	text-align:left;
+	width:260px;
+	height:195px;
+}
+
+
+#focus_text3 {
+	display: none;
+	text-align:left;
+	width:260px;
+	height:195px;
+}
+
+.img-big{
+ width:260px;
+ height:195px;
+ margin:5px;
+}
+
+.xiao-image{
+  width:80px;
+  height:54px;
+  margin:5px;
+}
+
+#hotel-content-info1{
+  height:290px;
+  width:310px;
+  margin:5px;
+  float:left;
+}
+
+/*流程样式*/
+.liuchent-content{
+ width:auto;
+ border-bottom: 3px #006600 solid;
+}
+
+.liuchen{
+ width:auto;
+ float:right;
+ padding:0 10px;
+}
+#tableN{ border-collapse:collapse;border:0;font-size:12px; color:#000000;}
+#tableN td{border-collapse:collapse; padding:0;border:0;width:7px; vertical-align:middle;}
+#tableN td img{vertical-align:middle;}
+#tableN th{border-collapse:collapse; padding:0;text-align:center;width:40px; font-weight:normal}
+#tableN .tc2{text-align:center; width:40px;}
+#tableN .tc2 img{text-align:center; padding:0; margin:0; border:0}
+#tableN  tr{ height:22px;}

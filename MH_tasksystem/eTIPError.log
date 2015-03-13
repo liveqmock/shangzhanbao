@@ -1,0 +1,1244 @@
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-10 17:18:43,816 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-10 17:18:43,824 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-10 17:18:46,018 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-10 17:18:46,021 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-mini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-10 17:18:46,090 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-10 17:28:58,625 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-10 17:28:58,637 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-10 17:29:00,765 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-10 17:29:00,767 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-mini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-10 17:29:00,828 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-11 11:14:41,991 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-11 11:14:42,001 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-11 11:15:03,617 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-11 11:15:03,621 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-mini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-11 11:15:03,717 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-13 10:25:07,625 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-13 10:25:07,625 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2014-11-13 10:25:29,965 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (Io �쳣: The Network Adapter could not establish the connection)  2014-11-13 10:25:29,965 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2014-11-13 10:25:29,981 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io �쳣: The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: Io �쳣: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-13 10:25:30,013 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-13 10:25:30,013 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/E:/workspace/bymini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-13 10:25:30,075 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-13 10:27:17,922 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-13 10:27:17,922 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-13 10:27:19,530 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-13 10:27:19,530 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/E:/workspace/bymini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-13 10:27:19,656 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-13 14:41:56,579 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-13 14:41:56,620 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-13 14:42:00,943 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-13 14:42:00,943 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/E:/workspace/bymini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-13 14:42:01,354 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 11:51:48,129 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 11:51:48,137 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 11:51:50,491 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 11:51:50,494 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 11:51:50,557 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 12:00:36,394 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 12:00:36,404 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 12:00:38,537 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 12:00:38,539 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 12:00:38,642 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 17410, SQLState: null  2015-01-09 13:34:25,808 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] 无法从套接字读取更多的数据  2015-01-09 13:34:25,808 
+[org.springframework.transaction.interceptor.TransactionInterceptor.ERROR] Application exception overridden by rollback exception  2015-01-09 13:34:53,406 
+java.lang.NullPointerException
+	at java.util.Properties$LineReader.readLine(Properties.java:418)
+	at java.util.Properties.load0(Properties.java:337)
+	at java.util.Properties.load(Properties.java:325)
+	at com.itour.etip.pub.kit.exception.BaseException.getProps(BaseException.java:40)
+	at com.itour.etip.pub.kit.exception.BaseException.<init>(BaseException.java:109)
+	at com.itour.etip.pub.kit.exception.SysException.<init>(SysException.java:19)
+	at com.itour.etip.pub.frame.HibernateDao.retrieve(HibernateDao.java:724)
+	at com.itour.etip.pub.frame.BasePersistence.retrieve(BasePersistence.java:129)
+	at com.mini.tempmanage.business.TempManageBusiness.getTemplateData(TempManageBusiness.java:146)
+	at com.mini.tempmanage.service.TempManageService.getTemplateData(TempManageService.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:309)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at com.sun.proxy.$Proxy15.getTemplateData(Unknown Source)
+	at com.mini.front.pageManage.facade.PageManageFacade.searchTempById(PageManageFacade.java:175)
+	at com.mini.front.pageManage.action.PageManageAction.toCreatePage(PageManageAction.java:429)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.struts2.rest.RestActionInvocation.invokeAction(RestActionInvocation.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeActionOnly(DefaultActionInvocation.java:279)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:242)
+	at com.mini.intercepter.UserRoleInterceptor.intercept(UserRoleInterceptor.java:31)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.itour.etip.pub.kit.log.EtipMsgInterceptor.intercept(EtipMsgInterceptor.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.itour.etip.pub.kit.log.LogErrorInterceptor.intercept(LogErrorInterceptor.java:35)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.itour.etip.pub.kit.convert.JsonConversionInterceptor.intercept(JsonConversionInterceptor.java:44)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.rest.RestWorkflowInterceptor.doIntercept(RestWorkflowInterceptor.java:228)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:249)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:122)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.rest.ContentTypeInterceptor.intercept(ContentTypeInterceptor.java:67)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:195)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:148)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:93)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:235)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:89)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:128)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:195)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.ProfilingActivationInterceptor.intercept(ProfilingActivationInterceptor.java:104)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:267)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:126)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:148)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:138)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.MessageStoreInterceptor.intercept(MessageStoreInterceptor.java:204)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:128)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:176)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.DefaultActionProxy.execute(DefaultActionProxy.java:129)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:468)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.SessionFixationProtectionFilter.doFilterHttp(SessionFixationProtectionFilter.java:67)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.rememberme.RememberMeProcessingFilter.doFilterHttp(RememberMeProcessingFilter.java:116)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.basicauth.BasicProcessingFilter.doFilterHttp(BasicProcessingFilter.java:174)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.AbstractProcessingFilter.doFilterHttp(AbstractProcessingFilter.java:277)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.concurrent.ConcurrentSessionFilter.doFilterHttp(ConcurrentSessionFilter.java:99)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.securechannel.ChannelProcessingFilter.doFilterHttp(ChannelProcessingFilter.java:116)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:99)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:722)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:404)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:139)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450)
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 17410, SQLState: null  2015-01-09 13:34:53,412 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] 无法从套接字读取更多的数据  2015-01-09 13:34:53,412 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 17410, SQLState: null  2015-01-09 13:34:53,412 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] 无法从套接字读取更多的数据  2015-01-09 13:34:53,412 
+[org.hibernate.event.def.AbstractFlushingEventListener.ERROR] Could not synchronize database state with session  2015-01-09 13:34:53,412 
+org.hibernate.exception.GenericJDBCException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.handledNonSpecificException(SQLStateConverter.java:103)
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:91)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:253)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:237)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:141)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:298)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:27)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1000)
+	at org.springframework.orm.hibernate3.HibernateAccessor.flushIfNecessary(HibernateAccessor.java:390)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:407)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:683)
+	at com.itour.etip.pub.frame.HibernateDao.save(HibernateDao.java:488)
+	at com.itour.etip.pub.kit.jms.JMSUtil.sendDBLog(JMSUtil.java:287)
+	at com.itour.etip.pub.kit.log.EtipMsgInterceptor.sendMessage(EtipMsgInterceptor.java:222)
+	at com.itour.etip.pub.kit.log.EtipMsgInterceptor.intercept(EtipMsgInterceptor.java:198)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.itour.etip.pub.kit.log.LogErrorInterceptor.intercept(LogErrorInterceptor.java:35)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.itour.etip.pub.kit.convert.JsonConversionInterceptor.intercept(JsonConversionInterceptor.java:44)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.rest.RestWorkflowInterceptor.doIntercept(RestWorkflowInterceptor.java:228)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:249)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:122)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.rest.ContentTypeInterceptor.intercept(ContentTypeInterceptor.java:67)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:195)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:148)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:93)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:235)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:89)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:128)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:195)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.ProfilingActivationInterceptor.intercept(ProfilingActivationInterceptor.java:104)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:267)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:126)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:148)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:138)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:87)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.MessageStoreInterceptor.intercept(MessageStoreInterceptor.java:204)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:128)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:176)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:236)
+	at com.opensymphony.xwork2.DefaultActionProxy.execute(DefaultActionProxy.java:129)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:468)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.SessionFixationProtectionFilter.doFilterHttp(SessionFixationProtectionFilter.java:67)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.rememberme.RememberMeProcessingFilter.doFilterHttp(RememberMeProcessingFilter.java:116)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.basicauth.BasicProcessingFilter.doFilterHttp(BasicProcessingFilter.java:174)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.AbstractProcessingFilter.doFilterHttp(AbstractProcessingFilter.java:277)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.concurrent.ConcurrentSessionFilter.doFilterHttp(ConcurrentSessionFilter.java:99)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.securechannel.ChannelProcessingFilter.doFilterHttp(ChannelProcessingFilter.java:116)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:99)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:722)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:404)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:139)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450)
+Caused by: java.sql.BatchUpdateException: 无法从套接字读取更多的数据
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:343)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:10656)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:246)
+	... 132 more
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 13:35:42,772 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 13:35:42,782 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2015-01-09 13:35:44,352 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.108:1521:orclctn
+)  2015-01-09 13:35:44,352 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2015-01-09 13:35:44,354 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.108:1521:orclctn
+)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.108:1521:orclctn
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 13:35:44,376 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 13:35:44,379 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 13:35:44,441 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 13:41:13,329 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 13:41:13,337 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2015-01-09 13:41:15,742 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (ORA-01017: invalid username/password; logon denied
+)  2015-01-09 13:41:15,742 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2015-01-09 13:41:15,744 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (ORA-01017: invalid username/password; logon denied
+)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:283)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:278)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOauth(T4CTTIoauthenticate.java:785)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:362)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 13:41:15,776 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 13:41:15,778 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 13:41:15,841 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 13:52:02,409 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 13:52:02,419 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2015-01-09 13:52:04,150 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (ORA-01017: invalid username/password; logon denied
+)  2015-01-09 13:52:04,150 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2015-01-09 13:52:04,153 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (ORA-01017: invalid username/password; logon denied
+)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:283)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:278)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOauth(T4CTTIoauthenticate.java:785)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:362)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 13:52:04,181 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 13:52:04,183 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 13:52:04,239 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 14:05:44,863 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 14:05:44,871 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2015-01-09 14:05:46,979 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orcl
+)  2015-01-09 14:05:46,979 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2015-01-09 14:05:46,981 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orcl
+)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orcl
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 14:05:47,008 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 14:05:47,010 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 14:05:47,083 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 14:06:15,051 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 14:06:15,066 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 14:06:16,770 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 14:06:16,772 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 14:06:16,815 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 14:16:06,303 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 14:16:06,310 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 14:16:08,035 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 14:16:08,037 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 14:16:08,091 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 14:44:34,274 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 14:44:34,282 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 14:44:37,548 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 14:44:37,551 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 14:44:37,612 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 15:25:49,478 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 15:25:49,487 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 15:25:51,338 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 15:25:51,340 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 15:25:51,395 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 15:30:22,182 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 15:30:22,189 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 15:30:23,828 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 15:30:23,830 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 15:30:23,891 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 15:40:03,118 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 15:40:03,128 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 15:40:05,418 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 15:40:05,420 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 15:40:05,492 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 16:51:00,566 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 16:51:00,581 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 16:51:02,983 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 16:51:02,985 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 16:51:03,040 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-09 16:54:46,631 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-09 16:54:46,653 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-09 16:54:49,319 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-09 16:54:49,322 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-09 16:54:49,375 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 15:28:12,262 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 15:28:12,269 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 15:28:13,929 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 15:28:13,932 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 15:28:13,984 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 15:33:54,464 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 15:33:54,473 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 15:33:56,340 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 15:33:56,342 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 15:33:56,394 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 15:39:22,091 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 15:39:22,098 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 15:39:23,871 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 15:39:23,874 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 15:39:23,916 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 15:50:14,947 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 15:50:14,955 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 15:50:16,795 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 15:50:16,797 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 15:50:16,847 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 15:55:47,430 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 15:55:47,436 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 15:55:49,217 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 15:55:49,219 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 15:55:49,262 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 16:26:52,849 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 16:26:52,856 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 16:26:54,644 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 16:26:54,646 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 16:26:54,701 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 16:30:13,806 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 16:30:13,814 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 16:30:15,922 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 16:30:15,924 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 16:30:15,990 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-10 17:47:22,149 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-10 17:47:22,155 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-10 17:47:24,043 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-10 17:47:24,045 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-10 17:47:24,104 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-12 17:28:33,995 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-12 17:28:34,004 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2015-01-12 17:28:35,751 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orcl
+)  2015-01-12 17:28:35,752 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2015-01-12 17:28:35,753 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orcl
+)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orcl
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-12 17:28:35,778 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-12 17:28:35,781 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-12 17:28:35,834 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-12 17:29:00,507 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-12 17:29:00,521 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2015-01-12 17:29:01,934 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orclctn
+)  2015-01-12 17:29:01,934 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2015-01-12 17:29:01,935 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orclctn
+)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.10:1521:orclctn
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-12 17:29:01,956 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-12 17:29:01,958 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-12 17:29:02,022 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-12 17:32:39,961 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-12 17:32:39,970 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-12 17:32:41,713 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-12 17:32:41,715 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-12 17:32:41,773 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-13 14:14:53,501 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-13 14:14:53,509 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-13 14:14:55,314 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-13 14:14:55,319 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-13 14:14:55,369 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-15 13:23:03,969 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-15 13:23:03,977 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-15 13:23:54,169 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-15 13:23:54,176 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-15 13:24:34,088 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-15 13:24:34,096 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-15 13:28:33,213 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-15 13:28:33,221 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-15 13:28:34,986 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-15 13:28:34,989 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-15 13:28:35,038 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-15 18:28:21,554 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-15 18:28:21,567 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-15 18:28:27,490 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-15 18:28:27,495 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-15 18:28:27,685 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-15 18:37:04,539 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-15 18:37:04,548 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-15 18:37:07,571 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-15 18:37:07,575 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-15 18:37:07,719 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-15 18:47:00,240 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-15 18:47:00,253 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-15 18:47:03,280 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-15 18:47:03,283 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-15 18:47:03,347 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-16 17:06:41,941 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-16 17:06:41,950 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-16 17:08:54,489 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-16 17:08:54,500 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-16 18:28:09,843 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-16 18:28:09,853 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2015-01-16 18:28:11,849 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.11:1521:orcl
+)  2015-01-16 18:28:11,850 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2015-01-16 18:28:11,852 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.11:1521:orcl
+)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.5.11:1521:orcl
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:261)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-16 18:28:11,886 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-16 18:28:11,889 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-16 18:28:12,091 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-16 18:28:50,648 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-16 18:28:50,666 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-16 18:28:53,179 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-16 18:28:53,184 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-16 18:28:53,335 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-19 11:49:35,357 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-19 11:49:35,368 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-19 11:49:37,640 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-19 11:49:37,643 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-19 11:49:37,717 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2015-01-19 16:38:26,184 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2015-01-19 16:38:26,193 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2015-01-19 16:38:28,443 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2015-01-19 16:38:28,447 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-szb/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2015-01-19 16:38:28,509 

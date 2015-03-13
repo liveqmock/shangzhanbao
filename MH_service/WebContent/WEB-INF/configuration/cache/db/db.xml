@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbdic>
+	<section name="字典数据库缓冲区配置">
+	 <object  Name="GeneralDic1" Table="GeneralDic" where="">
+		<item Type="KEY" Column="ID" Name="ID"/>
+		<item Type="VALUE" Column="ID" Name="ID"/>
+		<item Type="VALUE" Column="PARENTID" Name="父ID"/>
+		<item Type="VALUE" Column="DICCODE" Name="字典代码"/>
+		<item Type="VALUE" Column="DICTYPE" Name="字典类型"/>
+		<item Type="VALUE" Column="ATTRCODE" Name="属性值"/>
+		<item Type="VALUE" Column="ATTRNAME" Name="属性名"/>
+		<item Type="VALUE" Column="EXTENDCODE" Name="扩展代码"/>
+	 </object>
+</section>  
+</dbdic>

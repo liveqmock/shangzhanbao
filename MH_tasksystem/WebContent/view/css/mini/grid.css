@@ -1,0 +1,38 @@
+article,aside,figure,footer,header,nav,section,hgroup,figcaption{
+	margin:0;
+	padding:0;
+	display:block;
+}
+/*grid*/
+.grid_0 {
+	width:100%;
+}
+.grid_1 {
+	width:14%;
+}
+.grid_2 {
+	width:80%;
+}
+.grid_1, .grid_2, .grid_0 {
+	float:left;
+	display:block;
+	margin:0 0 1% 2%;
+}
+/*clear*/
+.clear {
+	clear:both;
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+	height:0;
+}
+.clearfix:after {
+	clear:both;
+	conter:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	margin:0;
+}

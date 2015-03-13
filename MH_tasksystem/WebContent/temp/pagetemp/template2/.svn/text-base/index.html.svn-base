@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+<title>模板二</title>
+<link href="css/media_queries.css" rel="stylesheet" type="text/css">
+<link href="css/grid.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/top.js"></script>
+</head>
+<body>
+<div id="wraper">
+  <div id="sildebar" class="grid_1">
+    <div class="clearfix">
+      <div id="logo"></div>
+      <header>
+        <ul class="navigation">
+          <li><a href="#slide1">首页</a></li>
+          <li><a href="#slide2">业务介绍</a></li>
+          <li><a href="#slide3">产品展示</a></li>
+          <li><a href="#slide4">我们的客户</a></li>
+          <li><a href="#slide5">关于我们</a></li>
+        </ul>
+      </header>
+      <div class="contact">
+        <p>福建省泉州石狮市  宝盖科技园4楼</p>
+        <p><a href="#">在地图上搜索</a></p>
+        <p>联系人：邱总</p>
+        <p><span>联系方式：</span><span class="font_en">010-3823829384</span><span class="font_en">15029382932</span></p>
+      </div>
+    </div>
+  </div>
+  <div id="container" class="grid_2">
+   
+    <nav id="nav_wrap">
+      <ul id="nav" class="clearfix">
+   		 <li><a href="#slide1">首页</a></li>
+          <li><a href="#slide2">业务介绍</a></li>
+          <li><a href="#slide3">产品展示</a></li>
+          <li><a href="#slide4">我们的客户</a></li>
+          <li><a href="#slide5">关于我们</a></li>
+      </ul>
+    </nav>
+    <div id="slide1" class="clearfix">
+      <article>
+        <h1>做最用心的服装加工厂</h1>
+        <figure><img src="images/u45.png"></figure>
+      </article>
+    </div>
+    <div id="slide2" class="clearfix">
+      <article>
+        <h1>我们提供这些服务...</h1>
+        <ul class="ListD">
+          <li><img src="images/list.jpg">
+            <p>外贸单代工、定做</p>
+            <span>2000件起订</span> </li>
+          <li><img src="images/list.jpg">
+            <p>国内品牌服装定做</p>
+            <span>2000件起订</span> </li>
+          <li><img src="images/list.jpg">
+            <p>网络零售商代工</p>
+            <span>2000件起订</span> </li>
+        </ul>
+      </article>
+      <article>
+        <h2 class="grid_1">对于找代工厂的你</h2>
+        <h3 class="grid_2">400-399-4829</h3>
+        <div class="rightD1">
+          <div class="pic_img"><img src="images/u67.png"></div>
+          <artilce class="rightTest">
+            <h6>找代工最主要的就是生产要快，质量有保证，要不然好不容谈下来的单子，刚送到客户那就被退回来，不但浪费时间，更加亏了资本。</h6>
+            <p>100%质量保证，<b class="font_orange">如有质量问题，我全责</b></p>
+            <p>至于赶货，我们协定好时间，<b class="font_orange">如逾期我陪</b></p>
+            <p>利润，<b class="font_orange">销售价的5%给你</b></p>
+            <p>如果你是做外单的<b class="font_orange">销售员或外贸公司</b>，不妨考虑下我们！</p>
+          </artilce>
+        </div>
+        <div class="rightD2">
+          <p>新春特惠：2014年3月-6月下单的客户，均可获得9折优惠价</p>
+          <div class="btn_org"><a href="#">立即咨询</a></div>
+        </div>
+        <div ></div>
+      </article>
+      <atricle class="rightD3">
+      <h2 class="grid_1">合作流程</h2>
+      <div class="grid_7">
+        <figure><img src="images/u2.png"></figure>
+      </div>
+      </article>
+    </div>
+    <!--slide3-->
+    <div id="slide3" class="clearfix">
+      <article>
+        <h2 class="grid_1">产品展示</h2>
+        <div class="clear"></div>
+        <div class="frame_pic">
+          <ul>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>法国</span> <span>客户对象22-35岁</span> <span>已售出1000件</span></div>
+              </a> </li>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>2222法国</span> <span>客户对象22-35岁</span> <span>已售出1000件</span></div>
+              </a> </li>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>111法国</span> <span>客户对象22-35岁</span> <span>已售出1000件</span></div>
+              </a> </li>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>111法国</span> <span>客户对象22-35岁</span> <span>已售出1000件</span></div>
+              </a> </li>
+          </ul>
+        </div>
+        <div class="frame_pic1">
+          <ul>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>国内</span> <span>客户对象22-35岁</span> <span>已售</span></div>
+              </a> </li>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>国内</span> <span>客户对象22-35岁</span> <span>已售</span></div>
+              </a> </li>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>国内</span> <span>客户对象22-35岁</span> <span>已售</span></div>
+              </a> </li>
+            <li> <a href="http://www.lanrentuku.com/" target="_blank"> <img src="images/list.jpg" width="200" height="202" />
+              <div class="info"><span>国内</span> <span>客户对象22-35岁</span> <span>已售</span></div>
+              </a> </li>
+          </ul>
+        </div>
+        <div class="frame_pic2">
+          <div class="frame_pic2_left"><img src="images/u165.png"></div>
+          <ul>
+            <li> <img src="images/u165.png" /> </li>
+            <li> <img src="images/u165.png"/> </li>
+            <li> <img src="images/u165.png"/> </li>
+            <li> <img src="images/u165.png"/> </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <!--slide4-->
+    <div id="slide4" class="clearfix">
+      <article>
+      <h2 class="grid_1">我们的客户</h2>
+      <h3 class="grid_2">400-399-4829</h3>
+      <div class="rightD4">
+        <ul>
+          <li><span><img src="images/u171.png"></span>
+            <p>我的第一个客户，我们是2002年开始合作的，北京正和原电国际贸易有限公司是做欧洲服装外单的，2002年8月找到了我们公司，第一笔生意只有1000件衬衫我的第一个客户，我们是2002年开始合作的，北京正和原电国际贸易有限公司是做欧洲服装外单的，2002年8月找到了我们公司，第一笔生意只有1000件衬衫</p>
+          </li>
+          <li><span><img src="images/u171.png"></span>
+            <p>我的第一个客户，我们是2002年开始合作的，北京正和原电国际贸易有限公司是做欧洲服装外单的，2002年8月找到了我们公司，第一笔生意只有1000件衬衫我的第一个客户，我们是2002年开始合作的，北京正和原电国际贸易有限公司是做欧洲服装外单的，2002年8月找到了我们公司，第一笔生意只有1000件衬衫</p>
+          </li>
+          <li><span><img src="images/u171.png"></span>
+            <p>我的第一个客户，我们是2002年开始合作的，北京正和原电国际贸易有限公司是做欧洲服装外单的，2002年8月找到了我们公司，第一笔生意只有1000件衬衫我的第一个客户，我们是2002年开始合作的，北京正和原电国际贸易有限公司是做欧洲服装外单的，2002年8月找到了我们公司，第一笔生意只有1000件衬衫</p>
+          </li>
+        </ul>
+      </div>
+      </artilce>
+    </div>
+    <!--slide5-->
+    <div id="slide5" class="clearfix">
+      <article>
+      <h2 class="grid_1">关于我们</h2>
+      <div class="rightD5">
+        <figure><img src="images/u191.png" >
+          <figcaption>顺德服饰工厂大楼</figcaption>
+        </figure>
+        <p>东莞市以纯集团有限公司成立于一九九七年，总部位于中国时装之都东莞市虎门镇，集合设计、采购、生产及营销于一体，为顾客呈奉物超所值的优质时尚服饰，与全球的消费者分享以纯产品的时尚。时至今日，以纯品牌在中国及世界各地拥有超过3,000家专卖店。公司辖下设有五大产品系列，照顾不同市场领域中各类顾客的需求。以纯品牌是中国领先的时尚服饰零售品牌，曾在中国获颁 "中国名牌" 及 "中国驰名商标" 等荣誉。</p>
+      </div>
+      </artilce>
+    </div>
+    <!--slide6-->
+  </div>
+</div>
+</body>
+</html>

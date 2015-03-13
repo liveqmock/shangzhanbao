@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.xsd">
+	<!--
+	<security:http entry-point-ref="casProcessingFilterEntryPoint">
+		<security:intercept-url pattern="/secure/extreme/**"	access="ROLE_SUPERVISOR" requires-channel="https" />
+		<security:intercept-url pattern="/secure/**" access="ROLE_USER" />
+		<security:logout logout-success-url="/cas-logout.jsp" />
+	</security:http>
+
+	<security:http  entry-point-ref="casProcessingFilterEntryPoint"   	
+					access-decision-manager-ref="accessDecisionManager"
+					access-denied-page="/noauthority.jsp">
+		<security:intercept-url pattern="/**" requires-channel="http"/>
+		<security:logout logout-success-url="/logout.jsp"/> 
+	</security:http>
+	-->
+	<security:authentication-manager alias="authenticationManager" />
+	
+	<!--
+		<bean id="casProcessingFilter"
+			class="org.springframework.security.ui.cas.CasProcessingFilter">
+			<sec:custom-filter after="CAS_PROCESSING_FILTER" />
+			<property name="authenticationManager"
+				ref="authenticationManager" />
+			<property name="authenticationFailureUrl"
+				value="/casfailed.jsp" />
+			<property name="defaultTargetUrl" value="/" />
+		</bean>
+
+		<bean id="casProcessingFilterEntryPoint"
+			class="org.springframework.security.ui.cas.CasProcessingFilterEntryPoint">
+			<property name="loginUrl"
+				value="http://localhost:9080/cas/login" />
+			<property name="serviceProperties" ref="serviceProperties" />
+		</bean>
+
+
+-->
+	<bean id="casAuthenticationProvider"
+		class="org.springframework.security.providers.cas.CasAuthenticationProvider">
+		<security:custom-authentication-provider />
+		<property name="userDetailsService" ref="userService" />
+		<property name="serviceProperties" ref="serviceProperties" />
+		<property name="statelessTicketCache" ref="statelessTicketCache" />
+		<property name="ticketValidator">
+			<bean
+				class="org.jasig.cas.client.validation.Cas20ServiceTicketValidator">
+				<!--此处需要修改为正式域名-->
+				<constructor-arg index="0" value="http://ssodemo.itour.cn/cas" /> 
+			</bean>
+		</property>
+		<property name="key" value="an_id_for_this_auth_provider_only" />
+	</bean>
+
+	<bean id="proxyGrantingTicketStorage"
+		class="org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl" />
+
+	<bean id="serviceProperties"
+		class="org.springframework.security.ui.cas.ServiceProperties">
+		<!--正式发布时，需要修改此标识为正式域名-->
+		<property name="service" value="http://servicedemo.itour.cn/j_spring_cas_security_check" />
+		<property name="sendRenew" value="false" />
+	</bean>
+
+	<bean id="statelessTicketCache"
+		class="org.springframework.security.providers.cas.cache.EhCacheBasedTicketCache">
+		<property name="cache" ref="userCacheBacked" />
+	</bean>
+
+	<bean id="userCacheBacked"
+		class="org.springframework.cache.ehcache.EhCacheFactoryBean">
+		<property name="cacheManager" ref="cacheManager" />
+		<property name="cacheName" value="ticketCache" />
+	</bean>
+
+	<!--此处需要修改配置-->
+	<bean id="cacheManager"
+		class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+		<property name="configLocation"
+			value="/WEB-INF/configuration/ehcache/ehcache.xml" />
+			<!--classpath:ehcache-security.xml-->
+			<!--
+			<value>/WEB-INF/configuration/ecache/ehcache.xml</value>
+			-->
+	</bean>
+	
+	<!--获取用户角色,此处调用统一的方法-->
+	<bean id="userService" class="com.itour.etip.pub.kit.security.UserDetailJdbcDaoImpl">
+	</bean>
+	<!--
+		<sec:user-service id="userService">
+			<sec:user name="rod" password="rod"
+				authorities="ROLE_SUPERVISOR,ROLE_USER" />
+			<sec:user name="dianne" password="dianne" authorities="ROLE_USER" />
+			<sec:user name="scott" password="scott" authorities="ROLE_USER" />
+		</sec:user-service>
+		-->
+	<!--
+	<bean id="accessDecisionManager"
+		class="org.springframework.security.vote.AffirmativeBased">
+		<property name="allowIfAllAbstainDecisions" value="false" />
+		<property name="decisionVoters">
+			<list>
+				<bean
+					class="org.springframework.security.vote.RoleVoter" />
+				<bean
+					class="org.springframework.security.vote.AuthenticatedVoter" />
+			</list>
+		</property>
+	</bean>
+	-->
+	
+	<bean id="accessDecisionManager" class="org.springframework.security.vote.AffirmativeBased">
+		 <property name="allowIfAllAbstainDecisions" value="true"/>
+		 <property name="decisionVoters">
+		   <list>
+			   	<bean class="org.springframework.security.vote.AuthenticatedVoter"/>
+		   		<bean class="org.springframework.security.vote.RoleVoter">
+		   			<property name="rolePrefix"><value></value></property>	
+		   		</bean>
+		   </list>
+         </property>
+	</bean>	  
+	
+	<bean id="webServiceSecurityInterceptor"
+		class="com.itour.etip.security.intercept.webservice.WebServiceSecurityInterceptor">
+		<property name="authenticationManager"	ref="authenticationManager" />
+		<property name="accessDecisionManager"
+			ref="accessDecisionManager" />
+		<property name="objectDefinitionSource"	ref="ESBUrlObjectDefinitionSource">
+		</property>
+	</bean>
+<!--
+	<bean id="antUrlPathMatcher"
+		class="org.springframework.security.util.AntUrlPathMatcher" />
+	<bean id="secureResourceFilter"
+		class="com.itour.etip.security.intercept.webService.DefaultFilterInvocationDefinitionSource">
+		<constructor-arg type="org.springframework.security.util.UrlMatcher"	ref="antUrlPathMatcher" />
+	</bean>
+-->	
+	<bean id="ESBUrlObjectDefinitionSource" 
+      class="com.itour.etip.pub.kit.security.UrlObjectDefinitionSource" >        
+            <property name="serviceDao" ref="ESBServiceUrlJdbcDaoImpl" />
+            <property name="roleDao" ref="ESBRoleUrlServiceJdbcDaoImpl" />
+    </bean>
+       
+    <bean id="ESBServiceUrlJdbcDaoImpl" class="com.itour.etip.pub.kit.security.ServiceJdbcDaoImpl" >        
+            <property name="dataSource" ref="dataSource" />
+            <property name="serviceQuery">
+            	<!--添加一种类型ESB-->
+	            <value>select ServiceAddress ,ServiceCode from ServiceRegistry  where ServiceType='WebService' order by ServiceCode desc</value>
+            </property>
+    </bean>
+    
+    <!--如果指派给角色，那么就进行控制？-->  
+    <bean id="ESBRoleUrlServiceJdbcDaoImpl" class="com.itour.etip.pub.kit.security.RoleServiceJdbcDaoImpl" >        
+            <property name="dataSource" ref="dataSource" />
+             <property name="roleServiceQuery">
+	            <value>select b.roleName,c.servicecode from roleauthority a,roleregistry b,serviceregistry c where b.id = a.roleid and c.servicetype='WebService'  and c.servicecode like concat(a.servicecode ,'%')</value>
+            </property>
+    </bean>
+</beans>

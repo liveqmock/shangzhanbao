@@ -1,0 +1,70 @@
+body{
+	margin:0 auto;
+	line-height:50px;
+}
+div,span,h1,h2,h3,h4,h5,h6,from,input,ul,li,img{
+	padding:0;
+	margin:0;
+}
+#frame_top{}
+#frame_top h1{
+	font-size:16px;
+	color:#fff;
+	margin:0 20px;
+	float:left;
+	
+}
+#frame_top h2{
+	float:left;
+	margin:10px 0 0 190px;
+}
+
+#frame_Title {
+	width:100%;
+	height:59px;
+	border-bottom:1px solid #c1c1c1;
+	background:#ececec;
+	float:left;
+	color:#444;
+	
+}
+#frame_Title h1 {
+	font-size:20px;
+	font-family:"яе╨з";
+	float:left;
+	text-align:right;
+	display:inline;
+	width:180px;
+	padding:0;
+	margin:0;
+}
+#frame_Title p {
+font-size: 12px;
+float: left;
+margin: 10px 0 0 0;
+padding: 0;
+height: 55px;
+line-height: 20px;
+width: 70%;
+overflow: hidden;
+display: inline;
+position: absolute;
+top: 0;
+left: 185px;
+}
+#frame_Title h2 {
+	float:right;
+	cursor:pointer;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	background:#999;
+	color:#4e4e4e;
+	border-radius:8px;
+	font-weight:bold;
+	margin:10px 10px;
+	position:absolute;
+	top:10px;
+	right:10px;
+}

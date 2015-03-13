@@ -1,0 +1,111 @@
+TABLE {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "宋体"
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "宋体"
+}
+/*input样式定义*/
+INPUT {
+	BORDER-RIGHT: #8FA059 1px solid; BORDER-TOP: #8FA059 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #8FA059 1px solid; COLOR: #464646; BORDER-BOTTOM: #8FA059 1px solid; FONT-FAMILY: 宋体; HEIGHT: 20px; BACKGROUND-COLOR: transparent;    cursor:hand;
+	height: 22px;
+	margin:0 5px;
+	background-image: url(../images/button-bj3.gif);
+	background-repeat: repeat-x;
+	width:80px;
+}
+
+SELECT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px solid; COLOR: #003366; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 宋体
+}
+TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #003366; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: 宋体
+}
+TD {
+	CURSOR: default
+}
+.noborder {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.input {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; COLOR: #003063; BORDER-BOTTOM: 1px solid
+}
+.input_traditional {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px solid; WIDTH: 60px; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 宋体; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff
+}
+.input_normal {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #656565 1px solid; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../img/input_bg.gif); BORDER-LEFT: #656565 1px solid; COLOR: #33447a; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: 宋体; HEIGHT: 20px
+}
+
+.input_noborder {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.input_border_bottom_only {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: 1px solid
+}
+.input_popup {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url(../img/popeditbutton_default.gif); BORDER-LEFT: 0px; WIDTH: 20px; CURSOR: hand; BORDER-BOTTOM: 0px; HEIGHT: 20px
+}
+.choose {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px solid; WIDTH: 40px; COLOR: #cc0033; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; HEIGHT: 20px
+}
+.table_title {
+	FONT-WEIGHT: bold; BACKGROUND: #4a5994; COLOR: white; HEIGHT: 19px
+}
+.table_tr {
+	BACKGROUND: #edf2fc; COLOR: #0148b2
+}
+.table_tr_dark {
+	BACKGROUND: #e0e0e0; COLOR: #002767
+}
+.table_tr_light {
+	BACKGROUND: #f7f7f7; COLOR: #002767
+}
+.label {
+	FONT-WEIGHT: bold; COLOR: #00659c
+}
+.detail_label {
+	COLOR: #33447a
+}
+.link1 {
+	FONT-SIZE: 14px; COLOR: #000000; TEXT-DECORATION: none
+}
+.link1:hover {
+	FONT-SIZE: 14px; COLOR: #660000; TEXT-DECORATION: underline
+}
+.searchBarLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #6b8cbe
+}
+.searchOperLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cccccc
+}
+.relatedOperLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cccccc
+}
+.viewItemLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #3c4d81
+}
+
+#biaoti{
+	width:auto;
+	height:22px;
+	line-height:22px;
+	padding-left:60px;
+	margin-bottom:10px;
+	background-image: url(../images/td_bg2.gif);
+	background-repeat: no-repeat;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #686666;
+	color:#000; 
+	font-weight:bold;
+}
+
+#button-style{
+  width:auto;
+  height:25px;
+  line-height:25px;
+  text-align: center;
+  margin-top:10px;
+}
+ .aa{ background-color:#E8FEDA; color:#24A30B;filter: alpha(opacity=50)}
+ .bb{ background-color:#ffffff; color:#000000}

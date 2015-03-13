@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/README.txt
+END
+warnCookieGenerator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 268
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/warnCookieGenerator.xml
+END
+ticketRegistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/ticketRegistry.xml
+END
+argumentExtractorsConfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/argumentExtractorsConfiguration.xml
+END
+filters.xml
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/filters.xml
+END
+ticketExpirationPolicies.xml
+K 25
+svn:wc:ra_dav:version-url
+V 273
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/ticketExpirationPolicies.xml
+END
+log4jConfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/log4jConfiguration.xml
+END
+uniqueIdGenerators.xml
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/uniqueIdGenerators.xml
+END
+propertyFileConfigurer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 271
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/propertyFileConfigurer.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/applicationContext.xml
+END
+securityContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 264
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/securityContext.xml
+END
+ticketGrantingTicketCookieGenerator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/ticketGrantingTicketCookieGenerator.xml
+END
+auditTrailContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/spring-configuration/auditTrailContext.xml
+END

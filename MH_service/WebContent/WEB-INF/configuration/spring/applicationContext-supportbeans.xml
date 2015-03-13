@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	     xmlns:aop="http://www.springframework.org/schema/aop"
+	     xmlns:tx="http://www.springframework.org/schema/tx"
+	     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+	
+	<!-- 支撑系统 Persistence -->
+	<bean id="generalDicPersistence" class="com.itour.etip.support.persistence.GeneralDicPersistence"></bean>
+	<bean id="serviceRegistryPersistence" class="com.itour.etip.support.persistence.ServiceRegistryPersistence"></bean>
+	<bean id="roleAuthorityPersistence" class="com.itour.etip.support.persistence.RoleAuthorityPersistence"></bean>
+	<bean id="roleRegistryPersistence" class="com.itour.etip.support.persistence.RoleRegistryPersistence"></bean>
+	<bean id="roleTaskPersistence" class="com.itour.etip.support.persistence.RoleTaskPersistence"></bean>
+
+	<bean id="processRegistryPersistence" class="com.itour.etip.support.persistence.ProcessRegistryPersistence"></bean>
+	<bean id="processTaskRegistryPersistence" class="com.itour.etip.support.persistence.ProcessTaskRegistryPersistence"></bean>
+	<bean id="processInstancePersistence" class="com.itour.etip.support.persistence.ProcessInstancePersistence"></bean>
+	
+	<bean id="userRolePersistence" class="com.itour.etip.support.persistence.UserRolePersistence"></bean>
+	<bean id="etipOperatorPersistence" class="com.itour.etip.support.persistence.EtipOperatorPersistence"></bean>
+	<bean id="calenderEventPersistence" class="com.itour.etip.support.persistence.CalenderEventPersistence"></bean>
+	
+	<!-- 支撑系统 Business -->
+	<bean id="serviceRegistryBusiness" class="com.itour.etip.support.business.ServiceRegistryBusiness">
+		<property name="serviceRegistryPersistence" ref="serviceRegistryPersistence" />	
+	</bean>
+	<bean id="roleAuthorityBusiness" class="com.itour.etip.support.business.RoleAuthorityBusiness">
+		<property name="roleAuthorityPersistence" ref="roleAuthorityPersistence" />	
+	</bean>
+	<bean id="roleRegistryBusiness" class="com.itour.etip.support.business.RoleRegistryBusiness">
+		<property name="roleRegistryPersistence" ref="roleRegistryPersistence" />	
+	</bean>
+	<bean id="roleTaskBusiness" class="com.itour.etip.support.business.RoleTaskBusiness">
+		<property name="roleTaskPersistence" ref="roleTaskPersistence" />	
+	</bean>
+	
+	<bean id="processRegistryBusiness" class="com.itour.etip.support.business.ProcessRegistryBusiness">
+		<property name="processRegistryPersistence" ref="processRegistryPersistence" />	
+	</bean>
+	<bean id="processTaskRegistryBusiness" class="com.itour.etip.support.business.ProcessTaskRegistryBusiness">
+		<property name="processTaskRegistryPersistence" ref="processTaskRegistryPersistence" />	
+		<property name="processRegistryPersistence" ref="processRegistryPersistence" />	
+	</bean>
+	<bean id="processInstanceBusiness" class="com.itour.etip.support.business.ProcessInstanceBusiness">
+		<property name="processInstancePersistence" ref="processInstancePersistence" />	
+	</bean>
+	
+	<bean id="generalDicBusiness" class="com.itour.etip.support.business.GeneralDicBusiness">
+		<property name="generalDicPersistence" ref="generalDicPersistence" />	
+	</bean>
+	<bean id="calenderEventBusiness" class="com.itour.etip.support.business.CalenderEventBusiness">
+		<property name="calenderEventPersistence" ref="calenderEventPersistence" />	
+	</bean>
+	<!-- 支撑系统 Service -->
+	<bean id="serviceRegistryService" class="com.itour.etip.support.service.ServiceRegistryService">
+		<property name="serviceRegistryBusiness" ref="serviceRegistryBusiness" />	
+	</bean>
+	<bean id="roleAuthorityService" class="com.itour.etip.support.service.RoleAuthorityService">
+		<property name="roleAuthorityBusiness" ref="roleAuthorityBusiness" />	
+	</bean>
+	<bean id="roleRegistryService" class="com.itour.etip.support.service.RoleRegistryService">
+		<property name="roleRegistryBusiness" ref="roleRegistryBusiness" />	
+		<property name="roleAuthorityBusiness" ref="roleAuthorityBusiness" />
+		<property name="serviceRegistryBusiness" ref="serviceRegistryBusiness" />
+		<property name="processTaskRegistryBusiness" ref="processTaskRegistryBusiness" />
+		<property name="roleTaskBusiness" ref="roleTaskBusiness" />
+	</bean>
+	<bean id="roleTaskService" class="com.itour.etip.support.service.RoleTaskService">
+		<property name="roleTaskBusiness" ref="roleTaskBusiness" />	
+	</bean>
+	
+	<bean id="processRegistryService" class="com.itour.etip.support.service.ProcessRegistryService">
+		<property name="processRegistryBusiness" ref="processRegistryBusiness" />	
+	</bean>
+	<!--
+	<bean id="processTaskRegistryService" class="com.itour.etip.support.service.ProcessTaskRegistryService">
+		<property name="processTaskRegistryBusiness" ref="processTaskRegistryBusiness" />	
+	</bean>
+	-->
+	<bean id="processInstanceService" class="com.itour.etip.support.service.ProcessInstanceService">
+		<property name="processInstanceBusiness" ref="processInstanceBusiness" />	
+	</bean>
+	
+	<bean id="generalDicService" class="com.itour.etip.support.service.GeneralDicService">
+		<property name="generalDicBusiness" ref="generalDicBusiness" />	
+	</bean>
+	<bean id="calenderEventService" class="com.itour.etip.support.service.CalenderEventService">
+		<property name="calenderEventBusiness" ref="calenderEventBusiness" />	
+	</bean>
+</beans>

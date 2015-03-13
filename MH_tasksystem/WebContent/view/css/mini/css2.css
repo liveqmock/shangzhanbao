@@ -1,0 +1,240 @@
+
+html {overflow-y:scroll;}
+
+body {font:14px "Hevetica Neve",Helvetica Neve, Helvetica, Hiragino Sans GB, Microsoft Yahei, Arial;
+margin:0px;
+padding:0px;
+margin-left:auto;
+margin-right:auto;
+background: white;
+font-family: "微软雅黑 Bold","微软雅黑";
+ word-wrap: break-word;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th,div{font-size:14px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+a{
+	text-decoration:none; color:#09C;}
+
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6 {font-size:12px; font-weight:normal;}
+
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+img {
+vertical-align: top;
+border: 0;
+}
+.body {	width:100%; height: auto;}
+.wraper {
+	width: 100%;
+	height: auto;
+	clear:both;
+	padding: 0 0 0px 0;
+}
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	clear: both;
+}
+.clear{clear:both;}
+.top{ 
+	width:100%; 
+	position: fixed;
+	top:0px;
+	margin-left: auto;
+	margin-right: auto;
+	height:auto;
+	background:#c3617b;
+	border-bottom:5px solid #efefef; 
+	z-index:999;
+	padding:20px 0 10px 0;
+
+}
+
+#firstScreen{width:100%; text-align:center; margin:0 auto; }
+.first{width:100%;padding-top: 0px;}
+.firstScreen_right{width:40%; display:inline-block; margin-top:13%; }
+.firstScreen_right p{
+	color:#D72352;
+    font-family: "微软雅黑 Bold","微软雅黑";
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-align: left;
+    margin-left: 190px;
+	}
+.firstScreen_right span{
+	display:block;
+	height: 67px;
+    width: 248px;
+	color:#003266;
+    font-family: "微软雅黑 Bold","微软雅黑";
+    font-size: 28px;
+	line-height:67px;
+	margin-left: 170px;
+	margin-top: 8%;
+	font-size:34px;
+	font-weight: bold;
+}
+.firstScreen_div2{vertical-align:top;}
+.firstScreen_div2{display:inline-block; width:40%; margin-top:4%;}
+.bannerbtn{
+			width: 90%; 
+			height: 50px; 
+			margin-top: 30px;
+			border:2px solid #00a0b1;
+			background:linear-gradient(to bottom, #00a0b1 0%,#008299 100%);
+			color:#FFFFFF; 
+			font-size:20px;
+			box-shadow: #CCC 0px 0px 10px;behavior: url(/PIE.htc);
+			cursor: pointer;
+		}
+
+#fortest{
+	width: 40%; 
+	top: 228px; 
+	left: 553px;
+	 display: none; 
+	 background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;
+}
+.w1{
+	margin-top: 80px;
+	background-color:rgb(242,249,249);
+ 	height:540px;
+ 	width:100%;
+}
+
+
+#slide1 {
+width: 80%;
+margin: 0 auto;
+margin-bottom: 0px;
+padding-top: 50px;
+}
+.second {
+width: 100%;
+}
+.secondScreen_div2 {
+display: inline-block;
+width: 41%;
+margin-top: 50px;
+margin-left: 6%;
+vertical-align: top;
+}
+.secondScreen_title lable {
+	font-size: 28px;
+    font-weight: 700;
+	color: #194872;
+}
+.secondScreen_title span{
+	font-size: 20px;
+    font-weight: 400;
+	color: #194872;
+}
+.secondScreen_content {
+	color: #333333;
+    font-size: 14px;
+	font-weight: 400;
+	line-height: normal;
+	margin-top:7%;
+	width: 80%;
+}
+.secondScreen_second_img {
+	width: 40%;
+	display: inline-block;
+	margin-left: 6%;
+}
+.secondScreen_second_img img {
+	height: 195px;
+    width: 310px;
+	margin-right: 3%;
+}
+.secondScreen_img {
+	margin-left:10%;
+	width: 40%;
+	display: inline-block;
+}
+.secondScreen_img img {
+	height: 195px;
+    width: 310px;
+}
+.secondScreen_div2_right{
+	width:49%;
+	float:right;
+	display: inline-block;
+}
+#u29 {
+    height: 2px;
+    width: 80%;
+	 background-color: #dddddd;
+    text-align: center;
+	margin:0 auto;
+	margin-top:50px;
+}
+.etheme_title{
+	color: #194872;
+    font-size: 28px;
+    text-align: center;
+	}
+	.div_content{
+	width:80%;
+	margin: 0 auto;
+	height: 500px;
+	padding-right: 5%;
+	}
+	.div_content .div_1{
+	width: 40%;
+	float:right;
+	margin-top:50px;
+	margin-right: 5%;
+	}
+	.div_content .div_2{
+	width: 40%;
+	float:right;
+	margin-top:50px;
+	margin-right: 5%;
+	}
+	.divcontent_title{
+	background-color:rgb(171,214,210);
+	height: 150px;
+	width: 250px;
+	text-align:center;
+/* 	margin-top: 8px; */
+	}
+	.divcontent_title lable {
+	font-size: 28px;
+    font-weight: 400;
+	color: #194872;
+	display: block;
+	padding-top: 10%;
+	
+}
+.divcontent_title p{
+	font-size: 18px;
+	color: #194872;
+	font-family: "微软雅黑 Regular","微软雅黑";
+	margin-top:5px;
+}
+.div_3{
+	background:url(../../images/index/u52.png);
+	height: 260px;
+	width: 260px;
+	margin: -300 auto;
+	position: relative;
+	text-align: center;
+}
+.p2{
+	line-height: 20px;
+}

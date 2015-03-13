@@ -1,0 +1,239 @@
+
+<html>
+  <head>
+    <title>商旅平台即时通信程序测试页面</title>
+	<style>
+	td,input{font-size:9pt; font-family:Verdana, Arial, Helvetica, sans-serif,"宋体"}
+	</style>
+
+	<script language="javascript">
+function Message101() {
+	this.requestid = "101";
+	this.phoneno = "";
+	this.areacode = "";
+	this.skillid = "";
+	this.agentid = "";
+	this.ctiid = "";
+}
+
+function Message201() {
+	this.requestid = "201";
+	this.systemid = "";
+	this.userid = "";
+	this.customerid = "";
+}
+
+function encodeMessage(message) {
+	var node;
+	var subnode;
+	var xmldoc = new ActiveXObject("MSXML2.DOMDOCUMENT");
+	xmldoc.async = false;
+	xmldoc.loadXML("<?xml version=\"1.0\"  encoding=\"GBK\"?><MESSAGE version=\"CMBCC/1.0\"></MESSAGE>");
+	node = xmldoc.createElement("REQUESTID");
+	node.appendChild(xmldoc.createTextNode(message.requestid));
+	xmldoc.documentElement.appendChild(node);
+	node = xmldoc.createElement("DATA");
+	if(message.requestid == "101") {
+		subnode = xmldoc.createElement("PhoneNo");
+		subnode.appendChild(xmldoc.createTextNode(message.phoneno));
+		node.appendChild(subnode);
+		subnode = xmldoc.createElement("AreaCode");
+		subnode.appendChild(xmldoc.createTextNode(message.areacode));
+		node.appendChild(subnode);
+		subnode = xmldoc.createElement("SkillID");
+		subnode.appendChild(xmldoc.createTextNode(message.skillid));
+		node.appendChild(subnode);
+		subnode = xmldoc.createElement("AgentID");
+		subnode.appendChild(xmldoc.createTextNode(message.agentid));
+		node.appendChild(subnode);
+		subnode = xmldoc.createElement("CTIID");
+		subnode.appendChild(xmldoc.createTextNode(message.ctiid));
+		node.appendChild(subnode);
+	}
+	if(message.requestid == "201") {
+		subnode = xmldoc.createElement("SystemID");
+		subnode.appendChild(xmldoc.createTextNode(message.systemid));
+		node.appendChild(subnode);
+		subnode = xmldoc.createElement("UserID");
+		subnode.appendChild(xmldoc.createTextNode(message.userid));
+		node.appendChild(subnode);
+		subnode = xmldoc.createElement("CustomerID");
+		subnode.appendChild(xmldoc.createTextNode(message.customerid));
+		node.appendChild(subnode);
+	}
+	xmldoc.documentElement.appendChild(node);
+	
+	var msg = xmldoc.xml;
+	msg = msg.replace(new RegExp("'","gm"),"%27");
+	msg = msg.replace(new RegExp("\"","gm"),"%22");
+	msg = msg.replace(new RegExp("\n","gm"),"\\n");
+	msg = msg.replace(new RegExp("\r","gm"),"\\r");
+
+	return msg;
+}
+
+function decodeMessage(xml) {
+	xml = xml.replace(new RegExp("%27","gm"),"'");
+	xml = xml.replace(new RegExp("%22","gm"),"\"");
+	xml = xml.replace(new RegExp("\\n","gm"),"\n");
+	xml = xml.replace(new RegExp("\\r","gm"),"\r");
+	
+	var node;
+	var message;
+	var xmldoc = new ActiveXObject("MSXML2.DOMDOCUMENT");
+	xmldoc.async = false;
+	xmldoc.loadXML(xml);
+	node = xmldoc.documentElement.selectSingleNode("/MESSAGE/REQUESTID");
+	var requestid = node.text;
+	if(requestid == "101") {
+		message = new Message101();
+		message.requestid = "101";
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/PhoneNo");
+		message.phoneno = node.text;
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/AreaCode");
+		message.areacode = node.text;
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/SkillID");
+		message.skillid = node.text;
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/AgentID");
+		message.agentid = node.text;
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/CTIID");
+		message.ctiid = node.text;
+	}
+	if(requestid == "201") {
+		message = new Message201();
+		message.requestid = "201";
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/SystemID");
+		message.systemid = node.text;
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/UserID");
+		message.userid = node.text;
+		node = xmldoc.documentElement.selectSingleNode("/MESSAGE/DATA/CustomerID");
+		message.customerid = node.text;
+	}
+	return message;
+}
+
+
+		function CalledByApplet(xml) {
+		     alert("calledByApplet:"+xml);
+			var message = decodeMessage(xml);
+			
+			if(message.requestid == "101") {
+			   
+				document.all.divAlert101.innerHTML="&nbsp;(<font color=blue>Receive A New Message</font>)";
+				document.msg101.phoneno.value = message.phoneno;
+				document.msg101.areacode.value = message.areacode;
+				document.msg101.skillid.value = message.skillid;
+				document.msg101.agentid.value = message.agentid;
+				document.msg101.ctiid.value = message.ctiid;
+			}
+			if(message.requestid == "201") {
+				document.all.divAlert201.innerHTML="&nbsp;(<font color=blue>Receive A New Message</font>)";
+				document.msg201.systemid.value = message.systemid;
+				document.msg201.userid.value = message.userid;
+				document.msg201.customerid.value = message.customerid;
+			}
+		}
+		
+		function CallApplet(id) {
+		     alert("callApplet:"+id);
+			var message;
+			if(id == "101") {
+				document.all.divAlert101.innerHTML="";
+				message = new Message101();
+				message.requestid = "101";
+				message.phoneno = document.msg101.phoneno.value;
+				message.areacode = document.msg101.areacode.value;
+				message.skillid = document.msg101.skillid.value;
+				message.agentid = document.msg101.agentid.value;
+				message.ctiid = document.msg101.ctiid.value;
+			}
+			if(id == "201") {
+				document.all.divAlert201.innerHTML="";
+				message = new Message201();
+				message.requestid = "201";
+				message.systemid = document.msg201.systemid.value;
+				message.userid = document.msg201.userid.value;
+				message.customerid = document.msg201.customerid.value;
+			}
+				
+			xmlString = encodeMessage(message);
+
+			imclient.sendMessage(xmlString);
+		}
+	</script>
+  </head>
+  
+  <body>
+    <form name=msg101>
+	<table width="600" cellpadding="0"  cellspacing="0" align="center" border="1">
+	  <tr height=22pt>
+	    <td colspan=2 align=center>客户来电信息测试页面<div id=divAlert101></div></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>请求编号</td>
+	    <td>&nbsp;&nbsp;<input name=requestid type=text size=20 value=101></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>来电号码</td>
+	    <td>&nbsp;&nbsp;<input name=phoneno type=text size=20 value=12345678></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>来电区号</td>
+	    <td>&nbsp;&nbsp;<input name=areacode type=text size=20 value=021></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>技能组ID</td>
+	    <td>&nbsp;&nbsp;<input name=skillid type=text size=20 value=44></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>坐席编号</td>
+	    <td>&nbsp;&nbsp;<input name=agentid type=text size=20 value=25001></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>CTIID</td>
+	    <td>&nbsp;&nbsp;<input name=ctiid type=text size=20 value=999999999999999></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td colspan=2><input type=button onclick="CallApplet('101')" value=Submit></td>
+	  </tr>
+	</table>
+	</form>
+	<br>
+	<br>
+	<form name=msg201>
+	<table width="600" cellpadding="0"  cellspacing="0" align="center" border="1">
+	  <tr height=22pt>
+	    <td colspan=2 align=center>CRS客户资料测试页面<div id=divAlert201></div></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>请求编号</td>
+	    <td>&nbsp;&nbsp;<input name=requestid type=text size=20 value=201></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>招行客户编号</td>
+	    <td>&nbsp;&nbsp;<input name=systemid type=text size=20 value=12345678></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>CRS操作员编号</td>
+	    <td>&nbsp;&nbsp;<input name=userid type=text size=20 value=021></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td bgcolor=#808080 align=center>CRS会员ID</td>
+	    <td>&nbsp;&nbsp;<input name=customerid type=text size=20 value=44></td>
+	  </tr>
+	  <tr height=22pt>
+	    <td colspan=2><input type=button onclick="CallApplet('201')" value=Submit></td>
+	  </tr>
+	</table>
+	</form>
+	
+	<applet name="imclient" codebase="."
+		archive="log4j-1.2.12.jar,commons-logging-1.0.4.jar,crsimclient.jar" 
+		code="com.cmb.cc.imclient.CRSIMClient"
+		width="0" height="0" hspace="0" vspace="0">
+		<param name="tcpLocalPort" value="9004"/>
+		<param name="tcpRemotePort" value="9003"/>
+		<param name="javaScriptFunc" value="CalledByApplet"/>
+	</applet>
+  </body>
+</html>

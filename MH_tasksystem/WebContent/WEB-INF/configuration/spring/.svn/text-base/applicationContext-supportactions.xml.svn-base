@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	     xmlns:aop="http://www.springframework.org/schema/aop"
+	     xmlns:tx="http://www.springframework.org/schema/tx"
+	     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+	
+	
+	<bean id="updatePasswordFacade" class="com.itour.etip.support.updatepassword.facade.UpdatePasswordFacade">
+	</bean>
+	<bean id="updatePasswordAction" class="com.itour.etip.support.updatepassword.action.UpdatePasswordAction">
+		<property name="updatePasswordFacade" ref="updatePasswordFacade"/>
+	</bean>
+	
+		<!-- facade -->
+	<bean id="supportMessageLogFacade" class="com.itour.etip.support.message.facade.SupportMessageLogFacade">
+		<property name="messageLogService" ref="messageLogService" />
+	</bean>
+	<bean id="supportMessageDesktopFacade" class="com.itour.etip.support.message.facade.SupportMessageDesktopFacade">
+		<property name="messageDesktopService" ref="messageDesktopService" />
+	</bean>
+	
+
+	<!-- action -->
+	<bean id="supportMessageLogAction" class="com.itour.etip.support.message.action.SupportMessageLogAction">
+		<property name="supportMessageLogFacade" ref="supportMessageLogFacade"/>
+	</bean>
+	<bean id="supportMessageDesktopAction" class="com.itour.etip.support.message.action.SupportMessageDesktopAction">
+		<property name="supportMessageDesktopFacade" ref="supportMessageDesktopFacade"/>
+	</bean>
+	<!-- txc -->
+	<!-- 支撑系统Facade -->
+	<bean id="serviceRegistryAdminFacade" class="com.itour.etip.support.serviceregistry.facade.ServiceRegistryAdminFacade">
+		<property name="serviceRegistryService" ref="serviceRegistryService" />
+	</bean>
+
+	<bean id="roleRegistryAdminFacade" class="com.itour.etip.support.roleregistry.facade.RoleRegistryAdminFacade">
+		<property name="roleRegistryService" ref="roleRegistryService" />
+	</bean>
+	<bean id="positionManageAdminFacade" class="com.itour.etip.support.positionmanage.facade.PositionManageAdminFacade">
+		<property name="roleRegistryService" ref="roleRegistryService" />
+	</bean>
+	<bean id="generalDicAdminFacade" class="com.itour.etip.support.generaldic.facade.GeneralDicAdminFacade">
+		<property name="generalDicService" ref="generalDicService" />
+	</bean>
+	
+	<!-- 支撑系统Action -->
+	<bean id="serviceRegistryAdminAction" class="com.itour.etip.support.serviceregistry.action.ServiceRegistryAdminAction">
+		<property name="serviceRegistryAdminFacade" ref="serviceRegistryAdminFacade" />
+	</bean>
+
+	<bean id="roleRegistryAdminAction" class="com.itour.etip.support.roleregistry.action.RoleRegistryAdminAction">
+		<property name="roleRegistryAdminFacade" ref="roleRegistryAdminFacade" />
+	</bean>
+	<bean id="positionManageAdminAction" class="com.itour.etip.support.positionmanage.action.PositionManageAdminAction">
+		<property name="positionManageAdminFacade" ref="positionManageAdminFacade" />
+	</bean>
+	<bean id="generalDicAdminAction" class="com.itour.etip.support.generaldic.action.GeneralDicAdminAction">
+		<property name="generalDicAdminFacade" ref="generalDicAdminFacade" />
+	</bean>
+</beans>

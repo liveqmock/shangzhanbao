@@ -1,0 +1,119 @@
+/*-------头部定义---------------*/
+.head{
+	width:1000px;
+	height:100px;
+	margin-top:5px;
+}
+
+#logo{
+	width:213px;
+	height:70px;
+	margin-top:24px;
+	background-image: url(../images/logo.gif);
+	background-repeat: no-repeat;
+	float:left;
+}
+
+#menu{
+	width:786px;
+	height:26px;
+	line-height:26px;
+	padding:0px 2px;
+	font-size:14px;
+	font-weight:bold;
+	color:#608D45;
+	float:right;
+}
+
+#menu li{
+	width:84px;
+	height:26px;
+	line-height:26px;
+	margin:0 2px;
+	float:left;
+	text-align:center;
+	display:block;
+	background-image: url(../images/menu-bj.gif);
+	background-repeat: no-repeat;
+}
+
+#menu a{
+	width:84px;
+	height:26px;
+	color:#608D45;
+	line-height:26px;
+	float:left;
+	text-align:center;
+	display:block;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color:#608D45;
+	background-image: url(../images/menu-bj-active.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#menu a:visited { 
+background:url(../images/indexico.gif) no-repeat -380px 0px; 
+color:#608D45;
+}
+
+#login{
+  width:auto;
+  height:18px;
+  line-height:18px;
+  float:right;
+}
+
+#login li{
+  list-style-type: none; 
+  float:left;
+  padding:0 5px;
+}
+
+#language{
+  width:200px;
+  height:18px;
+  line-height:18px;
+  float:right;
+}
+
+#language li{
+  list-style-type: none; 
+  float:left;
+  padding:0 5px;
+}
+#heng{
+	height:6px;
+	background-image: url(../images/menu-bj-public.gif);
+	background-repeat: repeat-x;
+}
+
+#daohang{
+   height:30px;
+   line-height:30px;
+   padding-top:5px;
+   background-color:#EBF8DB;
+   margin-bottom:5px;
+}
+
+#daohang-left{
+ float:left;
+ margin-left:20px;
+}
+
+#daohang-right{
+ width:auto;
+ float:right;
+ margin-right:20px;
+}
+
+#daohang-right li{
+  list-style-type: none; 
+  float:left;
+  padding:0 5px;
+}
+
+

@@ -1,0 +1,12 @@
+partner=2088411405384118
+key=x2xoax5o5wgpaz9ubsmnz43o9klgfk79
+seller_email=boyuan_finance@163.com
+
+notify_url=http://www.xx.com/view/pages/mini/front/purchase/payForNotify.jsp
+return_url=http://10.101.0.125:8080/view/pages/mini/front/purchase/payForSuccess.jsp
+
+notify_url_server=http://www.xx.com/view/pages/mini/front/purchase/payForNotify_Server.jsp
+return_url_server=http://10.101.0.125:8080/view/pages/mini/front/purchase/payForSuccess_Server.jsp
+
+notify_orderurl=http://www.xx.com/view/pages/mini/front/purchase/payForNotifyOrder.jsp
+return_orderurl=http://192.168.5.116:8081/view/pages/mini/front/purchase/payForOrderSuccess.jsp

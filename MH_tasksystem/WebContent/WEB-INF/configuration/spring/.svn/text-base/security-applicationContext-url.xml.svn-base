@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.4.xsd">
+    
+	<bean class="org.springframework.security.intercept.web.FilterSecurityInterceptor">  
+        <property name="authenticationManager" ref="authenticationManager"/>  
+        <property name="accessDecisionManager" ref="accessDecisionManager"/>  
+        <property name="objectDefinitionSource" ref="UrlObjectDefinitionSource" />  
+        <property name="observeOncePerRequest" value="false" />  
+        <security:custom-filter after="LAST" />  
+    </bean>
+       
+    <bean id="UrlObjectDefinitionSource" 
+      class="com.itour.etip.pub.kit.security.UrlObjectDefinitionSource" >        
+            <property name="serviceDao" ref="ServiceUrlJdbcDaoImpl" />
+            <property name="roleDao" ref="RoleUrlServiceJdbcDaoImpl" />
+    </bean>
+       
+    <bean id="ServiceUrlJdbcDaoImpl" class="com.itour.etip.pub.kit.security.ServiceJdbcDaoImpl" >        
+            <property name="dataSource" ref="dataSource" />
+            <property name="serviceQuery">
+	            <value>select url ,resname from tb_sys_resources  where resType='URL' order by resname desc</value>
+            </property>
+    </bean>
+    
+    <!--如果指派给角色，那么就进行控制？-->  
+    <bean id="RoleUrlServiceJdbcDaoImpl" class="com.itour.etip.pub.kit.security.RoleServiceJdbcDaoImpl" >        
+            <property name="dataSource" ref="dataSource" />
+             <property name="roleServiceQuery">
+	            <value>select b.roleName,c.resname from tb_sys_roleres a,tb_sys_role b,tb_sys_resources c where b.id = a.roleid  and a.resid=c.id and c.restype='URL'</value>
+            </property>
+    </bean>
+    <!--select rolename from roleregistry where id in (select ROLEID from UserRole where ETIPOPERATORID = (select id from etipoperator where loginname=?))-->
+</beans>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paradic>
+	 <section name="配置系统运行时参数">
+	 		<!--runMode，配置是处于原型状态(demo)还是联调状态(link)-->
+    	   <item name="runMode" value="demo"/>
+    </section>
+    <section name="ETIP框架的CacheUtil中引用的IOC容器中配置的applicationContext-cache.xml中配置的DataCache、DBCache、ExceptionCache、ParaCache的ID">
+    	   <item name="DBCache_Bean_ID" value="dbCache"/>
+    	   <item name="ExceptionCache_Bean_ID" value="exceptionCache"/>
+    	   <item name="DataCache_Bean_ID" value="dataCache"/>
+    	   <item name="ParaCache_Bean_ID" value="paraCache"/>
+    </section>
+    
+</paradic>
+

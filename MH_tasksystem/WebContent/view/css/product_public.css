@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.publish {
+    background-images:url(../images/plugin.gif) !important;
+}
+.retrieve {
+    background-images:url(../images/find.png) !important;
+}
+.delete {
+	background-images:url(../images/delete.gif) !important;
+}
+
+.a_operationModel {
+	COLOR: red; TEXT-DECORATION: none;
+}
+.a_state {
+	COLOR: green; TEXT-DECORATION: none;
+}

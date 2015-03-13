@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datadic>
+<section name="test1">
+	
+	<attr code="HotelSupplierMapping" name="酒店供应商映射">
+		<item code="8a00a25f23d13eb00123d141acbf0002" name="1"/>
+		<item code="8afc9e9525aaeb100125ab302de7000d" name="2"/>
+	</attr>
+	
+	<attr code="thirdProvider" name="第三方供应商代码">
+		<item code="hbe" name="8a00a25f23d13eb00123d141acbf0002" />
+		<item code="elong" name="8afc9e9525aaeb100125ab302de7000d" />
+	</attr>
+	
+	<!--清空垃圾,无外键的子表数据，无主键的主表数据,以下仅仅为示例程序-->
+	<attr code="clearNurseSql" name="清除垃圾数据的sql">
+		<item code="sql1" name="delete from usercertificate where userbaseid is null"/>
+	</attr>
+		
+	<attr code="sex" name="性别">
+		<item code="male" name="男"/>
+		<item code="female" name="女"/>
+	</attr>
+	<attr code="StarLevel" name="酒店星级">
+		<item code="0" name="请选择"/>
+		<item code="1" name="一星级"/>
+		<item code="1A" name="准一星级"/>
+		<item code="2" name="二星级"/>
+		<item code="2A" name="准二星级"/>
+		<item code="3" name="三星级"/>
+		<item code="3A" name="准三星级"/>
+		<item code="4" name="四星级"/>
+		<item code="4A" name="准四星级"/>
+		<item code="5" name="五星级"/>
+		<item code="5A" name="准五星级"/>
+		<item code="6" name="六星级"/>
+		<item code="6A" name="准六星级"/>
+	</attr>
+	
+	<attr code="ProviderSelect" name="酒店供应商">
+		<item code="0" name="请选择"/>
+		<item code="own" name="自有酒店"/>
+		<item code="hbe" name="中航信"/>
+		
+	</attr>
+	
+	
+	
+    <attr code="year" name="年度">
+		<item code="2000" name="2000"/>
+		<item code="2001" name="2001"/>
+		<item code="2002" name="2002"/>
+		<item code="2003" name="2003"/>
+		<item code="2004" name="2004"/>
+		<item code="2005" name="2005"/>
+		<item code="2006" name="2006"/>
+		<item code="2007" name="2007"/>
+		<item code="2008" name="2008"/>
+		<item code="2009" name="2009"/>
+		<item code="2010" name="2010"/>
+		<item code="2011" name="2011"/>
+		<item code="2012" name="2012"/>
+		<item code="2013" name="2013"/>
+		<item code="2014" name="2014"/>
+		<item code="2015" name="2015"/>
+		<item code="2016" name="2016"/>
+		<item code="2017" name="2017"/>
+		<item code="2018" name="2018"/>
+		<item code="2019" name="2019"/>
+		<item code="2020" name="2020"/>
+		<item code="2021" name="2021"/>
+		<item code="2022" name="2022"/>
+		<item code="2023" name="2023"/>
+		<item code="2024" name="2024"/>
+		<item code="2025" name="2025"/>
+		<item code="2026" name="2026"/>
+		<item code="2027" name="2027"/>
+		<item code="2028" name="2028"/>
+		<item code="2029" name="2029"/>
+		<item code="2030" name="2030"/>
+		<item code="2031" name="2031"/>
+		<item code="2032" name="2032"/>
+		<item code="2033" name="2033"/>
+		<item code="2034" name="2034"/>
+        <item code="2035" name="2035" />
+		<item code="2036" name="2036" />
+		<item code="2037" name="2037" />
+		<item code="2038" name="2038" />
+		<item code="2039" name="2039" />
+		<item code="2040" name="2040" />
+		<item code="2041" name="2041" />
+		<item code="2042" name="2042" />
+		<item code="2043" name="2043" />
+		<item code="2044" name="2044" />
+		<item code="2045" name="2045" />
+		<item code="2046" name="2046" />
+		<item code="2047" name="2047" />
+		<item code="2048" name="2048" />
+		<item code="2049" name="2049" />
+		<item code="2050" name="2050" />
+	</attr>
+		<attr code="month" name="月份">
+	   
+		<item code="01" name="01"/>
+		<item code="02" name="02"/>
+		<item code="03" name="03"/>
+		<item code="04" name="04"/>
+		<item code="05" name="05"/>
+		<item code="06" name="06"/>
+		<item code="07" name="07"/>
+		<item code="08" name="08"/>
+		<item code="09" name="09"/>
+		<item code="10" name="10"/>
+		<item code="11" name="11"/>
+		<item code="12" name="12"/>
+
+
+	</attr>
+	<attr code="OrgStatus" name="机构状态">
+		<item code="1" name="待审批" />
+		<item code="2" name="有效" />
+		<item code="3" name="审批不通过" />
+		<item code="4" name="无效" />
+		<item code="5" name="终止" />
+	</attr>
+
+	<attr code="UserStatus" name="用户状态">
+		<item code="1" name="有效" />
+		<item code="2" name="无效" />
+		<item code="3" name="终止" />
+	</attr>
+	<attr code="CurMerchStatus" name="平台药品状态">
+		<item code="1" name="有效" />
+		<item code="2" name="无效" />
+		<item code="3" name="终止" />
+	</attr>
+	<attr code="OrgMerchStatus" name="机构药品状态">
+		<item code="1" name="有效" />
+		<item code="2" name="无效" />
+		<item code="3" name="终止" />
+	</attr>
+	<attr code="CorrespondingState" name="对应状态">
+		<item code="1" name="无对应" />
+		<item code="2" name="已对应" />
+	</attr>
+	<attr code="OrgType" name="机构类型">
+		<item code="2" name="买方" />
+		<item code="3" name="卖方" />
+		<item code="4" name="厂商" />
+		<item code="5" name="平台运营商" />
+	</attr>
+	<attr code="OrderStatus" name="订单状态">
+		<item code="1" name="买方未提交" />
+		<item code="2" name="卖方未审批" />
+		<item code="3" name="卖方审批通过" />
+		<item code="4" name="卖方审批不通过" />
+	</attr>
+	<attr code="Gender" name="性别">
+		<item code="1" name="男" />
+		<item code="0" name="女" />
+	</attr>
+
+    <attr code="UserRoleType" name="用户角色类型">
+		<item code="1" name="平台角色" />
+		<item code="2" name="买方角色" />
+		<item code="3" name="卖方角色" />
+		<item code="4" name="厂商角色" />
+		<item code="5" name="其它" />
+	</attr>
+<attr code="xkjylb" name="许可经营类别">
+        <item code="a" name="中药材"/>
+        <item code="b" name="中药饮片"/>
+	<item code="c" name="化学药制剂"/>
+	<item code="d" name="抗生素"/>
+        <item code="e" name="生化药品"/>
+	<item code="f" name="生物制品"/>
+	<item code="g" name="中成药"/>
+        <item code="h" name="诊断药品"/>
+	<item code="i" name="化学原料药"/>
+	<item code="j" name="二类精神药品"/>
+        <item code="n" name="保健食品"/>
+	<item code="o" name="一类医疗器械"/>
+	<item code="p" name="二类医疗器械"/>
+        <item code="q" name="三类医疗器械"/>
+	<item code="x" name="其他商品"/>
+    </attr>
+	<attr code="jixing" name="剂型">
+		<item code="1" name="注射剂"/>
+		<item code="2" name="化学药及生物制品片剂、胶囊剂 、丸剂"/>
+		<item code="3" name="中成药片剂、胶囊剂、丸剂类"/>
+		<item code="4" name="粉剂类"/>
+		<item code="5" name="水剂类"/>
+		<item code="6" name="外用药品"/>
+		<item code="7" name="非药类"/>
+		<item code="8" name="中药材和中药饮片"/>
+		<item code="9" name="医疗器械"/>
+    </attr>
+	<attr code="cffl" name="处方分类">
+        <item code="1" name="处方药"/>
+        <item code="2" name="甲类非处方药"/>
+	<item code="3" name="乙类非处方药"/>
+	<item code="4" name="中药地方习用品"/>
+        <item code="5" name="其他商品"/>
+    </attr>
+	 <attr code="unit" name="单位">
+        <item code="1" name="支"/>
+        <item code="2" name="瓶"/>
+	    <item code="3" name="盒"/>
+		<item code="4" name="合"/>
+        <item code="5" name="中盒"/>
+	    <item code="6" name="板"/>
+		<item code="7" name="包"/>
+        <item code="8" name="大盒"/>
+	    <item code="9" name="袋"/>
+		<item code="10" name="组"/>
+        <item code="11" name="只"/>
+	    <item code="12" name="张"/>
+		<item code="13" name="小盒"/>
+        <item code="14" name="小袋"/>
+	    <item code="15" name="小包"/>
+		<item code="16" name="碗"/>
+        <item code="17" name="丸"/>
+	    <item code="18" name="筒"/>
+		<item code="19" name="桶"/>
+        <item code="20" name="听"/>
+	    <item code="21" name="铁合"/>
+		<item code="22" name="贴"/>
+        <item code="23" name="条"/>
+	    <item code="24" name="提"/>
+		<item code="25" name="套"/>
+        <item code="26" name="台"/>
+	    <item code="27" name="人份"/>
+		<item code="28" name="盆"/>
+        <item code="29" name="枚"/>
+	    <item code="30" name="粒"/>
+		<item code="31" name="块"/>
+        <item code="32" name="克"/>
+	    <item code="33" name="壶"/>
+		<item code="34" name="罐"/>
+        <item code="35" name="管"/>
+	    <item code="36" name="公斤"/>
+		<item code="37" name="个"/>
+        <item code="38" name="朵"/>
+	    <item code="39" name="对"/>
+		<item code="40" name="大袋"/>
+		<item code="41" name="打"/>
+        <item code="42" name="杯"/>
+	    <item code="43" name="把"/>
+		<item code="44" name="MG"/>
+        <item code="45" name="kg"/>
+	    <item code="46" name="G"/>
+    </attr>
+
+	<attr code="Function" name="系统功能配置">
+		<item code="OrgManageDlgt_approve" name="批准机构申请"/>
+		<item code="OrgManageDlgt_reject" name="拒绝机构申请"/>
+		<item code="OrgManageDlgt_forbid" name="禁止机构"/>
+		<item code="OrgManageDlgt_recover"  name="恢复机构"/>
+		<item code="OrgManageDlgt_delete" name="删除机构"/>
+		<item code="OrgManageDlgt_update"  name="更新机构"/>
+		<item code="OrgManageDlgt_retrieve" name="查看机构信息以修改"/>
+		<item code="OrgManageDlgt_search"  name="查询机构信息列表"/>
+		<item code="OrgManageDlgt_view_retrieve" name="机构信息查看"/>
+		<item code="OrgRoleManageDlgt_add"  name="添加机构角色"/>
+		<item code="OrgRoleManageDlgt_delete" name="删除机构角色"/>
+		<item code="OrgRoleManageDlgt_update" name="更新机构角色"/>
+		<item code="OrgRoleManageDlgt_retrieve" name="查看机构角色"/>
+		<item code="OrgRoleManageDlgt_search" name="查询机构角色"/>
+		<item code="OrgRoleManageDlgt_view_retrieve" name="查看机构角色"/>
+		<item code="UserManageDlgt_forbid"  name="禁止用户"/>
+		<item code="UserManageDlgt_recover" name="恢复用户"/>
+		<item code="UserManageDlgt_add"  name="添加新用户"/>
+		<item code="UserManageDlgt_delete" name="删除用户"/>
+		<item code="UserManageDlgt_update" name="更新用户"/>
+		<item code="UserManageDlgt_retrieve" name="查看用户信息以修改"/>
+		<item code="UserManageDlgt_search"  name="查询用户"/>
+		<item code="UserManageDlgt_view_retrieve" name="查看用户信息"/>
+		<item code="UserRoleManageDlgt_add"  name="添加用户角色"/>
+		<item code="UserRoleManageDlgt_delete"  name="删除用户角色"/>
+		<item code="UserRoleManageDlgt_update" name="更新用户角色"/>
+		<item code="UserRoleManageDlgt_retrieve" name="查看用户角色以修改"/>
+		<item code="UserRoleManageDlgt_search" name="查询用户角色"/>
+		<item code="UserRoleManageDlgt_view_retrieve"  name="查看用户角色信息"/>
+		<item code="CurMerchDlgt_add" name="添加全档药品"/>
+		<item code="CurMerchDlgt_delete" name="删除全档药品"/>
+		<item code="CurMerchDlgt_retrieve" name="查看全档药品记录"/>
+		<item code="CurMerchDlgt_search" name="查询全档药品记录"/>
+		<item code="CurMerchDlgt_update" name="更新全档药品记录"/>
+		<item code="CurMerchSortDlgt_add" name="添加全档药品分类"/>
+		<item code="CurMerchSortDlgt_delete" name="删除全档药品分类"/>
+		<item code="CurMerchSortDlgt_retrieve" name="查看全档药品分类"/>
+		<item code="CurMerchSortDlgt_search" name="查询全档药品分类"/>
+		<item code="CurMerchSortDlgt_update" name="更新全档药品分类"/>
+		<item code="OrgMerchDlgt_add" name="添加机构药品"/>
+		<item code="OrgMerchDlgt_delete" name="删除机构药品"/>
+		<item code="OrgMerchDlgt_retrieve" name="查看机构药品"/>
+		<item code="OrgMerchDlgt_search" name="查询机构药品"/>
+		<item code="OrgMerchDlgt_update" name="更新机构药品"/>
+		<item code="OrgMerchSortDlgt_add" name="添加机构药品分类"/>
+		<item code="OrgMerchSortDlgt_delete" name="删除机构药品分类"/>
+		<item code="OrgMerchSortDlgt_retrieve" name="查看机构药品分类"/>
+		<item code="OrgMerchSortDlgt_search" name="查询机构药品分类"/>
+		<item code="OrgMerchSortDlgt_update" name="更新机构药品分类"/>
+		<item code="OrderPlanDlgt_add" name="添加新订单"/>
+	</attr>
+	
+	<attr  code="country" name="国别">
+		<item code="1" name="香港" />
+		<item code="2" name="澳门" />
+		<item code="3" name="台湾省" />
+		<item code="4" name="朝鲜" />
+		<item code="5" name="越南" />
+		<item code="6" name="老挝" />
+		<item code="7" name="柬埔寨" />
+		<item code="8" name="蒙古" />
+		<item code="9" name="日本" />
+		<item code="10" name="菲律宾" />
+		<item code="11" name="缅甸" />
+		<item code="12" name="泰国" />
+		<item code="13" name="马来西亚" />
+		<item code="14" name="新加坡" />
+		<item code="15" name="文莱" />
+		<item code="16" name="印度尼西亚" />
+		<item code="17" name="巴基斯坦" />
+		<item code="18" name="孟加拉国" />
+		<item code="19" name="印度" />
+		<item code="20" name="尼泊尔" />
+		<item code="21" name="斯里兰卡" />
+		<item code="22" name="马尔代夫" />
+		<item code="23" name="阿富汗" />
+		<item code="24" name="伊朗" />
+		<item code="25" name="土耳其" />
+		<item code="26" name="塞浦路斯" />
+		<item code="27" name="叙利亚" />
+		<item code="28" name="黎巴嫩" />
+		<item code="29" name="约旦" />
+		<item code="30" name="巴勒斯坦" />
+		<item code="31" name="也门" />
+		<item code="32" name="伊拉克" />
+		<item code="33" name="沙特阿拉伯" />
+		<item code="34" name="科威特" />
+		<item code="35" name="巴林" />
+		<item code="36" name="卡塔尔" />
+		<item code="37" name="阿联酋" />
+		<item code="38" name="阿曼" />
+		<item code="39" name="韩国" />
+		<item code="40" name="以色列" />
+		<item code="41" name="不丹" />
+		<item code="42" name="亚洲其他国家" />
+		<item code="43" name="埃及" />
+		<item code="44" name="苏丹" />
+		<item code="45" name="利比亚" />
+		<item code="46" name="突尼斯" />
+		<item code="47" name="阿尔及利亚" />
+		<item code="48" name="摩洛哥" />
+		<item code="49" name="西撒哈拉" />
+		<item code="50" name="加那利群岛" />
+		<item code="51" name="毛里塔尼亚" />
+		<item code="52" name="塞内加尔" />
+		<item code="53" name="冈比亚" />
+		<item code="54" name="几内亚(比绍)" />
+		<item code="55" name="马里" />
+		<item code="56" name="几内亚" />
+		<item code="57" name="加纳" />
+		<item code="58" name="科特迪瓦" />
+		<item code="59" name="布基纳法索" />
+		<item code="60" name="贝宁" />
+		<item code="61" name="尼日尔" />
+		<item code="62" name="利比里亚" />
+		<item code="63" name="塞拉利昂" />
+		<item code="64" name="多哥" />
+		<item code="65" name="尼日利亚" />
+		<item code="66" name="喀麦隆" />
+		<item code="67" name="赤道几内亚" />
+		<item code="68" name="乍得" />
+		<item code="69" name="中非共和国" />
+		<item code="70" name="加蓬" />
+		<item code="71" name="刚果" />
+		<item code="72" name="扎伊尔" />
+		<item code="73" name="佛得角" />
+		<item code="74" name="圣多美普林西比" />
+		<item code="75" name="布隆迪" />
+		<item code="76" name="卢旺达" />
+		<item code="77" name="埃塞俄比亚" />
+		<item code="78" name="索马里" />
+		<item code="79" name="吉布提" />
+		<item code="80" name="肯尼亚" />
+		<item code="81" name="乌干达" />
+		<item code="82" name="坦桑尼亚" />
+		<item code="83" name="塞舌尔" />
+		<item code="84" name="毛里求斯" />
+		<item code="85" name="科摩罗" />
+		<item code="86" name="留尼汪" />
+		<item code="87" name="马达加斯加" />
+		<item code="88" name="安哥拉" />
+		<item code="89" name="莫桑比克" />
+		<item code="90" name="赞比亚" />
+		<item code="91" name="马拉维" />
+		<item code="92" name="塞卜泰(休达)" />
+		<item code="93" name="津巴布韦" />
+		<item code="94" name="梅利利亚" />
+		<item code="95" name="斯威士兰" />
+		<item code="96" name="博茨瓦那" />
+		<item code="97" name="莱索托" />
+		<item code="98" name="南非" />
+		<item code="99" name="纳米比亚" />
+		<item code="100" name="非洲其他国家" />
+		<item code="101" name="波兰" />
+		<item code="102" name="匈牙利" />
+		<item code="103" name="捷克共和国" />
+		<item code="104" name="保加利亚" />
+		<item code="105" name="阿尔巴尼亚" />
+		<item code="106" name="罗马尼亚" />
+		<item code="107" name="德国" />
+		<item code="108" name="南斯拉夫" />
+		<item code="109" name="法国" />
+		<item code="110" name="意大利" />
+		<item code="111" name="荷兰" />
+		<item code="112" name="比利时" />
+		<item code="113" name="卢森堡" />
+		<item code="114" name="英国" />
+		<item code="115" name="爱尔兰" />
+		<item code="116" name="丹麦" />
+		<item code="117" name="芬兰" />
+		<item code="118" name="瑞典" />
+		<item code="119" name="挪威" />
+		<item code="120" name="冰岛" />
+		<item code="121" name="瑞士" />
+		<item code="122" name="奥地利" />
+		<item code="123" name="希腊" />
+		<item code="124" name="马耳他" />
+		<item code="125" name="西班牙" />
+		<item code="126" name="葡萄牙" />
+		<item code="127" name="圣马力诺" />
+		<item code="128" name="摩纳哥" />
+		<item code="129" name="列支敦士登" />
+		<item code="130" name="安道尔" />
+		<item code="131" name="直布罗陀" />
+		<item code="132" name="斯洛伐克" />
+		<item code="133" name="俄罗斯联邦" />
+		<item code="134" name="乌克兰" />
+		<item code="135" name="白俄罗斯" />
+		<item code="136" name="乌兹别克斯坦" />
+		<item code="137" name="哈萨克斯坦" />
+		<item code="138" name="摩尔多瓦" />
+		<item code="139" name="吉尔吉斯斯坦" />
+		<item code="140" name="塔吉克斯坦" />
+		<item code="141" name="亚美尼亚" />
+		<item code="142" name="土库曼斯坦" />
+		<item code="143" name="立陶宛" />
+		<item code="144" name="爱沙尼亚" />
+		<item code="145" name="拉脱维亚" />
+		<item code="146" name="阿塞拜疆" />
+		<item code="147" name="格鲁吉亚" />
+		<item code="148" name="斯洛文尼亚" />
+		<item code="149" name="克罗地亚" />
+		<item code="150" name="欧洲其他国家" />
+		<item code="151" name="墨西哥" />
+		<item code="152" name="危地马拉" />
+		<item code="153" name="洪都拉斯" />
+		<item code="154" name="萨尔瓦多" />
+		<item code="155" name="尼加拉瓜" />
+		<item code="156" name="哥斯达黎加" />
+		<item code="157" name="巴拿马" />
+		<item code="158" name="古巴" />
+		<item code="159" name="特立尼达多巴哥" />
+		<item code="160" name="多米尼加" />
+		<item code="161" name="牙买加" />
+		<item code="162" name="特立尼达多巴哥" />
+		<item code="163" name="巴巴多斯" />
+		<item code="164" name="委内瑞拉" />
+		<item code="165" name="哥伦比亚" />
+		<item code="166" name="圭亚那" />
+		<item code="167" name="巴西" />
+		<item code="168" name="厄瓜多尔" />
+		<item code="169" name="秘鲁" />
+		<item code="170" name="玻利维亚" />
+		<item code="171" name="智利" />
+		<item code="172" name="巴拉圭" />
+		<item code="173" name="阿根廷" />
+		<item code="174" name="波多黎各" />
+		<item code="175" name="乌拉圭" />
+		<item code="176" name="巴哈马" />
+		<item code="177" name="特克斯和凯科斯" />
+		<item code="178" name="英属维尔京群岛" />
+		<item code="179" name="安提瓜和巴布达" />
+		<item code="180" name="圣其茨--尼维斯" />
+		<item code="181" name="蒙特塞拉特" />
+		<item code="182" name="多米尼克" />
+		<item code="183" name="圣卢西亚" />
+		<item code="184" name="圣文森特" />
+		<item code="185" name="格林纳达" />
+		<item code="186" name="伯利兹" />
+		<item code="187" name="开曼群岛" />
+		<item code="188" name="法属圭亚那" />
+		<item code="189" name="瓜德罗普" />
+		<item code="190" name="马提尼克" />
+		<item code="191" name="苏里南" />
+		<item code="192" name="库腊索岛" />
+		<item code="193" name="阿鲁巴岛" />
+		<item code="194" name="博内尔" />
+		<item code="195" name="萨巴" />
+		<item code="196" name="圣马丁岛" />
+		<item code="197" name="拉美洲其他国家" />
+		<item code="198" name="加拿大" />
+		<item code="199" name="美国" />
+		<item code="200" name="格陵兰" />
+		<item code="201" name="百慕大" />
+		<item code="202" name="北美洲其他国家" />
+		<item code="203" name="澳大利亚" />
+		<item code="204" name="新西兰" />
+		<item code="205" name="瑙鲁" />
+		<item code="206" name="汤加" />
+		<item code="207" name="斐济" />
+		<item code="208" name="库克群岛" />
+		<item code="209" name="巴布亚新几内亚" />
+		<item code="210" name="基里巴斯" />
+		<item code="211" name="图瓦卢" />
+		<item code="212" name="诺福克岛" />
+		<item code="213" name="所罗门群岛" />
+		<item code="214" name="新喀里多尼亚" />
+		<item code="215" name="瓦努阿图" />
+		<item code="216" name="社会群岛" />
+		<item code="217" name="土阿莫土群岛" />
+		<item code="218" name="土布艾群岛" />
+		<item code="219" name="马绍尔群岛" />
+		<item code="220" name="东萨摩亚" />
+		<item code="221" name="盖比群岛" />
+		<item code="222" name="马克萨斯群岛" />
+		<item code="223" name="大洋洲其他国家" />
+		<item code="224" name="中国" />
+	</attr>
+	<attr code="province" name="省">
+	   
+		<item code="1" name="北京"/>
+		<item code="2" name="湖北"/>
+		<item code="3" name="湖南"/>
+		<item code="4" name="河北"/>
+		<item code="5" name="山东"/>
+		<item code="6" name="河南"/>
+		<item code="7" name="天津"/>
+		<item code="8" name="黑龙江"/>
+		<item code="9" name="吉林"/>
+		<item code="10" name="辽宁"/>
+		<item code="11" name="内蒙古"/>
+		<item code="12" name="新疆"/>
+		<item code="13" name="甘肃"/>
+		<item code="14" name="宁夏"/>
+		<item code="15" name="山西"/>
+		<item code="16" name="陕西"/>
+		<item code="17" name="青海"/>
+		<item code="18" name="西藏"/>
+		<item code="19" name="云南"/>
+		<item code="20" name="贵州"/>
+		<item code="21" name="四川"/>
+		<item code="22" name="安徽"/>
+		<item code="23" name="重庆"/>
+		<item code="24" name="江苏"/>
+		<item code="25" name="浙江"/>
+		<item code="26" name="上海"/>
+		<item code="27" name="福建"/>
+		<item code="28" name="江西"/>
+		<item code="29" name="广东"/>
+		<item code="30" name="广西"/>
+		<item code="31" name="海南"/>
+		<item code="32" name="深圳"/>
+		<item code="33" name="香港"/>
+		<item code="34" name="澳门"/>
+		<item code="35" name="台湾"/>
+	</attr>
+	<attr code="isDept" name="是否为部门">
+		<item code="1" name="不是" />
+		<item code="2" name="是" />
+	</attr>
+	<attr code="orgState" name="状态">
+		<item code="1" name="正常" />
+		<item code="2" name="禁用" />
+	</attr>
+	<attr code="assignDept" name="是否指派部门">
+		<item code="1" name="是" />
+		<item code="2" name="不是" />
+	</attr>
+		<attr code="planType" name="计划类型">
+		<item code="XS" name="滚动销售计划" />
+		<item code="CK" name="出口计划" />
+		<item code="SZ" name="试制计划" />
+		<item code="YP" name="样品计划" />
+		<item code="LY" name="联营加工计划" />
+		<item code="NDSC" name="年度生产计划" />
+		<item code="NDLY" name="年度联营加工计划" />		
+	</attr>
+	<attr code="producePoint" name="生产点">
+		<item code="HZ" name="杭州生产部门" />
+		<item code="NB" name="宁波生产部门" />
+	</attr>
+	<attr code="pack" name="包装">
+		<item code="01" name="硬盒" />
+		<item code="02" name="软盒" />
+	</attr>
+	<attr code="grade" name="档次">
+		<item code="01" name="高价位" />
+		<item code="02" name="中价位" />
+		<item code="03" name="中低价位" />
+		<item code="04" name="低价位" />
+	</attr>
+	<attr code="stockState" name="库存状态">
+		<item code="1" name="草稿" />
+		<item code="2" name="上报" />
+		<item code="3" name="使用" />
+	</attr>
+	<attr code="stuffType" name="辅料类型">		
+		<item code="1" name="滤咀" />
+		<item code="2" name="滤咀成型纸" />
+		<item code="3" name="卷烟纸" />
+		<item code="4" name="金线纸" />
+		<item code="5" name="大箱包装材料" />
+		<item code="6" name="小箱包装材料" />
+		<item code="7" name="包装条材料" />
+		<item code="8" name="包装盒材料" />
+	</attr>
+	<attr code="planState" name="计划状态">
+		<item code="1" name="草稿" />
+		<item code="2" name="下达" />
+		<item code="3" name="使用" />
+	</attr>
+	<attr code="isProducePlan" name="备货计划状态">
+		<item code="1" name="未平衡" />
+		<item code="2" name="未生成生产计划" />
+		<item code="3" name="已生成生产计划" />
+	</attr>
+	<attr code="producePlanState" name="生产计划状态">
+		<item code="1" name="草稿" />
+		<item code="2" name="排产" />
+		<item code="3" name="平衡" />
+	</attr>
+	<attr code="leafGrade" name="烟叶等级">
+		<item code="1" name="B2O" />
+		<item code="2" name="LJO" />
+		<item code="3" name="C2L" />
+		<item code="4" name="C3F" />
+		<item code="5" name="C3L" />
+		<item code="6" name="C2F" />
+	</attr>
+	<attr code="leafType" name="烟叶等级大类">
+		<item code="1" name="进口烟" />
+		<item code="2" name="上等烤" />
+		<item code="3" name="中等烟" />		
+	</attr>
+	<attr code="leafUnit" name="烟叶计量单位">
+		<item code="1" name="公斤" />
+		<item code="2" name="千克" />		
+	</attr>
+	<attr code="tobaccoType" name="烟类型">
+		<item code="1" name="混合型" />
+		<item code="2" name="拷合型" />		
+	</attr>
+	<attr code="export" name="是否出口">
+		<item code="1" name="是" />
+		<item code="2" name="否" />		
+	</attr>
+	<attr code="grade1" name="档次">
+		<item code="1" name="一类烟" />
+		<item code="2" name="二类烟" />
+		<item code="3" name="三类烟" />
+		<item code="4" name="四类烟" />
+		<item code="5" name="五类烟" />		
+	</attr>
+	<attr code="Establishment" name="设施类型">
+		<item code="0" name="请选择"/>
+		<item code="1" name="基础设施"/>
+		<item code="2" name="残疾人设施"/>
+	</attr>
+	<attr code="isInure" name="是否生效">
+		<item code="1" name="是" />
+		<item code="2" name="否" />		
+	</attr>
+	<attr code="state" name="状态">
+		<item code="1" name="草稿" />
+		<item code="2" name="通过" />
+		<item code="3" name="不通过" />
+	</attr>
+	<attr code="planType" name="计划类型">
+		<item code="1" name="预销售计划" />
+		<item code="2" name="正式销售计划" />
+	</attr>
+		<attr code="stuffBuyState" name="状态">
+		<item code="1" name="草稿" />
+		<item code="2" name="提交" />		
+	</attr>
+	<attr code="poolProcessComp" name="联营加工公司">
+		<item code="1" name="贵州卷烟厂" />
+		<item code="2" name="云南卷烟厂" />		
+	</attr>
+	
+	<attr code="rollSellPlanType" name="调拨计划类型">
+	    <item code="1" name="生产点调拨计划" />	
+		<item code="2" name="总的调拨计划" />			
+	</attr>
+	<attr code="levelPri" name="优先级">
+	    <item code="1" name="一级" />	
+		<item code="2" name="二级" />
+		<item code="3" name="三级" />
+		<item code="4" name="四级" />
+		<item code="5" name="五级" />			
+	</attr>	
+	<attr code="rule" name="规则">
+	    <item code="1" name="机台结束时间差异不超过n天" />	
+		<item code="2" name="避免在月底最后n天范围内切换牌号" />
+		<item code="3" name="大牌号连续生产" />
+		<item code="4" name="可以超过生产计划" />			
+	</attr>
+	<attr code="choice" name="选用">
+	    <item code="1" name="是" />	
+		<item code="2" name="否" />		
+	</attr>
+	<attr code="classes" name="班次">
+	    <item code="1" name="早班" />	
+		<item code="2" name="中班" />	
+		<item code="3" name="晚班" />	
+	</attr>
+	<attr code="audi" name="审核状态">
+	    <item code="1" name="同意调配" />	
+		<item code="2" name="不同意调配" />	
+		<item code="3" name="待审核" />	
+	</attr>
+		<attr code="GeneralDicType" name="记录类型">
+		<item code="1" name="字典"/>
+		<item code="2" name="属性_字典"/>
+		<item code="3" name="属性"/>
+	</attr>
+	<attr code="CreditCard" name="信用卡">
+		<item code="0" name="请选择"/>
+		<item code="1" name="招行hellokitty"/>
+		<item code="2" name="牡丹卡"/>
+		<item code="3" name="金穗卡"/>
+		<item code="4" name="长城卡"/>
+		<item code="5" name="龙卡"/>
+		<item code="6" name="太平洋卡"/>
+	</attr>
+	
+	<attr code="BrandRoleMapping" name="Oracle">
+		<item code="F8282E65EA2044A487E319DB557B363B" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="C6E59CBD801C466CB79E19E84D925104" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="5E1052990DBD45108E111CC13A538174" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="FCD57D18381344C7B47C55DF13DA6104" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="D2C621B98FCA46BCA27B06356F45044D" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="E53CFA855A874455906809537F083866" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="A2931EB707024D7695E60B7A8336E220" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="4EBF4B8D324743F7881A0B9E358D26BD" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="55263A68F6FE4B8CAB7F12679504F14F" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="0ABF3872EBD44F6A8B901292DD8D2591" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="E274BB89AFC443D59C67147B23B5D494" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="42EDA4AD1B2347A3B5B6AACDC4787C7E" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="D730B34068C64616BCDFADCD78B28581" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="48251C62D1054AF58137E547A3E98E80" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="B36266E927FE4AA6AEF9E90FE39F5C61" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="F4595DB87580455DA460621C752AF7AD" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="15F286D5B35342EDB14A641E060A04E7" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="74E447A6FCDC41E68EF7B789393B1D70" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="55C4E99E2F8442E2BE80DA9F49B83A73" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="E7A45DDB13894241ADE0DBB2BAD9BF6A" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="9FC64F5128A048109E85E1D9A305FE3C" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="D59CFF9900CF46F4AE40736E9DBD5902" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="E91105A715BF49A99D0F90DE0691084F" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="BCEB1206707940C0B7C19DB6D2D4A5F3" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="505FC8A389314D58BFD6A0930DCFE99E" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="ABD4F27B3377424FB9F4B8AF8AD0A78F" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="5BE4FFFD45E440B9984B40053A42C06F" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="D2204B340D754BCB8F3A454FC09C52A0" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="055B220AA6EE43DCB431BF4936D0209B" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="DD2F7DD7BFCF469FAE88FC8F1FBCFFA2" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="C43B2018FF81421EA6FD9AFFE4C2D025" name="0ea1971826854388895efe7b6503232e"/>
+		<item code="94E705378DA84D2D8E888D9287A19606" name="0ea1971826854388895efe7b6503232e"/>
+	</attr>	
+</section>
+</datadic>

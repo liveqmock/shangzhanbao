@@ -1,0 +1,200 @@
+body {
+	margin: 0 auto;
+	color: #333;
+	background:#FAFAFA;
+	display: block;
+	font:14px "Hevetica Neve",Helvetica Neve, Helvetica, Hiragino Sans GB, Microsoft Yahei, Arial;
+}
+
+.link{color:#0099cc;text-decoration:none;}
+ ulHelp ul li a:hover {color:#009FAA;} 
+
+.content {
+width: 1000px;
+margin: 0 auto;
+height: auto;
+padding-top: 20px;
+}
+
+div, p, li, ul, h1, h2, h3, h4, h5, h6, img {
+margin: 0;
+padding: 0;
+}
+
+div {
+display: block;
+}
+
+#Help_left {
+width: 790px;
+float: left;
+border: 1px solid #ddd;
+background: #fff;
+margin-top: 85px;
+}
+
+article, aside, figure, footer, header, nav, section, hgroup, figcaption {
+margin: 0;
+padding: 0;
+display: block;
+}
+
+article {
+float: left;
+}
+
+article h1 {
+font-size: 16px;
+color: #333;
+margin: 40px 0 20px 40px;
+}
+
+article h2 {
+font-size: 14px;
+color: #0099ff;
+margin: 40px 0 20px 40px;
+}
+
+h2 {
+display: block;
+font-size: 1.5em;
+-webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+article p {
+line-height: 25px;
+font-size: 14px;
+color: #333;
+margin: 0 40px 40px 40px;
+text-indent: 0em;
+}
+
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+div, span, img, h1, h2, h3, h4, h5, h6, ul, li, form, input, select {
+margin: 0;
+padding: 0;
+}
+
+#Help_right {
+float: right;
+width: 200px;
+border-left: none;
+background: #fff;
+margin-top: 105px;
+margin-right:190px;
+}
+
+aside {
+}
+
+.navHelp h1 {
+width: 200px;
+height: 75px;
+background: url(../../../../images/help_bg.png) repeat-x left top;
+line-height: 75px;
+color: #fff;
+font-size: 18px;
+font-weight: normal;
+}
+
+.ulHelp ul {
+padding: 0;
+width: 170px;
+margin: 30px 0 30px 30px;
+float: left;
+}
+
+.ulHelp li {
+width: 170px;
+font-size: 14px;
+float: left;
+line-height: 28px;
+list-style: none;
+}
+
+
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+
+user agent stylesheetli {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+Inherited from ul
+ul, li {
+list-style: none;
+}
+
+
+user agent stylesheetul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+
+user agent stylesheet:-webkit-any(article,aside,nav,section) h1 {
+font-size: 1.5em;
+-webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+}
+user agent stylesheeth1 {
+display: block;
+font-size: 2em;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+.navHelp h1 span {
+width: 5px;
+height: 20px;
+float: left;
+overflow: hidden;
+background: #fff;
+margin: 27px 10px 0 40px;
+}
+
+
+
+.footer {
+width: 100%;
+background: #25282d;
+}
+.loginBtn a{
+	color: white;
+}
+
+.active{
+	color: #009FAA;
+}
+.act{
+	color: #666;
+}
+.ulHelp li a {
+text-decoration: none;
+}
+.act:hover{
+	color: #009FAA;
+}

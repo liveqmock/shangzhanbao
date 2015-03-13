@@ -1,0 +1,239 @@
+.u40 {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 500px;
+	height: 16px;
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 16px;
+	color: #0099FF;
+}
+.u40 a{
+	text-decoration: none;
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 16px;
+	color: #0099FF;
+}
+
+.u57 {
+	position: absolute;
+	left: 20px;
+	top: 60px;
+	width: 982px;
+	height: 10px;
+}
+
+#u58 {
+	position: absolute;
+	left: 20px;
+	top: 70px;
+	width: 982px;
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+#u58 li {
+	list-style: none;
+}
+
+#u58 li a {
+	text-decoration: none;
+	color: black;
+}
+
+.Btn {
+	position: absolute;
+	left: 60px;
+	top: 300px;
+	width: 70px;
+	height: 30px;
+	color: #666666;
+	background: #666666;
+	cursor: pointer;
+}
+
+.Btn a {
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 30px;
+	text-decoration: none;
+	margin-left: 18px;
+}
+
+#editTextarea {
+	position: absolute;
+	left: 20px;
+	top: 80px;
+}
+
+a.btn_tianjia {
+	background: url(../../images/operating/btn_03.jpg) no-repeat left bottom;
+	width: 84px;
+	height: 22px;
+	line-height: 22px;
+	color: #476587;
+	text-decoration: none;
+	margin: 6px 5px 0 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+a.btn_tianjia:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+a.btn_tianjia_1 {
+	width: 84px;
+	height: 22px;
+	line-height: 22px;
+	color: #476587;
+	float: left;
+	text-decoration: none;
+	margin: 6px 5px 0 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+#u151 {
+	left: 152px;
+	top: 187px;
+	width: 650px;
+}
+
+#u151_input {
+	width: 400px;
+	height: 40px;
+	background-image:;
+	text-align: left;
+	font-family: 'Arial';
+	font-size: 13px;
+	color: #000000;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#searchDiv {
+	margin-top: -40px;
+	background-color: #797979;
+	width: 100px;
+	height: 40px;
+	left: 100px;
+	margin-left: 450;
+}
+
+#searchDiv span {
+	margin-left: 35px;
+	line-height: 38px;
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#u18 p {
+	margin-top: 50px;
+	margin-left: 30px;
+	font-family: 'Heiti SC Medium', 'Heiti SC';
+	font-weight: 700;
+	font-size: 16px;
+}
+
+#u18 li a {
+	margin-left: 50px;
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 14px;
+	color: #666666;
+	line-height: 22px;
+	text-decoration: none;
+}
+
+#u18 li a:hover {
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 14px;
+	color: #009FAA;;
+	line-height: 22px;
+	text-decoration: none;
+}
+#searchDiv a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#u18 iframe {
+	/* margin-top: 50px; */
+	margin-left: 30px;
+	/* height: 100%; */
+	width: 100%;
+	border: 0;
+	frameborder:no;
+}
+#u19_1 p{
+	
+	
+}
+#u19_1 a{
+	color: #0099FF;
+	font-weight: 700;
+}
+.current {
+	width:100%;
+	height:33px;
+	line-height:33px;
+	color:#2b6db4;
+	text-align:left;
+	text-indent:10px;
+	background:url(../../images/operating/current_bg.gif) repeat-x left bottom;
+	float:left;
+	margin:0;
+	padding:0;
+		text-decoration: none;
+}
+.current b {
+	font-size:12px;
+	color:#333;
+}
+.current a {
+	font-size:12px;
+	color:#2b6db4;
+	text-decoration: none;
+}
+.current span {
+	font-size:12px;
+	color:#2b6db4;
+	text-decoration: none;
+}
+.about_p{
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 30px 30px;
+}
+.about_a{
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 22px;
+	text-decoration: none;
+	color: #0099CC;
+}
+.add_abuttion{
+	font-family: 'Heiti SC Light', 'Heiti SC';
+	font-weight: 200;
+	font-size: 13px;
+	color: #0099FF;
+	text-decoration: none;
+}

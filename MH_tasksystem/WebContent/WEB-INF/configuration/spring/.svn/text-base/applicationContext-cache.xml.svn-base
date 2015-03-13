@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+   <bean id="dataCache" class="com.itour.etip.pub.kit.cache.DataCache" singleton="true">
+    	<property name="cacheFile" value="/cache/data/data.xml"/>
+   </bean>
+   
+  <bean id="dbCache" class="com.itour.etip.pub.kit.cache.DBLocalCache" singleton="true">
+    	<property name="cacheFile" value="/cache/db/db.xml"/>
+    	<property name="daoFactory">
+            <ref bean="daoFactory"/>
+        </property>
+   </bean>  
+   
+   <bean id="dbMemCache" class="com.itour.etip.pub.kit.cache.DBMemCache" singleton="true">
+    	<property name="cacheFile" value="/cache/db/db.xml"/>
+    	<property name="daoFactory">
+            <ref bean="daoFactory"/>
+        </property>
+   </bean>
+   <bean id="paraCache" class="com.itour.etip.pub.kit.cache.ParaCache" singleton="true">
+   		
+   </bean>
+   <bean id="exceptionCache" class="com.itour.etip.pub.kit.cache.ExceptionCache" singleton="true">
+   	
+   </bean>
+   <bean id="iDMappingNameCache" class="com.itour.etip.pub.kit.cache.IDMappingNameCache" singleton="true">
+   </bean>
+   
+	<!--建立两个缓冲区，配置文件在ehcache中-->
+
+	<bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+		<property name="configLocation">
+			<value>/WEB-INF/configuration/ehcache/ehcache.xml</value>
+		</property>
+	</bean>
+	<bean id="indexTreeAction" class="com.itour.etip.security.menu.action.IndexTreeAction">
+	</bean>
+</beans>

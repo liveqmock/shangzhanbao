@@ -1,0 +1,113 @@
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-10 17:18:43,816 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-10 17:18:43,824 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-10 17:18:46,018 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-10 17:18:46,021 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-mini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-10 17:18:46,090 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-10 17:28:58,625 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-10 17:28:58,637 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-10 17:29:00,765 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-10 17:29:00,767 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-mini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-10 17:29:00,828 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-11 11:14:41,991 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-11 11:14:42,001 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-11 11:15:03,617 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-11 11:15:03,621 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/wendong/Documents/workspace-mini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-11 11:15:03,717 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-13 10:25:07,625 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-13 10:25:07,625 
+[org.hibernate.util.JDBCExceptionReporter.WARN] SQL Error: 0, SQLState: null  2014-11-13 10:25:29,965 
+[org.hibernate.util.JDBCExceptionReporter.ERROR] Cannot create PoolableConnectionFactory (Io “Ï≥£: The Network Adapter could not establish the connection)  2014-11-13 10:25:29,965 
+[org.hibernate.cfg.SettingsFactory.WARN] Could not obtain connection metadata  2014-11-13 10:25:29,981 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io “Ï≥£: The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:855)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:774)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedMap(BeanDefinitionValueResolver.java:383)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:539)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1216)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:509)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:447)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:76)
+Caused by: java.sql.SQLException: Io “Ï≥£: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:414)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 64 more
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-13 10:25:30,013 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-13 10:25:30,013 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/E:/workspace/bymini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-13 10:25:30,075 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-13 10:27:17,922 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-13 10:27:17,922 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-13 10:27:19,530 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-13 10:27:19,530 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/E:/workspace/bymini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-13 10:27:19,656 
+[org.springframework.security.intercept.AbstractSecurityInterceptor.WARN] Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection  2014-11-13 14:41:56,579 
+[org.springframework.security.config.FilterChainProxyPostProcessor.WARN] Possible error: Filters at position 11 and 12 are both instances of org.springframework.security.intercept.web.FilterSecurityInterceptor  2014-11-13 14:41:56,620 
+[org.hibernate.dialect.Oracle9Dialect.WARN] The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead  2014-11-13 14:42:00,943 
+[org.hibernate.dialect.OracleDialect.WARN] The OracleDialect dialect has been deprecated; use Oracle8iDialect instead  2014-11-13 14:42:00,943 
+[net.sf.ehcache.config.ConfigurationFactory.WARN] No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/E:/workspace/bymini1.8/MH_lib/Shared/ehcache-1.5.0.jar!/ehcache-failsafe.xml  2014-11-13 14:42:01,354 

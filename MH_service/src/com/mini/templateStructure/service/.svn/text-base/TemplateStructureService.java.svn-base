@@ -1,0 +1,80 @@
+package com.mini.templateStructure.service;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Component;
+
+import com.itour.etip.pub.frame.FrmService;
+import com.mini.templateStructure.business.ITemplateStructureBusiness;
+import com.mini.templateStructure.data.TemplateStructureData;
+
+/**
+ * 
+ * 
+ * 〈模板架构操作service层〉<br> 
+ * 〈功能详细描述〉
+ *
+ * @author 左香勇
+ * @see [相关类/方法]（可选）
+ * @since [产品/模块版本] （可选）
+ */
+@Component("templateStructureService")
+public class TemplateStructureService extends FrmService implements ITemplateStructureService {
+
+	@Resource(name="templateStructureBusiness")
+	private ITemplateStructureBusiness templateStructureBusiness;
+	
+	/**
+	 * 
+	 * 
+	 *〈添加模板架构信息〉<br>
+	 * 
+	 * @author 左香勇 <br> 
+	 *		   2014-2-24
+	 * @update 
+	 * @param [参数1]     [参数1说明]
+	 * @return  [返回类型说明]
+	 * @exception/throws [异常类型] [异常说明]
+	 * @see   [类、类#方法、类#成员]
+	 * @since [起始版本]
+	 */
+	public void addTemplateStructure(TemplateStructureData data){
+		templateStructureBusiness.addTemplateStructure(data);
+	}
+	
+	/**
+	 * 
+	 *〈根据用户id获取模板架构信息〉<br>
+	 * 
+	 * @author 左香勇 <br> 
+	 *		   2014-2-25
+	 * @update 
+	 * @param [id]     [用户id]
+	 * @return  [返回类型说明]
+	 * @exception/throws [异常类型] [异常说明]
+	 * @see   [类、类#方法、类#成员]
+	 * @since [起始版本]
+	 */
+	public List<TemplateStructureData> getTemplateStructureByUserid(String userid){
+		return templateStructureBusiness.getTemplateStructureByUserid(userid);
+	}
+	
+	/**
+	 * 
+	 *〈根据id获取模板架构信息〉<br>
+	 * 
+	 * @author 左香勇 <br> 
+	 *		   2014-2-25
+	 * @update 
+	 * @param [id]     [用户id]
+	 * @return  [返回类型说明]
+	 * @exception/throws [异常类型] [异常说明]
+	 * @see   [类、类#方法、类#成员]
+	 * @since [起始版本]
+	 */
+	public TemplateStructureData getTemplateStructureById(String id){
+		return templateStructureBusiness.getTemplateStructureById(id);
+	}
+}

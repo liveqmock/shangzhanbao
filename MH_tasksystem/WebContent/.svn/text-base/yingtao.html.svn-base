@@ -1,0 +1,290 @@
+<html><head>
+<meta charset="utf-8">
+<title>麻雀微站</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="/view/css/mini/temp3/yintao.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/view/js/jquery/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/view/js/jquery/jquery.lazyload.js"></script>
+<script  type="text/javascript" id="talk99" src="http://lead.soperson.com/10028042/10030424.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+jQuery(document).ready(
+		function($){
+			if(document.body.clientWidth<480){
+				setTimeout(function() {
+					if (document.readyState == "complete") { //当页面加载状态为完全结束时进入
+						$("#doyoo_monitor").hide();
+					} 
+				}, 1000);
+			}
+			$("img").lazyload({
+			placeholder : "http://img.miletu.com/images/lazy-grey.gif",
+			effect      : "fadeIn",
+			threshold : 200 
+		});
+	});
+</script>  
+<input type="hidden" id="objectRoot" value="">
+<input type="hidden" id="cssType" value="3">
+
+<div class="wraper">
+  <div id="daohang" style="">
+    <div class="top"> <a id="menu_btn" href="javascript:;">导航</a>
+      <div class="logo update" style="position: relative;"> <img src=""  data-original="/file/1401866002016.png"/>
+        <input type="hidden" class="component" name="" value="ff808081461c6aa601461c7b37ff0024">
+      </div>
+      <div class="nav">
+        <ul id="ul_menu" class="navigate">
+          <li> <a href="###" onclick="getMaodian('nav0')">
+            <lable id="first_navigate" style="">首页</lable>
+            </a> </li>
+          <li class="nav1"><a href="###" onclick="getMaodian('nav1')">
+            <lable id="reason_navigate" class="navName" style="">产品特色</lable>
+            </a></li>
+          <li class="nav2"><a href="###" onclick="getMaodian('nav2')">
+            <lable id="textOne_navigate" class="navName" style="">”萌“樱桃的由来...</lable>
+            </a></li>
+          <li class="nav4"><a href="###" onclick="getMaodian('nav4')">
+            <lable id="productCity_navigate" class="navName" style="">樱桃大丰收了！</lable>
+            </a></li>
+          <li class="nav5"><a href="###" onclick="getMaodian('nav5')">
+            <lable id="about_navigate" class="navName" style="">关于价格</lable>
+            </a></li>
+          <li class="nav6"><a href="###" onclick="getMaodian('nav6')">
+            <lable id="productShowTwo_navigate" class="navName" style="">”萌“樱桃价格</lable>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航结束-->
+<div style="visibility:hidden"> <a id="nav0">11111</a> </div>
+<div class="wraper">
+  <div id="firstScreen" style="">
+    <div class="firstScreen update" style="position: relative;">
+      <div class="first">
+        <div class="firstScreen_img"> <img src="" data-original="/file/629.jpg"/> </div>
+        <div class="firstScreen_div2">
+          <div class="firstScreen_title">
+            <lable id="slogan" style="">"萌"樱桃，6月热销</lable>
+          </div>
+          <div id="banner_content" class="firstScreen_content" style="">烟台老农家直销</div>
+          <div class="firstScreen_div1">
+            <div id="phone" class="phone" style="display: block;">186-0535-7628</div>
+          </div>
+        </div>
+      </div>
+      <input type="hidden" class="component" name="" value="ff808081461c6aa601461c78854d0015">
+    </div>
+  </div>
+</div>
+<div class="wraper">
+  <div id="slide9" style="">
+    <div class="slide_navigate">
+      <div>
+        <h2> <a id="nav1">
+          <lable id="reason_navigate">产品特色</lable>
+          </a> </h2>
+      </div>
+    </div>
+    <div class="slide_div1"></div>
+    <div class="slide9_div2">
+      <div class="productTwo update" style="position: relative;">
+        <div class="productTwo_img"> <img id="reason_img1" src="" data-original="/file/953AE5DD-2025-4B80-8ED7-983C4DC29C73.jpg"> </div>
+        <div class="productTwo_title"> <span id="reason_title1">大</span> </div>
+        <div id="reason_content1" class="productTwo_content"></div>
+        <input type="hidden" class="component" name="" value="ff808081461c6aa601461c7a10e0001a">
+      </div>
+      <div class="productTwo update" style="position: relative;">
+        <div class="productTwo_img"> <img id="reason_img2" src="" data-original="/file/24597.jpg"> </div>
+        <div class="productTwo_title"><span id="reason_title2">紫</span></div>
+        <div id="reason_content2" class="productTwo_content"></div>
+        <input type="hidden" class="component" name="" value="ff808081461c6aa601461c7a10e0001a">
+      </div>
+      <div class="productTwo update" style="position: relative;">
+        <div class="productTwo_img"> <img id="reason_img3" src="" data-original="/file/zi.jpg"> </div>
+        <div class="productTwo_title"><span id="reason_title3">甜</span></div>
+        <div id="reason_content3" class="productTwo_content"></div>
+        <input type="hidden" class="component" name="" value="ff808081461c6aa601461c7a10e0001a">
+      </div>
+    </div>
+    <button copy="copyComp" class="copyComp Btn_Td" onclick="copyComp('ff808081461c6aa601461c7a10e0001a',this)" style="">添加组件</button>
+  </div>
+</div>
+<div class="wraper">
+  <div id="slide1" style="">
+    <div class="slide_navigate">
+      <div>
+        <h2> <a id="nav2">
+          <lable id="textOne_navigate">”萌“樱桃的由来...</lable>
+          </a> </h2>
+      </div>
+    </div>
+    <div class="slide_div1"></div>
+    <div class="second update" style="position: relative;">
+      <div class="secondScreen_div2">
+        <div class="secondScreen_title">
+          <lable id="second_title1"><span id="sadds">adsadssada</span>因为萌萌，所以有了"萌"樱桃</lable>
+        </div>
+        <div id="second_content1" class="secondScreen_content" style="">萌萌是卖樱桃加的小老板，从小特别爱吃樱桃，父亲为了满足女儿，便在老家包了山，开始种植大樱桃。至今为止已经种植了10年，占山面积200千亩</div>
+      </div>
+      <div class="secondScreen_img"> <img id="second_img1" src="" data-original="/file/1401867112369.jpg"> </div>
+      <input type="hidden" class="component" name="" value="402881ed46468a070146473ebebb123">
+    </div>
+    <div class="first update" style="position: relative;">
+      <div class="firstScreen_img"> <img id="second_img2" src="" data-original="/file/1401867123666.jpg"> </div>
+      <div class="firstScreen_div2">
+        <div class="firstScreen_title">
+          <lable id="second_title2">爱吃樱桃，最爱“美早”</lable>
+        </div>
+        <div id="second_content2" class="firstScreen_content" style=""> “美早”是萌萌最爱的品种，每年萌萌自己都要坐山上吃完不下10斤，而今年5月低，“美早”又到采摘的时候了，看家里已经堆满了，萌萌有一伙朋友已经早早的赶到来作第一批吃客。</div>
+      </div>
+      <input type="hidden" class="component" name="" value="402881ed46468a070146473ebebb123">
+    </div>
+    
+  </div>
+</div>
+<div class="wraper">
+  <div id="slide5" style="">
+
+    <div class="slide5_div2 update" style="position: relative;">
+      <div class="slide5_div2_title"><lable id="yunshu_title">好东西要和大家分享</lable></div>
+      <div id="yunshu_content" class="slide5_div2_content" style="">萌萌身边的好友每年都会预定“萌”樱桃送给远方的亲人和朋友。在“萌”樱桃成熟的短短的一个月里，萌萌每天一大早和家人上山摘樱桃。当天打包寄出，只要顺风能送达的地方，就能保证在48小时之内送到。无论你在哪里都能品尝到新鲜的“萌”樱桃
+</div>
+      <input type="hidden" class="component" name="" value="402881ed46468a070146473ebeb123">
+    </div>
+    <div id="slide5-1" style="">
+      <div class="slide5-1_div2">
+        <div class="productTwo-1 update" style="position: relative;">
+          <div class="productTwo-1_img"> <img id="yunshutwo_img1" src="" data-original="/file/12.jpg"> </div>
+          <div class="productTwo-1_title"> <span id="yunshutwo_title1">高大上的顺丰快递，48小时送达</span> </div>
+          <input type="hidden" class="component" name="" value="402881ed46468a070146473ebebdms">
+        </div>
+        <div class="productTwo-1 update" style="position: relative;">
+          <div class="productTwo-1_img"> <img id="yunshutwo_img2" src="" data-original="/file/image_1401202456.657116.jpg"> </div>
+          <div class="productTwo-1_title"> <span id="yunshutwo_title2">干冰+保温箱让你吃到最新鲜的“萌”樱桃</span></div>
+          <input type="hidden" class="component" name="" value="402881ed46468a070146473ebebdms">
+        </div>
+        <button copy="copyComp" class="copyComp Btn_Td" onclick="copyComp('402881ed46468a070146473ebebdms',this)" style="">添加组件</button>
+      </div>
+      <div id="slide5-2" style="">
+        <div class="slide5-2_div2">
+          
+          
+        </div>
+        
+        
+        <button copy="copyComp" class="copyComp Btn_Td" onclick="copyComp('402881ed46468a070146473ebebwsad',this)" style="">添加组件</button>
+      </div>
+    </div>
+    <div class="slide5_div2"></div>
+  </div>
+  <div class="wraper">
+    <div id="slide1" style="">
+      <div class="slide_navigate">
+        <div>
+          <h2> <a id="nav4">
+            <lable id="productCity_navigate">樱桃大丰收了！</lable>
+            </a> </h2>
+        </div>
+      </div>
+      <div class="slide_div1"></div>
+      <div class="second-1 update" style="position: relative;">
+        <div class="secondScreen-1_div2">
+          <div class="secondScreen-1_title"></div>
+          <div id="about_content" class="secondScreen-1_content" style="">萌”樱桃今年大丰收了，但相比较专业的商业化种植园产量仍然有限。因此萌萌好友的好友优先购买，若你也想品尝自然、健康、美味的“萌”樱桃，直接电联萌萌说明你是在谁的微信或微博分享中看到的信息，萌萌会优先为你准备。</div>
+        </div>
+        <div class="secondScreen-1_img"> <img id="about_img" src="" data-original="/file/13.jpg"> </div>
+        <input type="hidden" class="component" name="" value="ff808081461c6aa601461cca479f00ba">
+      </div>
+    </div>
+  </div>
+  <div id="div_compent"></div>
+</div>
+
+<div class="wraper">
+<div id="slide5" style="">
+<div class="slide_navigate">
+        <h2><a id="nav5">
+          <lable id="about_navigate">关于价格</lable>
+          </a></h2>
+      </div>
+  <div class="slide_div1"></div>
+  <div class="slide5_div2 update" style="position: relative;">
+    <div id="jiage_content" class="slide5_div2_content" style="">以下是两个国内知名生鲜产品电商平台的同类产品销售价格，“萌”樱桃之所以便宜是因为只针对朋友介绍销售，去除顺风运费、采摘人员成本和包山成本，萌萌每斤只赚取5元钱！</div>
+    <input type="hidden" class="component" name="" value="402881ed46468a070146473ebebbddc">
+  </div>
+  <div id="slide5-1" style="">
+    <div class="slide5-1_div2">
+      <div class="productTwo-1 update" style="position: relative;">
+        <div class="productTwo-1_img"> <img id="set_img1" src="" data-original="/file/other1.jpg"> </div>
+        <input type="hidden" class="component" name="" value="ff8080814618b95b014618c0f7cb0024">
+      </div>
+      <div class="productTwo-1 update" style="position: relative;">
+        <div class="productTwo-1_img"> <img id="set_img2" src="" data-original="/file/other2.jpg"> </div>
+        <input type="hidden" class="component" name="" value="ff8080814618b95b014618c0f7cb0024">
+      </div>
+      <button copy="copyComp" class="copyComp Btn_Td" onclick="copyComp('ff8080814618b95b014618c0f7cb0024',this)" style="">添加组件</button>
+    </div>
+  </div>
+  <div class="slide5_div2"></div>
+</div>
+<div class="wraper">
+  <div id="slide2" style="">
+    <div class="slide2_div3">
+      <div class="slide_navigate">
+        <h2><a id="nav6">
+          <lable id="productShowTwo_navigate">”萌“樱桃价格</lable>
+          </a></h2>
+      </div>
+      <div class="slide_div1"></div>
+      <div class="slide2_div2 update" style="position: relative;">
+        <div class="slide2_img"> <img id="picTwo_img1" src="" data-original="/file/1401867216357.jpg"> </div>
+        <div class="slide2_title"> <span id="picTwo_title1" class="ellipsis">5斤装 160元</span> </div>
+        <div id="picTwo_content1" class="slide2_content ellipsis">顺丰包邮</div>
+        <input type="hidden" id="" class="component" name="" value="ff808081461c6aa601461cba1d930090">
+      </div>
+      <div class="slide2_div2 update" style="position: relative;">
+        <div class="slide2_img"> <img id="picTwo_img2" src="" data-original="/file/1401867224402.jpg"> </div>
+        <div class="slide2_title"><span id="picTwo_title2" class="ellipsis">10斤装 320元</span></div>
+        <div id="picTwo_content2" class="slide2_content ellipsis">顺丰包邮</div>
+        <input type="hidden" id="" class="component" name="" value="ff808081461c6aa601461cba1d930090">
+      </div>
+      <div class="slide2_div2 update" style="position: relative;">
+        <div class="slide2_img"> <img id="picTwo_img3" src="" data-original="/file/1401867233331.jpg"> </div>
+        <div class="slide2_title"><span id="picTwo_title3" class="ellipsis">20斤装 600元</span></div>
+        <div id="picTwo_content3" class="slide2_content ellipsis">顺丰包邮</div>
+        <input type="hidden" id="" class="component" name="" value="ff808081461c6aa601461cba1d930090">
+      </div>
+    </div>
+    <button copy="copyComp" class="Btn_Td" onclick="copyComp('ff808081461c6aa601461cba1d930090',this)" style="">添加组件</button>
+  </div>
+</div>
+<div class="wraper">
+  <div id="slide1" style="">
+    <div class="slide_div1"></div>
+    <div class="first update" style="position: relative;">
+      <div class="firstScreen_img"> <img id="picTwo_img" src="" data-original="/file/mengmeng.jpg"> </div>
+      <div class="firstScreen_div2">
+        <div class="firstScreen_title">
+          <lable id="picTwo_title">萌萌名片</lable>
+        </div>
+        <div id="picTwo_content" class="firstScreen_content" style="color:#999"> 姓名：萌萌 <br>
+          <br>
+          性格：开朗 <br>
+          <br>
+          爱好：吃樱桃 <br>
+          <br>
+          联系方式：</div>
+        <div class="firstScreen_div1">
+          <div id="phone" class="phone" style="display: block;">186-0535-7628</div>
+        </div>
+      </div>
+      <input type="hidden" id="" class="component" name="" value="ff808081461c6aa601461cba1d930090">
+    </div>
+  </div>
+</div>
+</div></body></html>                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

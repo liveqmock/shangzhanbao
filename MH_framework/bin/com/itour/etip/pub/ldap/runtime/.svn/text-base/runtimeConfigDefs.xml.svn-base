@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<runtime-configs>
+	<config-def name="global-properties">
+		<display-group name="siteSettings" key="system.basic.prop">
+			<property-def name="system.url" key="system.prop.url">
+				<type>string</type>
+				<default-value>https://spaceproject.cgwic.com</default-value>
+			</property-def>
+			<property-def name="system.log.enable" key="system.prop.log.enable">
+				<type>boolean</type>
+				<default-value>true</default-value>
+			</property-def>
+			<property-def name="doc.view.log.enable" key="system.prop.doc.view.log.enable">
+				<type>boolean</type>
+				<default-value>true</default-value>
+			</property-def>
+			<property-def name="system.notification.enable" key="system.prop.notification.enable">
+				<type>boolean</type>
+				<default-value>true</default-value>
+			</property-def>
+			<property-def name="system.clean.notification.enable" key="system.clean.notification.enable">
+				<type>boolean</type>
+				<default-value>true</default-value>
+			</property-def>
+			<property-def name="system.login.validate.enable" key="system.prop.login.validate.enable">
+				<type>boolean</type>
+				<default-value>false</default-value>
+				<event>onclick="loginValidataClick()"</event>
+			</property-def>
+			<property-def name="system.login.validate.length" key="system.prop.login.validate.length">
+				<type>string</type>
+				<default-value>4</default-value>
+			</property-def>
+			<property-def name="system.password.expired.enable" key="system.prop.password.expired.enable">
+				<type>boolean</type>
+				<default-value>false</default-value>
+				<event>onclick="passwordExpiredClick()"</event>
+			</property-def>
+			<property-def name="system.password.expired.days" key="system.prop.password.expired.days">
+				<type>string</type>
+				<default-value>15</default-value>
+			</property-def>
+		</display-group>
+		<display-group name="MailSettings" key="system.mail.prop">
+			<property-def name="mail.enabled" key="system.prop.mail.enabled">
+				<type>boolean</type>
+				<default-value>false</default-value>
+				<event>onclick="mailEnableClick()"</event>
+			</property-def>
+			<property-def name="mail.configurationType" key="system.prop.mail.configurationType">
+				<type>datapicker</type>
+				<default-value>properties</default-value>
+			</property-def>
+			<property-def name="mail.jndi.name" key="system.prop.mail.jndi.name">
+				<type>string</type>
+				<default-value></default-value>
+			</property-def>
+			<property-def name="mail.hostname" key="system.prop.mail.hostname">
+				<type>string</type>
+				<default-value>smtp.sina.com.cn</default-value>
+			</property-def>
+			<property-def name="mail.port" key="system.prop.mail.port">
+				<type>string</type>
+				<default-value>23</default-value>
+			</property-def>
+			<property-def name="mail.username" key="system.prop.mail.username">
+				<type>string</type>
+				<default-value>user</default-value>
+			</property-def>
+			<property-def name="mail.password" key="system.prop.mail.password">
+				<type>password</type>
+				<default-value></default-value>
+			</property-def>
+			<property-def name="mail.sender" key="system.prop.mail.sender">
+				<type>string</type>
+				<default-value>cgwic@sina.cn</default-value>
+			</property-def>
+			<property-def name="mail.smtp.spa" key="system.prop.mail.smtp.spa">
+				<type>boolean</type>
+				<default-value>false</default-value>
+			</property-def>
+		</display-group>
+		<display-group name="attachSettings" key="system.file.prop">
+			<property-def name="uploads.file.maxsize" key="system.prop.uploads.file.maxsize">
+				<type>string</type>
+				<default-value>10 M</default-value>
+			</property-def>
+			<property-def name="uploads.types.allow" key="system.prop.uploads.types.allow">
+				<type>string</type>
+				<default-value>jpg,gif,png,doc,xls,docx,xlsx,ppt,pptx,wmv,avi,bmp,pdf,rar,zip</default-value>
+			</property-def>
+			<property-def name="attache.save.to.dir" key="system.prop.attach.dir">
+				<type>string</type>
+				<default-value>/upload/files</default-value>
+			</property-def>
+			<property-def name="forum.files.dir" key="system.prop.forum.files.dir">
+				<type>string</type>
+				<default-value>/forum/files</default-value>
+			</property-def>
+			<property-def name="attache.cached.dir" key="system.prop.attach.cached.dir">
+				<type>string</type>
+				<default-value/>
+			</property-def>
+			<property-def name="attach.save.to.db" key="system.prop.attach.todb">
+				<type>boolean</type>
+				<default-value>true</default-value>
+			</property-def>
+			<!--<property-def name="attach.save.to.server" key="system.prop.attach.toserver">
+				<type>boolean</type>
+				<default-value>false</default-value>
+			</property-def>
+			 <property-def name="attach.server.spa" key="system.prop.attach.server.spa">
+				<type>boolean</type>
+				<default-value>false</default-value>
+			</property-def>
+			<property-def name="attach.server.address" key="system.prop.attach.server.address">
+				<type>string</type>
+				<default-value></default-value>
+			</property-def>
+			<property-def name="attach.server.port" key="system.prop.attach.server.port">
+				<type>string</type>
+				<default-value></default-value>
+			</property-def>-->
+		</display-group>
+		
+		
+		<display-group name="ladpSettings" key="system.ldap.prop">
+			<property-def name="ladp.enabled" key="system.prop.ldap.enabled">
+  				<type>boolean</type> 
+  				<default-value>true</default-value> 
+  				<event>onclick="ldapEnabledClick()"</event> 
+  			</property-def>
+			<property-def name="ldap.account.suffix" key="system.prop.ldap.account.suffix">
+  				<type>string</type> 
+  				<default-value>@chinacaec.com</default-value> 
+  				</property-def>
+				<property-def name="ladp.host" key="system.prop.ldap.host">
+  				<type>string</type> 
+  				<default-value>192.168.100.5</default-value> 
+  			</property-def>
+			<property-def name="ldap.port" key="system.prop.ldap.port">
+  				<type>string</type> 
+			<default-value>389</default-value> 
+			</property-def>
+			<property-def name="ldap.suffix" key="system.prop.ldap.basedn">
+			<type>string</type> 
+			<default-value>OU=民航工程咨询公司,DC=chinacaec,DC=com</default-value> 
+			</property-def>
+			<!--  <property-def name="ldap.encryption.method" key="system.prop.ldap.encryption.method">
+							<type>datapicker</type>
+							<default-value>none</default-value>
+						</property-def>
+						<property-def name="ldap.authentication.type" key="system.prop.ldap.authentication.type">
+							<type>datapicker</type>
+							<default-value>0</default-value>
+						</property-def>
+			  --> 
+			<property-def name="ldap.user.account" key="system.prop.ldap.user.account">
+			  <type>string</type> 
+			  <default-value>displayName</default-value> 
+			  </property-def>
+			<property-def name="ldap.user.name" key="system.prop.ldap.user.name">
+			  <type>string</type> 
+			  <default-value>cn</default-value> 
+			  </property-def>
+			<property-def name="ldap.user.mail" key="system.prop.ldap.user.mail">
+			  <type>string</type> 
+			  <default-value>mail</default-value> 
+			  </property-def>
+			<property-def name="ldap.user.password" key="system.prop.ldap.user.password">
+			  <type>string</type> 
+			  <!-- 
+			   <default-value>userPassword</default-value> 
+			   -->
+			   <default-value>Password</default-value> 
+			  </property-def>
+			<property-def name="ldap.user.name.to.pinyin" key="system.prop.ldap.user.name.to.pinyin">
+			  <type>boolean</type> 
+			  <default-value>false</default-value> 
+			  </property-def>
+			<property-def name="ldap.ad.administrator.username" key="ldap.ad.administrator.username">
+			  <type>string</type> 
+			  <default-value>administrator</default-value> 
+			  </property-def>
+			<property-def name="ldap.ad.administrator.password" key="ldap.ad.administrator.password">
+			  <type>string</type> 
+			  <default-value>chinacaec@)!)0228</default-value> 
+			  </property-def>
+
+		</display-group>	
+	</config-def>
+</runtime-configs>

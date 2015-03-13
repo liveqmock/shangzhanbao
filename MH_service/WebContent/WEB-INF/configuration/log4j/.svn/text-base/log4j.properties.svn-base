@@ -1,0 +1,18 @@
+log4j.rootLogger=WARN,CONSOLE,eTIPJMS,eTIPError
+
+log4j.category.CONSOLE=WARN
+log4j.category.eTIPError=WARN
+log4j.category.eTIPJMS=WARN
+#CONSOLE
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender 
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout 
+log4j.appender.CONSOLE.layout.ConversionPattern= [%c.%p] %m %d{yyyy-MM-dd HH:mm:ss,SSS} %n
+#JMS
+log4j.appender.eTIPJMS=com.itour.etip.pub.kit.jms.JMSAppender 
+#ModularName
+log4j.appender.eTIPError=org.apache.log4j.RollingFileAppender 
+log4j.appender.eTIPError.File=eTIPError.log 
+log4j.appender.eTIPError.MaxFileSize=500KB 
+log4j.appender.eTIPError.MaxBackupIndex=10
+log4j.appender.eTIPError.layout=org.apache.log4j.PatternLayout
+log4j.appender.eTIPError.layout.ConversionPattern= [%c.%p] %m  %d{yyyy-MM-dd HH:mm:ss,SSS} %n

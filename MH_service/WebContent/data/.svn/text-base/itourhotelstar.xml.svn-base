@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaseData>
+	<Stars>
+		<Star>
+			<Code>1A</Code>
+			<Name>准一星级</Name>
+		</Star>
+		<Star>
+			<Code>1</Code>
+			<Name>一星级	</Name>
+		</Star>
+		<Star>
+			<Code>2A</Code>
+			<Name>准二星级</Name>
+		</Star>
+		<Star>
+			<Code>2</Code>
+			<Name>二星级	</Name>
+		</Star>
+		<Star>
+			<Code>3A</Code>
+			<Name>准三星级</Name>
+		</Star>
+		<Star>
+			<Code>3</Code>
+			<Name>三星级	</Name>
+		</Star>
+		<Star>
+			<Code>4A</Code>
+			<Name>准四星级</Name>
+		</Star>
+		<Star>
+			<Code>4</Code>
+			<Name>四星级	</Name>
+		</Star>
+		<Star>
+			<Code>5A</Code>
+			<Name>准五星级</Name>
+		</Star>
+		<Star>
+			<Code>5</Code>
+			<Name>五星级	</Name>
+		</Star>
+	</Stars>
+</BaseData>

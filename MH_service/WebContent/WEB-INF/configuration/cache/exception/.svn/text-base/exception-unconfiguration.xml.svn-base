@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errordic>
+	<item cause="用户名称[userName]已经存在" code="UserNameIsExistException" name="添加用户异常" solution="请修改用户名后继续"/>
+	<item cause="奖赏分数为负" code="AwardScoreNegative" name="奖赏分数为负" solution="请传递正数为奖赏分数"/>
+	<item cause="要奖赏的积分并无对应的会员卡" code="NOCard" name="要奖赏的积分并无对应的会员卡" solution="请检查数据做相应对应" type="error"/>
+	<item cause="登录名称不存在" code="NoLoginName" name="登录名称不存在" solution="请输入正确的登录名称"/>	
+	<item cause="将非导入会员的冲突数据强制转换为会员数据" code="WrongInterfereType" name="错误的冲突数据的类型" solution="请联系管理员"/>	
+	<item cause="密码错误" code="ErrorPassWord" name="密码错误" solution="请输入正确的登录密码"/>	
+	<item cause="用户状态为无效状态" code="InvalidStatus" name="用户状态为无效状态" solution="请联系管理员"/>	
+	<item cause="要消费的积分无效" code="InvalidScore" name="要消费的积分无效" solution="请联系管理员"/>	
+	<item cause="空指针异常" code="NullObject" name="空指针异常" solution="请联系管理员" type="error"/>	
+	<item cause="系统数据有误" code="BDError" name="系统数据有误" solution="请联系管理员" type="error"/>	
+	<item cause="客户输入的手机、邮件地址或登录名称与数据库已有数据冲突" code="InvalidInfo" name="客户输入无效信息" solution="请重新输入数据"/>	
+	<item cause="客户没有输入角色信息" code="NoBizRoleInfo" name="客户输入无效信息客户没有输入角色信息" solution="请重新输入数据"/>	
+	<item cause="客户输入时间段数据与数据库已有数据冲突" code="InterzoneDateExist" name="该时间段数据已存在" solution="请重新输入数据"/>
+	<item cause="测试异常" code="test_exception" name="异常啊" solution="异常解决方案在哪里"/>
+	<item cause="未配置异常原因" code="SpringDAOHelper_executeSQL" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="SpringDAOHelper_queryForList" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="hibernateHelper_search_sql" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="hibernateHelper_search_page" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="hibernateHelper_loadAll" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="HibernateHelper_save" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="Hibernate_update" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="Page_roll" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="HibernateHelper_load" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="JdbcDao_executeSQL" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="JdbcDao_queryForList" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="addNewTimerTaskError" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="HibernateHelper_update" name="未配置异常名称" solution="未配置异常解决方案"/>
+	<item cause="未配置异常原因" code="HibernateHelper_delete" name="未配置异常名称" solution="未配置异常解决方案"/>
+<item cause="*" code="hibernate_search_hql" name="*" solution="*"/><item cause="*" code="hibernate_save_error" name="*" solution="*"/></errordic>

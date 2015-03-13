@@ -1,0 +1,474 @@
+.slide2_Sn1254 {
+	padding: 0 0 0 0;
+	margin-bottom: 40px;
+	max-width: 1079px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container_Sn1254 {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+.clearfix_Sn1254:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.leftImg_Sn1254 {
+	height: 483px;
+	margin-top: 2%;
+	float: left;
+	width: 40%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.leftImg_Sn1254 img {
+    text-align: center;
+    height: 483px;
+    width: 100%;
+}
+
+.right_Sn1254 {
+	width: 53.4%;
+	float: left;
+	margin-top: 2%;
+    margin-left:2%;
+}
+
+.right_Sn1254 .rightDiv1_Sn1254 {
+	font-weight: 700;
+	font-size: 28px;
+	color: #333333;
+	text-align: left;
+}
+
+.right_Sn1254 .rightDiv2_Sn1254 {
+	margin-top: 10px;
+	text-decoration: line-through;
+	font-weight: 200;
+	font-size: 16px;
+	color: #999999;
+	text-align: left;
+}
+
+.right_Sn1254 .rightDiv3_Sn1254 {
+	margin-top: 5px;
+	font-weight: 200;
+	font-size: 13px;
+	color: #333333;
+	width: 100%;
+    height: 130px;
+    padding-left: 10px;
+}
+
+.span1_Sn1254 {
+	display: inline-block;
+	border: #FF0000 solid 1px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+  background: #FCDADB;
+  width: 60px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-top: 10px;
+  word-wrap: break-word;
+  cursor: pointer;
+  margin-left: 5px;
+  min-height: 30px;
+}
+
+.spantype_Sn1254 {
+  display: inline-block;
+  margin-left: 10px;
+  border: #949494 solid 1px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background: #FFFFFF;
+  width: 60px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+  min-height: 30px;
+}
+
+.inputTab_Sn1254 {
+  margin: 0 auto;
+  width: 100%;
+  height: 35px;
+  clear: left;
+ padding-top:15px;
+  padding-left:0px;
+}
+
+.rightbut_Sn1254 input {
+  width: 200px;
+  height: 35px;
+  font-weight: 200;
+  color: #FFFFFF;
+  font-size: 13px;
+  border: none;
+  background: url(../../../../images/mini/purchase/goumai/button_u68.png);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.rightbut_Sn1254 input:hover {
+  background:
+    url(../../../../images/mini/purchase/goumai/button_u68_mouseOver.png);
+}
+
+.rightCon_Sn1254 {
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 18px;
+  text-align: left;
+}
+
+.rightCon_Sn1254 p {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  line-height: 18px;
+}
+
+.inputTab_input_Sn1254 {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  float: left;
+  margin-top:3px;
+}
+
+.inputTab_right_Sn1254 {
+  background-color: #efefef;
+  display: block;
+  width: 8%;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-left: 12px;
+  margin-top:3px;
+}
+
+.inputTab_left_Sn1254 {
+  background-color: #efefef;
+  display: block;
+  width: 8%;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+ margin-top: 3px;
+}
+
+.rightbut_Sn1254 {
+width: 100%;
+height: 40px;
+margin-bottom: 50px;
+margin-top: 3.5%;
+}
+
+.newaddGoodsconfig_Sn1254{
+width: 26px;
+height: 26px;
+float: left;
+line-height: 30px;
+margin-top: 10px;
+text-align: center;
+margin-left: 10px;
+display: block;
+text-decoration: none;
+cursor: pointer;
+background:
+    url(../../../../images/mini/purchase/goumai/u84.png);
+}
+.goodsRight{
+height: 160px;
+width: 100%;
+position: absolute;
+z-index: 999;
+background-color: rgb(230,230,230);
+border: 2px dashed rgb(74, 104, 131);
+border-top-style: none;
+margin-left: -11.5px;
+}
+.goodsTable{
+margin:0;
+padding:0;
+font-family: 'Arial Negreta', 'Arial';
+font-size:14px;
+font-weight: 700;
+text-align:center;
+float:left;
+margin-top: 20px;
+}
+.goodsTable tr{
+height:	50px;
+}
+.inputClass{
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	font-family: "Arial bold","Arial";
+	background-image: none;
+    color: #666666;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    height: 35px;
+    text-decoration: none;
+    width: 100px;
+	margin:	0 auto;
+	padding:0;
+}
+.deletehui{
+width:85px;
+height:35px;
+display:block;
+cursor:pointer;
+float:left;
+color: #ffffff;
+font-family: "Arial Normal","Arial";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+background-color:#999999;
+text-decoration:none;
+}
+.addlan{
+background:#FF0000;
+width:85px;
+height:35px;
+display:block;
+cursor:pointer;
+float:left;
+color: #ffffff;
+font-family: "Arial Normal","Arial";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+text-decoration:none;
+
+}
+.deletehui:hover{
+background:#66CCFF;
+}
+.addlan:hover{
+background:#66CCFF;
+}
+.goodsleftImg{
+float:left;
+height:120px;
+line-height:120px;
+margin-right:5px;
+width: 20px;
+margin-right: 20px;
+padding-top: 40px;
+width: 30px;
+}
+.labelfontClass{
+font: 14px "Hevetica Neve",Helvetica Neve, Helvetica, Hiragino Sans GB, Microsoft Yahei, Arial;
+font-size: 16px;
+color: #333333;
+padding-right:5px
+}
+.guigedivleft{
+float: left;
+margin-top: 20px;
+width: 75px;
+padding-left: 5px;
+}
+.chuxiaodiv{
+margin: 0 auto;
+width: 100%;
+height: 30px;
+clear: left;
+padding-top: 5px;
+font-size: 15px;
+margin-top:5px;
+padding-left:10px;
+}
+.chuxiaodiv span{
+display: block;
+height: 20px;
+padding-top: 5px;
+padding-left: 12px;
+float: left;
+width: 80%;
+}
+.chuxiaodiv lable{
+display: block;
+float: left;
+height: 30px;
+width: 15%;
+padding-top: 5px;
+}
+.u11{
+display: block;
+float: left;
+margin-top: 5px;
+}
+.goodsConfigError{
+color: #FF0000;
+text-align: left;
+font-weight: 400;
+}
+.goodsPriceClass{
+font-family: "Arial Normal","Arial";
+color: #C40000;
+font-size: 22px;
+}        
+.guigetishi{
+color: #333333;
+font: 18px "Hevetica Neve",Helvetica Neve, Helvetica, Hiragino Sans GB, Microsoft Yahei, Arial;
+height: 20px;
+margin-top: 18px;
+}
+.line_goodsName{
+height: 40px;
+padding:5px;
+height: 40px;
+padding: 5px;
+width: 100%;
+}
+.line_goodsName span{
+display: block;
+padding-left: 5px;
+height: 35px;
+line-height: 35px;
+}
+.line_goodsDessc {
+height: 60px;
+padding: 5px;
+margin-top:5px;
+width: 100%;
+}
+#spanNum{
+margin-left: 98px;
+height: 100px;
+width: 75%; 
+line-height: 150px;
+}@media ( max-width : 768px) {.chuxiaodiv lable{
+    width: 20%;
+    }
+    .chuxiaodiv span{
+    width: 75%;
+    }}@media ( max-width : 480px) {.leftImg_Sn1254 {	width: 95%;	height:auto;	}
+.right_Sn1254 {	width:100%;	height:auto;	clear:left;	margin:0;}
+.rightDiv3_Sn1254{	
+  background:url(../../../../images/mini/purchase/goumai/rectangle_u45.png);
+	height:71px;
+  line-height:71px;	
+  }
+.rightbut_Sn1254 input{	
+  background: red;
+  background-image:none;	
+  width: 100%;	
+  margin-top:10px;	
+  }	
+.rightbut_Sn1254 input:hover{	
+  background:#FF8C00;		
+  }	
+.rightbut_Sn1254{
+	text-align:center;
+  margin:0 auto;
+  padding-left: 0px;
+  }	
+.inputTab_Sn1254{	margin-top: 20px;	}
+	.rightbut_Sn1254{	margin-top: 20px;	width: 100%;margin-bottom: 50px;	}
+.slide2_Sn1254{
+	width: 100%;
+}
+.right_Sn1254 .rightDiv3_Sn1254 {
+height: 50px;
+line-height: 50px;
+margin: 0;
+padding: 0;
+}
+.line_goodsDessc span{
+display: block;
+}
+.chuxiaodiv lable{
+width: 30%;
+}
+.chuxiaodiv span {
+width: 60%;
+padding-left: 6px;
+}
+.guigetishi{
+padding-left: 5px;
+}
+.st{
+padding-top:20px;
+}
+.chuxiaodiv{
+  padding: 0;
+  margin: 0;
+}
+#spanNum{
+height: auto;
+width: 66%;
+}
+.guigetishi{
+height: auto;
+}
+.guigedivleft {
+margin-bottom: 30px;
+width: 30%;
+}
+.line_goodsDessc{
+padding: 0;
+}
+.line_goodsName{
+  padding: 0;
+  margin-top: 10px;
+}
+.line_goodsName span{
+  padding: 0;
+}
+.leftImg_Sn1254{
+padding: 0;
+margin: 0;
+height: auto;
+}
+.goodsPriceClass{
+  margin-left: 5px;
+}
+.leftImg_Sn1254 img{
+height: auto;
+}
+.goodsPricePhoneClass{
+ display: block;
+width: 30%;
+float: left;
+padding-top: 16px;
+}}

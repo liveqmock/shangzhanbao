@@ -1,0 +1,74 @@
+/*#F16A10 棕黄色*/ 
+/*#FDEBDF 浅棕黄*/ 
+
+/*#3C6903 深绿色，用于字体*/ 
+/*#68B505 绿色*/
+/*#88F206 浅绿色*/ 
+/*#E9FECF 更浅绿色*/ 
+
+/*#546132 深紫色，用于字体*/ 
+/*#9CB068 紫色*/
+/*#E9FECF 浅紫色*/
+
+html,body{ width:100%; height:100%; margin:0px; padding:0px;}
+body {display: block;font: 13px "Arial", "Tahoma", sans-serif;*font-size:small;*font:x-small;}
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,form,input,textarea,select,button,th,td {margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+table {font-size:inherit;}
+input,select {font:100% arial,helvetica,clean,sans-serif;;}
+button {overflow:visible;}
+th,em,b,address,cite {font-style:normal;font-weight:normal;}
+li{list-style:none;}
+img {border:0;}
+ins {text-decoration:none;}
+textarea{padding:2px;}
+
+div,td{font-size:13px;}
+label{cursor: pointer;padding:2px;}
+ul{list-style-type:none;}
+span{line-height:150%;}
+a{text-decoration:none;color:#57286E;border-bottom:1px solid;}
+a:hover{text-decoration:none;color:#F16A10;}
+.clickSpan{text-decoration:none;color:#57286E;border-bottom:1px solid;cursor:pointer;}
+
+h1{font-size:14px;font-weight:bold;padding:5px;}
+h2{font-size:13px;font-weight: bold;padding:3px;}
+
+.gaoliang{color:#F16A10;}
+.hui{color:#888;}
+
+.bodyDiv {clear: both;margin: 0;padding: 0;float: none;width: 100%;height: 100%;top: 0px;left: 0px;z-index: 1;}
+
+.allDiv {width: 980px;clear: both;margin: 0 auto;padding: 0;float: none;}
+.leftDiv {padding: 2px;width: 175px;margin: 1px;position: absolute;}
+.rightDiv {padding-left: 185px;top: 0px;margin: 2px;top: 0px;}
+
+
+.widgetDiv { border: 1px solid #8DB2E3; margin: 6px 0 6px 0;background: transparent url(../image/TabPanel/tab-content-bg.gif) repeat-x;}
+.widgetTitle {padding: 2px 2px 2px 10px;background: transparent url(../image/TabPanel/tab-content-bg.gif) repeat-x;border-top: 1px solid #8DB2E3;border-right: 1px solid #8DB2E3;border-left: 1px solid #8DB2E3;border-bottom: 1px solid #8DB2E3;}
+.widgetTitle,.widgetTitle a {font-size: 13px;font-weight: bold;color:#23508E;}
+.widgetContent {padding: 4px;background: #fefefe;margin: 3px}
+.widgetContent li {clear: both;padding: 2px 0 8px 12px;height: 18px;border-bottom: 1px dotted #aaa;}
+
+.widgetDiv1 { border: 1px solid green; margin: 1px 0 1px 0;background:lightGray;}
+.widgetTitle1 {padding: 2px 2px 2px 10px;background: #FDEBDF;border-top: 1px solid #ffffff;border-right: 1px solid #ffffff;border-left: 1px solid #ffffff;border-bottom: 1px solid #F16A10;}
+.widgetTitle1,.widgetTitle1 a {font-size: 13px;font-weight: bold;color:#F16A10;}
+
+.widgetContent1 {padding: 4px;background:lightGray;margin: 3px;}
+
+.widgetContent1 li {clear: both;padding: 2px 0 8px 12px;height: 18px;border-bottom: 1px dotted #aaa;}
+
+
+.clearDiv {clear: both;float: none;}
+.orderHotel {padding: 1px;border-bottom: 1px  #006C00;margin: 1px 0 1px 0;}
+div#loading{
+    position:absolute;
+    right:0;
+	top:0;
+    background-color: #FF0000;
+	color: #FFFFFF;
+	border: 1px solid #FF0000;
+	height: 20px;
+	width: 150px;
+	font-weight: bold;
+}

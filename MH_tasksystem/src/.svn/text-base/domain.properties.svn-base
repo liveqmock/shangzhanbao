@@ -1,0 +1,13 @@
+#商站宝发布page的域名前缀
+path=http://192.168.5.103:8080/pagehtml/
+#商站宝红包管理的入口链接
+redPackageListPath=http://192.168.5.103:8088
+#商站宝page的二维码图片地址
+codeImgPath=http://192.168.5.103:8080/
+#商站宝cas路径
+caspath=http://192.168.5.103:9997/mini-cas
+pageTmp=http://www.91dzsw.com/
+realName=/img/pagetemp/
+tmpImgPath=/img/edit/
+ctnPath=http://www.91dzsw.com/ws_services/MiniForWS/
+

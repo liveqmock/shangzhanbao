@@ -1,0 +1,21 @@
+<p>
+	尊敬的用户，您好：
+</p>
+<p>
+	&nbsp; &nbsp; 管理员同意了您于${serviseAskTime}的服务商申请。
+</p>
+<p>
+	&nbsp; &nbsp; 您的申请信息如下：
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp; &nbsp; 登陆帐号:${serviseAskLogin}
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp; &nbsp; 登陆密码:${serviseAskPass}
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp; &nbsp; 服务商名称:：${serviseAskName}
+</p>
+<p>
+	&nbsp; &nbsp; 本邮件为ctn系统邮件请勿回复!
+</p>

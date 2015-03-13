@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 272
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system
+END
+MemoryUsageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/MemoryUsageBean.java
+END
+DiskSummaryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/DiskSummaryBean.java
+END
+CpuUsageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/CpuUsageBean.java
+END
+SystemUtilNative.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/SystemUtilNative.java
+END
+NtpTimeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/NtpTimeBean.java
+END
+DiskUsageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/DiskUsageBean.java
+END
+OsInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/OsInfoBean.java
+END
+SystemUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23145/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_framework/src/com/itour/etip/pub/kit/system/SystemUtil.java
+END

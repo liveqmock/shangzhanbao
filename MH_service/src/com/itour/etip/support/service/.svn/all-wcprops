@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 271
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service
+END
+IMessageLogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IMessageLogService.java
+END
+EtipMsgRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/EtipMsgRegistryService.java
+END
+IServiceRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IServiceRegistryService.java
+END
+ProcessRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/ProcessRegistryService.java
+END
+RoleAuthorityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/RoleAuthorityService.java
+END
+ServiceRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/ServiceRegistryService.java
+END
+RoleRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/RoleRegistryService.java
+END
+MessageDesktopService.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/MessageDesktopService.java
+END
+GeneralDicService.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/GeneralDicService.java
+END
+ICalenderEventService.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/ICalenderEventService.java
+END
+RoleTaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/RoleTaskService.java
+END
+IProcessInstanceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IProcessInstanceService.java
+END
+IRoleRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IRoleRegistryService.java
+END
+MessageLogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/MessageLogService.java
+END
+IMessageDesktopService.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IMessageDesktopService.java
+END
+IGeneralDicService.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IGeneralDicService.java
+END
+IEtipMsgRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IEtipMsgRegistryService.java
+END
+CalenderEventService.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/CalenderEventService.java
+END
+IProcessRegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IProcessRegistryService.java
+END
+IRoleAuthorityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IRoleAuthorityService.java
+END
+IRoleTaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/IRoleTaskService.java
+END
+ProcessInstanceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/service/ProcessInstanceService.java
+END

@@ -1,0 +1,12 @@
+body {
+  margin:0 auto;
+  padding:0px;
+  width:1000px;
+  text-align:center;
+}
+
+#bottom{
+	height:40px;
+	background-image: url(../images/bottom-logo.gif);
+	background-repeat: no-repeat;
+}

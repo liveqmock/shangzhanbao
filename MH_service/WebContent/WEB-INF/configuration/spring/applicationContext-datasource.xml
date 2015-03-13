@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!-- 事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource">
+            <ref bean="dataSource"/>
+        </property>
+    </bean>
+    <!--hibernate属性配置-->
+    <bean id="hibernateProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean"> 
+	  <property name="properties"> 
+		<props> 
+			<prop key="hibernate.dialect">org.hibernate.dialect.OracleDialect</prop> 
+			<prop key="hibernate.show_sql">true</prop>
+			<prop key="hibernate.hbm2ddl.auto">none</prop>
+			<!-- 启用class缓存：-->
+			<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+			<!--启用查询缓存：-->
+			<prop key="hibernate.cache.use_query_cache">false</prop>
+ 		</props> 
+      </property> 
+    </bean> 
+    
+    <!-- hibernate通用路径配置-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource"/>
+		</property>
+		<!--property name="configLocations" value="classpath:hibernate.cfg.xml" /--> 
+		<property name="annotatedClasses">
+			<list>
+				<!-- 公共 -->
+				<value>com.itour.etip.common.data.GenCodeData</value>
+				<!-- 权限 -->
+				<value>com.mh.sys.userrole.data.SysUserRoleData</value>
+				<!-- 用户信息 -->
+				<value>com.mh.task.taskOper.data.TaskOperData</value>
+				<!-- 角色信息 -->
+				<value>com.mh.task.taskRole.data.TaskRoleData</value>
+				<!-- 机构结构信息 -->
+				<value>com.mh.task.taskOrg.data.TaskOrgData</value>
+				 <!--任务信息-->
+				<value>com.mh.task.taskInfo.data.TaskInfoData</value>
+				<!--任务执行-->
+				<value>com.mh.task.taskExecution.data.TaskExecutionData</value>
+				<!-- 任务打分 -->
+				<value>com.mh.task.taskScore.data.TaskScoreData</value>
+				<!-- 任务变更 -->
+				<value>com.mh.task.taskChange.data.TaskChangeData</value>
+			     <!-- 任务撤销 -->
+			    <value>com.mh.task.taskCancel.data.TaskCancelData</value>
+				<!-- 意见箱 -->
+			   <value>com.mh.task.taskOpinion.data.TaskOpinionData</value>
+			   <!--接口调用taskExterior-->
+			   <value>com.mh.task.taskExterior.data.TaskExteriorData</value>
+			   <!-- 附件 -->
+			   <value>com.mh.task.taskDelive.data.TaskDeliveData</value>
+				<!-- 任务模板 -->
+				<value>com.mh.task.taskTemplate.data.TaskTemplateData</value>
+				<!-- 任务模板节点 -->
+				<value>com.mh.task.taskTemplateNode.data.TaskTemplateNodeData</value>
+				<!-- 支撑系统-->
+				<value>com.itour.etip.support.data.ServiceRegistryData</value>
+				<value>com.itour.etip.support.data.RoleAuthorityData</value>
+				<value>com.itour.etip.support.data.RoleRegistryData</value>
+				<value>com.itour.etip.support.data.RoleTaskData</value>
+				<value>com.itour.etip.support.data.MemberContactStatisticData</value>
+				<value>com.itour.etip.support.data.EtipOperatorData</value>
+				<value>com.itour.etip.support.data.UserRoleData</value>
+				<value>com.itour.etip.support.data.ProcessRegistryData</value>
+				<value>com.itour.etip.support.data.ProcessTaskRegistryData</value>
+				<value>com.itour.etip.support.data.ProcessTransitionRegistryData</value>
+				<value>com.itour.etip.support.data.ProcessInstanceData</value>
+				<value>com.itour.etip.support.data.ProcessHistoryData</value>
+				
+				<!--桌面消息-->
+				<value>com.itour.etip.pub.kit.jms.JMSLog</value>
+				<value>com.itour.etip.pub.kit.jms.JMSDeskTop</value>
+				<value>com.itour.etip.pub.kit.jms.EtipMsgRegistry</value>
+				<value>com.itour.etip.support.data.GeneralDicData</value>
+
+					
+				<value>com.mh.sys.org.data.OrgData</value>			
+				<value>com.mh.sys.user.data.UserData</value>			
+				<value>com.mh.sys.post.data.PostData</value>			
+				<value>com.mh.sys.competence.data.CompetenceData</value>			
+				<value>com.mh.sys.post.data.PostData</value>			
+				<value>com.mh.sys.post.data.AuthData</value>			
+				<value>com.mh.sys.dataDictionary.data.DataDictionaryData</value>			
+				<value>com.mh.sys.settleAccounts.data.SettleAccountsData</value>			
+				<value>com.mh.sys.settlementAccount.data.SettlementAccountsData</value>			
+				<value>com.mh.sys.budget.data.BudgetData</value>
+					
+				<value>com.mh.core.account.data.AccountData</value>			
+				<value>com.mh.core.settlement.data.SettlementData</value>			
+				<value>com.mh.core.settlement.data.SettlementTacheData</value>			
+				<value>com.mh.core.deletion.data.DeletionData</value>			
+				<value>com.mh.sys.user.data.ProxyRelationData</value>
+				<value>com.mh.sys.user.data.ProxyRelationHistoryData</value>			
+			</list>
+		</property>
+		
+		<!--此处定义hibernate的属性配置。-->	 
+		<property name="hibernateProperties"> 
+			<ref bean="hibernateProperties" /> 
+		</property>
+        
+    </bean>
+    <bean id="hibernate" class="com.itour.etip.pub.frame.HibernateDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory"/>
+        </property>
+    </bean>
+    
+     <bean id="jdbc" class="com.itour.etip.pub.frame.JdbcDao">
+    	<property name="dataSource">
+      		<ref bean="dataSource"></ref>
+    	</property>
+    </bean>
+       
+  <bean id="daoFactory" class="com.itour.etip.pub.frame.DaoFactory">
+        <property name="daoMap">
+            <map>
+                <entry key="hibernate">
+                		<ref bean="hibernate"/>
+                </entry>
+                <entry key="jdbc">
+                    <ref bean="jdbc"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <!--事务管理器，在以Business为后缀的接口里运行-->
+    <bean id="transPropagation"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="transactionAttributes">
+			<props>
+				<prop key="*">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+    <bean id="transactionProxy"
+		class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="interceptorNames">
+			<value>transPropagation</value>
+		</property>
+		<property name="beanNames">
+			<value>*Service</value>
+		</property>
+	</bean>
+</beans>

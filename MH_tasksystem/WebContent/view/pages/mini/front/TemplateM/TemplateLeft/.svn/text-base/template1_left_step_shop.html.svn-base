@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="../../../../../css/mini/TemplateM/ifrma.css">
+<style>
+body {
+	background:url(../images/leftbg.jpg) repeat-y left top;
+	margin:0 auto;
+	color:#ffffff;
+	border-top:1px solid #3d5164;
+}
+</style>
+</head>
+<body>
+<div class="clear"></div>
+  <div class="Frma_Left_Starp1_tab1">
+    <h3><a href="#">全部模板</a></h3>
+    <h3><a href="#">最多喜欢</a></h3>
+    <h3><a href="#">最新发布</a></h3>
+    <h3><a href="#">更多</a></h3>
+  </div>
+
+</body>
+</html>

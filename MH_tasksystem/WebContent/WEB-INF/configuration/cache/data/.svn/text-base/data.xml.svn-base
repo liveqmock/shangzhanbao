@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datadic>
+	<section name="基本配置">
+
+		<attr code="SystemStartupTime" name="系统启动时间">
+			<item code="0" name="2011-08-01" />
+		</attr>
+
+		<attr code="logcontentLength" name="日志表content长度">
+			<item code="length" name="1500" />
+		</attr>
+
+		<attr code="WorkFlowTestStatus" name="工作流测试对象状态">
+			<item code="0" name="请选择" />
+			<item code="1" name="草稿" />
+			<item code="2" name="待审批" />
+			<item code="3" name="审批通过" />
+			<item code="4" name="审批退回" />
+			<item code="5" name="审批拒绝" />
+			<item code="6" name="已发布" />
+			<item code="7" name="已生效" />
+			<item code="8" name="已终止" />
+			<item code="99" name="异常终止" />
+		</attr>
+
+		<!--消息配置BEFORE,AFTER,EXCEPTION-->
+		<attr code="TriggerPoint" name="触发点">
+			<item code="0" name="请选择" />
+			<item code="1" name="前置触发" />
+			<item code="2" name="后置触发" />
+			<item code="3" name="例外触发" />
+		</attr>
+
+		<attr code="Synchronize" name="同步还是异步处理">
+			<item code="0" name="异步处理" />
+			<item code="1" name="同步处理" />
+		</attr>
+
+		<attr code="ReceiverType" name="消息接收类型">
+			<item code="0" name="ALL" />
+			<item code="1" name="ROLES" />
+			<item code="2" name="USERS" />
+		</attr>
+		
+		<attr code="BankName" name="银行名称">
+			<item code="0" name="请选择" />
+			<item code="2" name="中国建设银行" />
+			<item code="3" name="中国农业银行" />
+			<item code="4" name="中国工商银行" />
+			<item code="5" name="招商银行" />
+			<item code="6" name="交通银行" />
+			<item code="7" name="中国光大银行" />
+		</attr>
+		
+		<attr code="SystemRoleType" name="角色类型">
+			<item code="0" name="请选择" />
+			<item code="1" name="角色" />
+			<item code="2" name="岗位" />
+		</attr>
+
+		<attr code="AccountStatus" name="账户状态">
+			<item code="" name="无" />
+			<item code="Enabled" name="启用" />
+			<item code="Disabled" name="停用" />
+			<item code="Destroy" name="销户" />
+		</attr>
+		<attr code="IsIndexShowType" name="是否">
+			<item code="0" name="否" />
+			<item code="1" name="是" />
+		</attr>
+		<!--CTN系统用户状态-->
+		<attr code="userState" name="CTN系统企业用户状态">
+			<item code="0" name="-" />
+			<item code="1" name="已启用" />
+			<item code="2" name="已注销" />
+		</attr>
+		<!--CTN系统用户分类-->
+		<attr code="userType" name="CTN系统用户分类">
+			<item code="0" name="-" />
+			<item code="1" name="运营商用户" />
+			<item code="2" name="服务商用户" />
+			<item code="3" name="企业用户" />
+		</attr>
+		<!--CTN系统用户添加方式-->
+		<attr code="addType" name="CTN系统用户添加方式">
+			<item code="0" name="-" />
+			<item code="1" name="注册" />
+			<item code="2" name="后台添加" />
+		</attr>
+		<!--CTN服务商的状态-->
+		<attr code="spState" name="CTN服务商的状态">
+			<item code="0" name="-" />
+			<item code="1" name="已入驻" />
+			<item code="2" name="申请中" />
+			<item code="3" name="已注销" />
+			<item code="4" name="已拒绝" />
+		</attr>
+		<!-- ctn产品包状态 -->
+		<attr code="packageState" name="CTN产品包状态">
+		    <item code="0" name="-"/>
+			<item code="1" name="已发布" />
+			<item code="2" name="未发布" />
+			<item code="3" name="已下架" />
+		</attr>
+		<!-- ctn消息设置状态 -->
+		<attr code="msgState" name="CTN消息设置状态">
+		    <item code="0" name="-"/>
+			<item code="1" name="禁用" />
+			<item code="2" name="启用" />
+		</attr>
+		<!-- ctn消息设置消息接收人 -->
+		<attr code="msgRecipient" name="CTN消息设置消息接收人">
+		    <item code="0" name="-"/>
+			<item code="1" name="用户" />
+			<item code="2" name="服务商" />
+		</attr>
+		<attr code="OrderState" name="订单状态">
+			<item code="0" name="未付款" />
+			<item code="1" name="线下付款" />
+			<item code="2" name="已付款" />
+			<item code="3" name="已完成" />
+			<item code="4" name="已关闭" />
+			<item code="5" name="已删除" />
+		</attr>
+		<attr code="OrderPayType" name="订单付款方式">
+			<item code="0" name="线下付款" />
+			<item code="1" name="支付宝" />
+			<item code="2" name="网银" />
+		</attr>
+		<attr code="InvoiceType" name="发票类型">
+			<item code="0" name="服务类" />
+		</attr>
+		<attr code="OrderRecordType" name="订单操作记录类型">
+			<item code="0" name="提交订单" />
+			<item code="1" name="关闭订单" />
+			<item code="2" name="付款" />
+			<item code="3" name="开通服务" />
+			<item code="4" name="申请退款" />
+			<item code="5" name="处理退款" />
+			<item code="6" name="标记完成" />
+			<item code="7" name="修改订单" />
+		</attr>
+		<!--CTN企业用户状态-->
+		<attr code="userState" name="CTN企业用户状态">
+			<item code="0" name="提交认证中" />
+			<item code="1" name="未认证" />
+			<item code="2" name="已认证" />
+			<item code="3" name="提交变更中" />
+			<item code="4" name="审核不通过" />
+		</attr>
+		<!--服务产品发布状态-->
+		<attr code="ProductState" name="服务产品发布状态">
+			<item code="0" name="-ss" />
+			<item code="1" name="未上架" />
+			<item code="2" name="已上架" />
+			<item code="3" name="已下架" />
+		</attr>
+			<!--minipage  禁用类型-->
+		<attr code="disabledType" name="page禁用类型">
+			<item code="0" name="请选择原因" />
+			<item code="1" name="禁用原因1" />
+			<item code="2" name="禁用原因2" />
+			<item code="3" name="禁用原因3" />
+			<item code="4" name="其他原因" />
+		</attr>
+				<!--minipage  服务停用类型-->
+		<attr code="stopType" name="服务停用类型">
+			<item code="0" name="请选择原因" />
+			<item code="1" name="不好使" />
+			<item code="2" name="更换使用网页" />
+			<item code="3" name="其他原因" />
+		</attr>
+		
+		<!-- minipage 组件类型 -->
+		<!-- <attr code="compType" name="组件类型">
+			<item code="0" name="请选择组件类型" />
+			<item code="1" name="模板框架组件" />
+			<item code="2" name="展示内容组件" />
+			<item code="3" name="组件集合组件" />
+		</attr> -->
+		<attr code="compType" name="组件类型">
+			<item code="0" name="请选择组件类型" />
+			<item code="1" name="模板框架组件" />
+			<item code="2" name="导航组件" />
+			<item code="3" name="banner组件" />
+			<item code="4" name="理由组件" />
+			<item code="5" name="普通组件" />
+			<item code="6" name="导航锚点" />
+			<item code="7" name="购买主键" />
+		</attr>
+		
+		<!-- minipage 组件是否可用重用 -->
+		<attr code="compResue" name="服务停用类型">
+			<item code="0" name="请选择组件是否可以重用" />
+			<item code="1" name="可用重用" />
+			<item code="2" name="不能重用" />
+		</attr>
+		<!-- minipage 订单与服务中间表状态 -->
+		<attr code="orderproductstate" name="订单与服务中间表状态">
+			<item code="0" name="未开通" />
+			<item code="1" name="已开通" />
+		</attr>
+		<!-- minipage 服务中间表服务到期时间的状态 -->
+		<attr code="timestate" name="服务中间表服务到期时间的状态">
+			<item code="0" name="过期了" />
+			<item code="1" name="正常" />
+			<item code="2" name="没有到期时间" />
+			<item code="3" name="还有一个月到期" />
+		</attr>
+		<!-- minipage 修改page的html类型 -->
+		<attr code="editcode" name="修改page的html类型">
+			<item code="0" name="输入框" />
+			<item code="1" name="文本域" />
+			<item code="2" name="file上传图片" />
+			<item code="3" name="自定义logo" />
+		</attr>
+		<!-- minipage 组件模板风格 -->
+		<attr code="csstype" name="添加组件时  模板风格">
+		    <item code="0" name="未选择" />
+			<item code="1" name="模板1" />
+			<item code="2" name="模板2" />
+			<item code="3" name="模板3" />
+		</attr>
+		
+		<attr code="errorHtml" name="当退出失去点session，记录跳转页面">
+		    <item code="0" name="/page_manage/key/baocun" />
+		    <item code="1"  name="/page_manage/key/ajaxFindPageDataById"/>
+		    <item code="2"  name="/page_manage/key/getUserPrivateNumber"/>
+		</attr>
+		<!-- 帮助与支持文章类别 -->
+		<attr code="helpArticleCate" name="帮助与支持文章类别">
+			<item code="0" name="新手上路" />
+			<item code="1" name="常见问题" />
+			<item code="2" name="账号及登陆" />
+			<item code="3" name="创建及编辑微站问题" />
+			<item code="4" name="手机推广问题" />
+			<item code="5" name="高级操作技巧" />
+		</attr>
+		<!-- 帮助与支持文章状态 -->
+		<attr code="helpArticleState" name="帮助与支持文章状态">
+			<item code="0" name="未显示" />
+			<item code="1" name="已经显示" />
+		</attr>
+		<!-- 收款账户类型 -->
+		<attr code="helpArticleState" name="企业收款账号类型">
+			<item code="0" name="支付宝" />
+			<item code="1" name="微信" />
+		</attr>
+	</section>
+</datadic>
+

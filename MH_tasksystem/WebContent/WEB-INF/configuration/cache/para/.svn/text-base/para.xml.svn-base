@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<paradic>
+	<section name="系统运行基本配置">
+		<!--demo:演示界面,link，联合运行-->
+		<item name="runMode" value="link"/>
+		<!--true:md5,other,明码-->
+		<item name="passwordMD5" value=""/>
+		<!-- 当前操作渠道 "01"代表网站下单;"02"代表cc下单;"03"代表自助终端机下单;...以后扩展不同的订单下单渠道 -->
+		<item name="channel" value="02"/>
+		<!--tree:树，cascade:级联-->
+		<!--item name="menuMode" value="cascade"/-->
+		<item name="menuMode" value="tree"/>
+	</section>
+	
+    <section name="ETIP框架的CacheUtil中引用的IOC容器中配置的applicationContext-cache.xml中配置的DataCache、DBCache、ExceptionCache、ParaCache的ID">
+    	   <item name="DBCache_Bean_ID" value="dbCache"/>
+    	   <item name="ExceptionCache_Bean_ID" value="exceptionCache"/>
+    	   <item name="DataCache_Bean_ID" value="dataCache"/>
+    	   <item name="ParaCache_Bean_ID" value="paraCache"/>
+    </section>
+	<section name="JMS服务器地址">
+		<item name="JMSConnect" value="true"/>
+		<item name="JMSServer" value="localhost:7676"/>
+		<item name="JMSUser" value="admin"/>
+		<item name="JMSPassword" value="admin"/>
+		<item name="FaxQueue" value="jmsSendFax"/>
+		<item name="DBLogQueue" value="DBLog"/>
+		<item name="DesktopMsgQueue" value="DesktopMsg"/>
+		<item name="SMSQueue" value="SMS"/>
+		<item name="DroolsQueue" value="Drools"/>
+		<item name="MailQueue" value="Mail"/>
+		<item name="TibcoEmailQueue" value="jmsSendEmail"/>
+		<item name="TibcoSMSQueue" value="jmsSendSms"/>
+		<item name="RoleRefreshTopic" value="refreshRole"/>
+		<item name="NameCacheRefreshTopic" value="refreshName"/>
+		<item name="ScoreForAirOrdersQueue" value="scoreForAirOrders"/>
+	</section>
+	
+	
+    <section name="缓冲区使用配置">
+		<item name="MemCacheUsed" value="false"/>
+		<item name="MemCacheServer" value="10.124.20.26"/>
+		<item name="MemCachePort" value="11211"/>
+	</section>
+	
+</paradic>
+

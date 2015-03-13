@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="../../../css/ifrma.css"/>
+<style>
+body {
+	margin:0 auto;
+	background:url(../../../images/Titlebg.jpg) repeat-x left top;
+	font-size:12px;
+	color:#fff;
+	}
+
+</style>
+</head>
+<script>
+function set_left(){
+	var mytitle = window.top.document.getElementById("title");
+	if (mytitle != null){
+		//修改maindiv
+		var mymain = window.top.document.getElementById("main");
+		mymain.style.top="50px";
+		mymain.style.height=mymain.style.height+40;
+		mytitle.parentNode.removeChild(mytitle);//移除该div
+	}
+}
+</script>
+<body>
+<div id="frame_Title">
+  <h1>完善细节：</h1>
+  <p>把需要完善的细节给列出来了，您只需要把列出需要的信息填上即可完成page。没关系，这些也都可以改的!</p>
+  <span onClick="set_left()"><img alt="" src="../../../images/Delete-32.png"  class="imgTemp"></span>
+</div>
+</body>
+</html>

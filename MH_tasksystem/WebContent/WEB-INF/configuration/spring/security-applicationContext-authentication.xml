@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.4.xsd">
+	
+	<!-- 
+		entry-point-ref：指定了身份认证的入口
+		access-decision-manager-ref：指定了默认认证表决器
+		access-denied-page：授权失败时跳转到这个页面，是指用户身份验证通过但是授权失败的情况。
+	-->
+<!--entry-point-ref="casProcessingFilterEntryPoint"-->
+<!-- 
+ -->
+	<security:http  auto-config="true">
+		<security:form-login login-page="/toindex.jsp" default-target-url="/goon.jsp" />
+        <security:intercept-url pattern="/**" requires-channel="http"/>
+<!--    
+		<security:logout logout-success-url="/logout.jsp"/>
+  -->
+  		<security:concurrent-session-control exception-if-maximum-exceeded="false" expired-url="/session_expired.jsp"/>
+    </security:http>
+    
+    <!--
+    <bean id="casProcessingFilter" class="org.springframework.security.ui.cas.CasProcessingFilter">
+        <security:custom-filter after="CAS_PROCESSING_FILTER"/>
+        <property name="authenticationManager" ref="authenticationManager"/>
+        <property name="authenticationFailureUrl" value="/noauthority.jsp"/>
+        <property name="defaultTargetUrl" value="/"/>
+    </bean>-->
+    
+    <security:authentication-provider user-service-ref="userService" >
+		<security:password-encoder hash="plaintext" />
+	</security:authentication-provider>
+        	
+   <!-- <bean id="logoutFilter" class="org.springframework.security.ui.logout.LogoutFilter">
+		<security:custom-filter position="LOGOUT_FILTER"/>
+		  <constructor-arg index="0">  
+            <value>http://localhost:8090/cas/logout?url=http://localhost:9001/etipcc</value>  
+        </constructor-arg>  
+        <constructor-arg index="1">  
+            <list>
+				<bean class="org.springframework.security.ui.logout.SecurityContextLogoutHandler"></bean>
+				<bean class="com.itour.etip.pub.kit.cas.EtipLogoutHandler"></bean>
+			</list>  
+        </constructor-arg>  
+	</bean>  -->
+    
+    
+    <security:authentication-manager alias="authenticationManager"/>
+    
+	<!--acegi自有配置，cas登录入口界面
+    <bean id="casProcessingFilterEntryPoint" class="org.springframework.security.ui.cas.CasProcessingFilterEntryPoint">
+     <property name="loginUrl" value="http://www.etip.com:8090/cascc/login"/>
+
+        <property name="serviceProperties" ref="serviceProperties"/>
+    </bean>
+    -->
+    
+    <!--Etip配置,cas登录入口界面，
+    <bean id="casProcessingFilterEntryPoint" class="com.itour.etip.pub.kit.cas.EtipCasProcessingFilterEntryPoint">
+         <property name="loginUrl" value="http://localhost:8090/cas/login" /> 
+        <property name="loginType" value="cc"/>
+        <property name="serviceProperties" ref="serviceProperties"/>
+    </bean>-->
+    
+    <!--登录认证成功后的监听器-->
+    <bean class="com.itour.etip.pub.kit.cas.LoginSuccessListener"/> 
+	
+	<!--cas认证标识  
+    <bean id="casAuthenticationProvider" class="org.springframework.security.providers.cas.CasAuthenticationProvider">
+        <security:custom-authentication-provider />
+        <property name="userDetailsService" ref="userService"/>
+        <property name="serviceProperties" ref="serviceProperties" />
+        <property name="ticketValidator">
+        	<bean class="org.jasig.cas.client.validation.Cas20ServiceTicketValidator">
+        		<constructor-arg index="0" value="http://localhost:8090/cas" /> 
+            </bean>
+        </property>
+        <property name="key" value="an_id_for_this_auth_provider_only"/>
+    </bean>
+    <bean id="serviceProperties" class="org.springframework.security.ui.cas.ServiceProperties">
+  <property name="service" value="http://localhost:9001/etipcc/j_spring_cas_security_check" /> 
+        <property name="sendRenew" value="false"/>
+    </bean>-->
+    <!--etipcc,etipweb,登录要求不同，此处需要区分当前登录账号的类型，从而根据不同的方法获得权限。-->
+    <bean id="userService" class="com.itour.etip.pub.kit.security.UserDetailJdbcDaoImpl">
+    </bean>
+    
+	<bean id="accessDecisionManager" class="org.springframework.security.vote.AffirmativeBased">
+		 <property name="allowIfAllAbstainDecisions" value="true"/>
+		 <property name="decisionVoters">
+		   <list>
+			   	<bean class="org.springframework.security.vote.AuthenticatedVoter"/>
+		   		<bean class="org.springframework.security.vote.RoleVoter">
+		   			<property name="rolePrefix"><value></value></property>	
+		   		</bean>
+		   </list>
+         </property>
+	</bean>	  
+		
+</beans>

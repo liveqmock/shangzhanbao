@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaseData>
+	<Providers>
+		<Provider>
+			<Code>hbe</Code>
+			<Name>中航信</Name>
+		</Provider>
+		<Provider>
+			<Code>elong</Code>
+			<Name>艺龙</Name>
+		</Provider>
+		<Provider>
+			<Code>itour</Code>
+			<Name>纵横天地</Name>
+		</Provider>
+	</Providers>
+</BaseData>

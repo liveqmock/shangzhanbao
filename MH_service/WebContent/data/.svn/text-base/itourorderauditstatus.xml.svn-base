@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaseData>
+	<AuditStatusList>
+		<AuditStatus>
+			<Code>0</Code>
+			<Name>待审核</Name>
+		</AuditStatus>
+		<AuditStatus>
+			<Code>1</Code>
+			<Name>未入住</Name>
+		</AuditStatus>
+		<AuditStatus>
+			<Code>2</Code>
+			<Name>入住正常</Name>
+		</AuditStatus>
+		<AuditStatus>
+			<Code>3</Code>
+			<Name>少入住</Name>
+		</AuditStatus>
+		<AuditStatus>
+			<Code>4</Code>
+			<Name>已入住</Name>
+		</AuditStatus>
+		<AuditStatus>
+			<Code>5</Code>
+			<Name>延住</Name>
+		</AuditStatus>
+	</AuditStatusList>
+</BaseData>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jaxws="http://cxf.apache.org/jaxws" 
+	xmlns:svc="http://webservice.test.etip.itour.com/" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+ 
+    <bean id="aegisBean"  
+        class="org.apache.cxf.aegis.databinding.AegisDatabinding" />   
+
+<!-- 配置 WEB Service client 开始-->
+
+    <!-- 币种 开始-->
+    <!--
+    <bean id="CrrencyAdmin_ws_esb_ServerFactory"  
+        class="org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean">   
+        <property name="wrapped" value="true" />   
+        <property name="dataBinding" ref="aegisBean" />   
+    </bean>   
+    
+     <bean id="CrrencyAdmin_ws_esb_ServiceName" class="javax.xml.namespace.QName" >
+     	<constructor-arg index="0" value="http://webservice.test.etip.itour.com/searchImpl/Core/Services/TestWEBService/Implementation" />   
+     	<constructor-arg index="1" value="CrrencyAdminService" />   
+     </bean> 
+
+     <bean id="CrrencyAdmin_ws_esb_Endpoint"  
+        class="javax.xml.namespace.QName" >
+     	<constructor-arg index="0" value="http://webservice.test.etip.itour.com/searchImpl/Core/Services/TestWEBService/Implementation" />   
+     	<constructor-arg index="1" value="SOAPEventSource" />   
+     </bean>
+     
+    <bean id="CrrencyAdmin_ws_esb_ClientFactory" class="org.apache.cxf.frontend.ClientProxyFactoryBean">   
+        <property name="serviceFactory" ref="CrrencyAdmin_ws_esb_ServerFactory" /> 
+        <property name="serviceClass" value="com.itour.etip.test.webservice.ICrrencyAdminService" /> 
+       	<property name="address" value="http://leoliu:9091/Core/Services/TestWEBService/Implementation/CrrencyAdminService" />  
+       	<property name="wsdlLocation" value="file:///E:/itour/ws/CrrencyAdminEsb.wsdl" /> 
+       	<property name="serviceName" ref="CrrencyAdmin_ws_esb_ServiceName" />
+       	<property name="endpointName" ref="CrrencyAdmin_ws_esb_Endpoint" /> 
+    </bean> 
+
+	<bean id="CrrencyAdminServiceESBClient" class="com.itour.etip.test.webservice.ICrrencyAdminService" 
+		   factory-bean="CrrencyAdmin_ws_esb_ClientFactory" factory-method="create" />
+	-->
+    <!-- 币种 结束-->
+    
+    
+    
+<!-- 配置 WEB Service client 结束-->
+</beans>

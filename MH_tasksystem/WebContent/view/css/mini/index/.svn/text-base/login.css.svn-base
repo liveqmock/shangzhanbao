@@ -1,0 +1,105 @@
+body {
+	margin:0 auto;
+	background:#0d79ca;
+	font-size:12px;
+}
+from, input, div, span {
+	padding:0;
+	margin:0;
+}
+.input {
+	border:1px solid #97b8e6;
+	line-height:23px;
+	color:#333;
+	height:23px;
+}
+#LoginDiv {
+	width:467px;
+	height:294px;
+	margin:200px auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-147px;
+	margin-left:-233px;
+	background:url(../../../images/index/login_bg.png) no-repeat center center;
+}
+#LoginDiv table {
+	width:300px;
+	line-height:40px;
+	color:#396594;
+	margin:20px auto;
+}
+.Login_btn01 {
+	width:60px;
+	height:26px;
+	float:left;
+	overflow:hidden;
+	background:url(../../../images/index/login_btn.png) no-repeat 0 0;
+	border:none;
+	cursor:pointer;
+	margin:0 20px 0 0;
+	color:#fff;
+	line-height:26px;
+}
+.Login_btn02 {
+	width:60px;
+	height:26px;
+	float:left;
+	overflow:hidden;
+	background:url(../../../images/index/login_btn.png) no-repeat -67px 0;
+	border:none;
+	cursor:pointer;
+	color:#4f73a3;
+	line-height:26px;
+}
+/*鍒囨崲鐨勯�椤瑰崱鏍峰紡寮�*/
+.none {
+	display:none;
+}
+.nTab {
+	width:422px;
+	padding:0;
+	margin:0 0 0 30px;
+	float:left;
+}
+.nTab .TabTitle {
+	clear: both;
+	height: 46px;
+	overflow: hidden;
+}
+.nTab .TabTitle ul {
+	margin:0 0 0 18px;
+	padding:0;
+	float:left;
+}
+.nTab .TabTitle li {
+	float: left;
+	width: 100px;
+	height:46px;
+	line-height:46px;
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	list-style-type: none;
+	text-align:center;
+	font-size:14px;
+	color:#333;
+	margin:0 3px 0 0;
+}
+.nTab .TabTitle .active {
+	color:#4c85c8;
+	font-weight:bold;
+	cursor:default;
+	width:100px;
+	float:left;
+	font-size:16px;
+	border-right:1px solid #4c85c8;
+}
+.nTab .TabTitle .normal {
+	border-right:1px solid #4c85c8;
+	width:100px;
+	float:left;
+}

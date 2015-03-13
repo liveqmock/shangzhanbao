@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!-- 事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource">
+            <ref bean="dataSource"/>
+        </property>
+    </bean>
+    <!--hibernate属性配置-->
+    <bean id="hibernateProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean"> 
+	  <property name="properties"> 
+		<props> 
+			<prop key="hibernate.dialect">org.hibernate.dialect.OracleDialect</prop> 
+			<prop key="hibernate.show_sql">true</prop>
+			<prop key="hibernate.hbm2ddl.auto">none</prop>
+			<!-- 启用class缓存：-->
+			<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+			<!--启用查询缓存：-->
+			<prop key="hibernate.cache.use_query_cache">false</prop>
+ 		</props> 
+      </property> 
+    </bean> 
+    
+    <!-- hibernate通用路径配置-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource"/>
+		</property>
+		<!--property name="configLocations" value="classpath:hibernate.cfg.xml" /--> 
+		<property name="packagesToScan">
+			<list>
+			    <value>com.*.*.data</value>
+			    <value>com.*.*.*.data</value>
+			    <value>com.*.*.*.*.data</value>
+			    
+			</list>
+			
+		</property>
+		<property name="annotatedClasses">
+			<list>
+			    <value>com.mini.product.data.PageProductData</value>
+				<!-- 公共 
+				<value>com.itour.etip.common.data.GenCodeData</value>
+				-->
+			<!-- 系统 -->
+				<!-- 用户权限关联 
+				<value>com.sys.userrole.data.SysUserRoleData</value>
+				-->
+				<!-- 用户信息
+				<value>com.sys.user.data.UserData</value>
+				 -->
+				<!-- 角色(权限)信息 
+				<value>com.sys.role.data.RoleData</value>
+				-->
+				<!-- 机构
+				<value>com.sys.org.data.OrgData</value>
+				 -->
+				<!-- ctn服务商
+				<value>com.ctn.serviceProvider.data.ServiceProviderData</value>
+				-->
+				<!-- ctn服务产品
+				<value>com.ctn.product.data.ProductData</value>
+				<value>com.ctn.product.data.ProductConfigData</value>
+				-->
+				
+				<!-- ctn产品服务包 
+				<value>com.ctn.packageProduct.data.PackageData</value>
+				<value>com.ctn.packageProduct.data.PackageProductData</value>
+				-->
+				<!-- 认证客户 
+				<value>com.ctn.userManagement.data.UserManagementData</value>-->
+			    <!-- 支撑系统-->
+				<value>com.itour.etip.support.data.ServiceRegistryData</value>
+				<value>com.itour.etip.support.data.RoleAuthorityData</value>
+				<value>com.itour.etip.support.data.RoleRegistryData</value>
+				<value>com.itour.etip.support.data.RoleTaskData</value>
+				<value>com.itour.etip.support.data.MemberContactStatisticData</value>
+				<value>com.itour.etip.support.data.EtipOperatorData</value>
+				<value>com.itour.etip.support.data.UserRoleData</value>
+				<value>com.itour.etip.support.data.ProcessRegistryData</value>
+				<value>com.itour.etip.support.data.ProcessTaskRegistryData</value>
+				<value>com.itour.etip.support.data.ProcessTransitionRegistryData</value>
+				<value>com.itour.etip.support.data.ProcessInstanceData</value>
+				<value>com.itour.etip.support.data.ProcessHistoryData</value>
+				
+				<!--桌面消息-->
+				<value>com.itour.etip.pub.kit.jms.JMSLog</value>
+				<value>com.itour.etip.pub.kit.jms.JMSDeskTop</value>
+				<value>com.itour.etip.pub.kit.jms.EtipMsgRegistry</value>
+				<value>com.itour.etip.support.data.GeneralDicData</value>
+			</list>
+		</property>
+		
+		<!--此处定义hibernate的属性配置。-->	 
+		<property name="hibernateProperties"> 
+			<ref bean="hibernateProperties" /> 
+		</property>
+        
+    </bean>
+    <bean id="hibernate" class="com.itour.etip.pub.frame.HibernateDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory"/>
+        </property>
+    </bean>
+    
+     <bean id="jdbc" class="com.itour.etip.pub.frame.JdbcDao">
+    	<property name="dataSource">
+      		<ref bean="dataSource"></ref>
+    	</property>
+    </bean>
+       
+  <bean id="daoFactory" class="com.itour.etip.pub.frame.DaoFactory">
+        <property name="daoMap">
+            <map>
+                <entry key="hibernate">
+                		<ref bean="hibernate"/>
+                </entry>
+                <entry key="jdbc">
+                    <ref bean="jdbc"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <!--事务管理器，在以Business为后缀的接口里运行-->
+    <bean id="transPropagation"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="transactionAttributes">
+			<props>
+				<prop key="*">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+    <bean id="transactionProxy"
+		class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="interceptorNames">
+			<value>transPropagation</value>
+		</property>
+		<property name="beanNames">
+			<value>*Service</value>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="view/css/frame.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script>
+function set_left(){
+	var ctrl = document.getElementById("ctrl");
+	var frame_menu_set = window.top.document.getElementById("frame_menu_set");
+	if(ctrl.className == "ctrl_1"){
+		ctrl.className = "ctrl_2";
+		ctrl.title = "展开左侧树";
+		frame_menu_set.cols = "0,6,*";
+	}else{
+		ctrl.className = "ctrl_1";
+		ctrl.title = "隐藏左侧树";
+		frame_menu_set.cols = "191,6,*";
+	}
+}
+</script>
+</body >
+<div style="height:100%;border-left:1px solid #D5D5D5;">
+  <div style="width:3px; height:100%;padding-top:235px;  background:#EAEAEA;border-left:1px solid #FFFFFF;border-right:1px solid #B8B8B8;">
+    <div id="ctrl" class="ctrl_1" onclick="set_left()" title="隐藏左侧树"></div>
+  </div>
+</div>
+</html>

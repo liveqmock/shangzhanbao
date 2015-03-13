@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbdic>
+	<!-- <section name="字典数据库缓冲区配置">
+		<object Name="ORGROOT" Table="TB_SYS_ORG" Where="PARENT_ID IS NULL">
+			<item Type="KEY" Column="ID" Name="id" />
+			<item Type="VALUE" Column="ORGNAMEDEFAULT" Name="业务主体名称" />
+		</object>
+		<object Name="UserIDName" Table="tb_sys_user"
+			where="id = '402881e42265bc33012265c12d7e0002'">
+			<item Type="KEY" Column="ID" Name="用户id" />
+			<item Type="VALUE" Column="NAME" Name="用户名" />
+		</object>
+		<object Name="OrgIDName" Table="tb_sys_org"
+			where="id = '402881e42265bc33012265c12d7e0002'">
+			<item Type="KEY" Column="ID" Name="组织id" />
+			<item Type="VALUE" Column="ORGNAMEDEFAULT" Name="中文名" />
+		</object>
+	</section> -->
+</dbdic>

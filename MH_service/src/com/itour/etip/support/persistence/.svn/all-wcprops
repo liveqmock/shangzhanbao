@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence
+END
+ProcessTaskRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 311
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/ProcessTaskRegistryPersistence.java
+END
+IMemberCallHistoryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 310
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IMemberCallHistoryPersistence.java
+END
+GeneralDicPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/GeneralDicPersistence.java
+END
+EtipProcessPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/EtipProcessPersistence.java
+END
+IProcessInstancePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IProcessInstancePersistence.java
+END
+MessageLogPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/MessageLogPersistence.java
+END
+IGeneralDicPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IGeneralDicPersistence.java
+END
+CalenderEventPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/CalenderEventPersistence.java
+END
+IRoleAuthorityPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IRoleAuthorityPersistence.java
+END
+IMessageLogPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IMessageLogPersistence.java
+END
+IProcessTaskRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 312
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IProcessTaskRegistryPersistence.java
+END
+ProcessRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/ProcessRegistryPersistence.java
+END
+JMSDeskTopPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/JMSDeskTopPersistence.java
+END
+MemberWebContactHistoryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 315
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/MemberWebContactHistoryPersistence.java
+END
+IEtipProcessPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 304
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IEtipProcessPersistence.java
+END
+ServiceRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/ServiceRegistryPersistence.java
+END
+RoleRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 304
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/RoleRegistryPersistence.java
+END
+JMSLogPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/JMSLogPersistence.java
+END
+IJMSDeskTopPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IJMSDeskTopPersistence.java
+END
+MessageDesktopPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/MessageDesktopPersistence.java
+END
+ICalenderEventPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/ICalenderEventPersistence.java
+END
+JMSMessagePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/JMSMessagePersistence.java
+END
+EtipOperatorPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 304
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/EtipOperatorPersistence.java
+END
+RoleTaskPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/RoleTaskPersistence.java
+END
+MemberCallHistoryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 309
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/MemberCallHistoryPersistence.java
+END
+IRoleRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IRoleRegistryPersistence.java
+END
+IJMSLogPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IJMSLogPersistence.java
+END
+IMessageDesktopPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IMessageDesktopPersistence.java
+END
+IJMSMessagePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IJMSMessagePersistence.java
+END
+UserRolePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/UserRolePersistence.java
+END
+IEtipOperatorPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IEtipOperatorPersistence.java
+END
+IProcessRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IProcessRegistryPersistence.java
+END
+IRoleTaskPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IRoleTaskPersistence.java
+END
+ProcessInstancePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/ProcessInstancePersistence.java
+END
+ProcessHistoryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/ProcessHistoryPersistence.java
+END
+IMemberWebContactHistoryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 316
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IMemberWebContactHistoryPersistence.java
+END
+IServiceRegistryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IServiceRegistryPersistence.java
+END
+IUserRolePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IUserRolePersistence.java
+END
+RoleAuthorityPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/RoleAuthorityPersistence.java
+END
+IProcessHistoryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/src/com/itour/etip/support/persistence/IProcessHistoryPersistence.java
+END

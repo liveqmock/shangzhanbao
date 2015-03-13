@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MiniPage</title>
+</head>
+<frameset rows="50,40,*" cols="*" id="frame_top_set" frameborder="no" border="0" framespacing="0">
+	<frame  src="TemplateTop/template1_top2.html" name="frame_top" id="frame_top" scrolling="no" noresize="noresize" />
+	<frame  src="TemplateTitle/template1_Title3.html" name="frame_Title" id="frame_Title" scrolling="no" noresize="noresize" />
+	<frameset cols="300,*" name="frame_menu_set" id="frame_menu_set" frameborder="no" border="0" framespacing="0">
+	<frame src="TemplateLeft/template1_left_step_shop.html" name="frame_left" id="frame_left" scrolling="yes" noresize="noresize" />
+	<frame src="${root }/temp_manage/key/searchOpenTemp" name="frame_main" id="frame_main" style="background:#eeeeee" scrolling="yes" />
+<noframes></noframes>
+</noframes>

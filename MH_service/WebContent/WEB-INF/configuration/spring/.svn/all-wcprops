@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring
+END
+security-applicationContext-authentication.xml
+K 25
+svn:wc:ra_dav:version-url
+V 323
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/security-applicationContext-authentication.xml
+END
+applicationContext-etipmsgRegistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 315
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-etipmsgRegistry.xml
+END
+applicationContext-connect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-connect.xml
+END
+applicationContext-deletion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-deletion.xml
+END
+applicationContext-processregistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 315
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-processregistry.xml
+END
+applicationContext-supportbeans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 312
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-supportbeans.xml
+END
+applicationContext-log-advices.xml
+K 25
+svn:wc:ra_dav:version-url
+V 311
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-log-advices.xml
+END
+applicationContext-ws-esb-client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 313
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-ws-esb-client.xml
+END
+applicationContext-ws.xml
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-ws.xml
+END
+applicationContext-jbpm-webservice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 315
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-jbpm-webservice.xml
+END
+applicationContext-ws-client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 309
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-ws-client.xml
+END
+security-applicationContext-url.xml
+K 25
+svn:wc:ra_dav:version-url
+V 312
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/security-applicationContext-url.xml
+END
+applicationContext-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-security.xml
+END
+sucurity-applicationContext-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 317
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/sucurity-applicationContext-security.xml
+END
+applicationContext-datasource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 310
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-datasource.xml
+END
+applicationContext-jms-listeners.xml
+K 25
+svn:wc:ra_dav:version-url
+V 313
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-jms-listeners.xml
+END
+applicationContext-cache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-cache.xml
+END
+applicationContext-security-esb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 312
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/23147/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/%E5%95%86%E7%AB%99%E5%AE%9D/minipage2.0/MH_service/WebContent/WEB-INF/configuration/spring/applicationContext-security-esb.xml
+END

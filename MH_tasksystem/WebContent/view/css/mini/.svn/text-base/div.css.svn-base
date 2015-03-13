@@ -1,0 +1,173 @@
+.DataStatistics_1 {
+	width:790px;
+	margin:0 0 30px 0;
+	float:left;
+	background:#fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;/*box-shadow: #aaa 0 0 10px; 
+	-webkit-box-shadow: #aaa 0 0 10px; 
+	-moz-box-shadow: #aaa 0 0 10px; 
+	border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	-moz-border-radius: 6px;*/
+}
+.DataStatistics_1Title {
+	width:790px;
+	height:40px;
+	background: #E9E9E9;
+	background:-moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #FAFAFA), color-stop(100%, #E9E9E9)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%); /* Opera11.10+ */
+	background:-ms-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%); /* IE10+ */
+	background:linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
+	-webkit-background-clip: padding-box;
+	border-bottom:1px solid #ddd;
+	line-height:40px;
+	float:left
+}
+.DataStatistics_1Title h1 {
+	font-size:18px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, .1);
+	color:#666;
+	width:200px;
+	float:left;
+	margin-left:15px;
+}
+.DataStatistics_1Title span {
+	float:right;
+	font-size:14px;
+	margin-right:20px
+}
+.DataStatistics_1Title .listpageT {
+	float:right;
+	width:300px;
+}
+.DataStatistics_1Title .listpageT span {
+	float:left;
+	padding:0 5px;
+}
+.DataStatistics_1Title_r {
+	width:450px;
+	float:right;
+	margin-right:5px
+}
+.DataStatistics_1Title .font_list {
+	float:left;
+	width:60px;
+	color:#0099ff;
+	font-size:14px;
+}
+.DataStatistics_1Title .font_form {
+	float:right;
+}
+.DataStatistics_1_CL {
+	width:200px;
+	float:left;
+	margin:0 0 15px 25px;
+	overflow:hidden;
+}
+.DataStatistics_1_CL ul {
+	margin:0;
+	padding:0;
+}
+.DataStatistics_1_CL li {
+	width:200px;
+	float:left;
+	list-style:none;
+	color:#0099ff;
+	font-size:14px;
+	line-height:30px;
+	margin:15px 0 10px 0;
+}
+.DataStatistics_1_CL li a {
+	width:200px;
+	float:left;
+}
+.DataStatistics_1_CL li span {
+	float:left;
+	color:#666;
+	font-size:26pt;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:5px 0 0 0;
+	width:120px;
+}
+.DataStatistics_1_CL li p {
+	float:left;
+	width:200px;
+	margin:0;
+	padding:0;
+	overflow:hidden
+}
+.DataStatistics_1_CL li p font {
+	float:right;
+	margin:0 0 0 10px;
+	width:76px;
+	cursor:pointer;
+}
+.DataStatistics_1_CL li font.top {
+	width:20px;
+	height:35px;
+	float:left;
+	overflow:hidden;
+	background:url(../images/line.png) no-repeat 0 0;
+}
+.DataStatistics_1_CL li font.bottom {
+	width:20px;
+	height:35px;
+	float:left;
+	overflow:hidden;
+	background:url(../images/line.png) no-repeat -20px 0;
+}
+.DataStatistics_1_CL li font.center {
+	width:19px;
+	height:8px;
+	float:left;
+	overflow:hidden;
+	background:url(../images/line.png) no-repeat 0 -37px;
+	margin:18px 0 0 10px;
+}
+.DataStatistics_1_CR {
+	width:530px;
+	float:right;
+	margin:0 20px 40px 0;
+}
+.DataStatistics_1_CR h1 {
+	font-size:12px;
+	font-weight:normal;
+	color:#444;
+	line-height:20px;
+	margin:10px 0 10px 0;
+	float:left;
+	width:280px;
+}
+.DataStatistics_1_CR h2 {
+	font-size:12px;
+	font-weight:normal;
+	color:#444;
+	line-height:20px;
+	margin:10px 10px 0 0;
+	float:right;
+}
+.DataStatistics_1_CR .NubTab {
+	width:530px;
+	height:300px;
+	float:left;
+	border:1px solid #ddd;
+}
+.DataStatistics_1_1 {
+	width:760px;
+	float:left;
+	margin:10px 0;
+}
+.DataStatistics_1_1 ul {
+	margin:0;
+	padding:0;
+}
+.DataStatistics_1_1 li {
+ width:
+}

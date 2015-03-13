@@ -1,0 +1,24 @@
+
+#menu_btn{position:fixed;top:5px;left:10px;background-color:#EEE;padding:8px 25px;display:none;z-index:3;}
+@media screen and (max-width:480px) {
+#reason_img1{width: 100%;height: auto;}  
+#reason_img2{width: 100%;height: auto;}  
+#reason_img3{width: 100%;height: auto;}  
+#yunshutwo_img1{width: 100%;height: auto;}  
+#yunshutwo_img2{width: 100%;height: auto;}  
+#yunshuthree_img1{width: 100%;height: auto;}  
+#yunshuthree_img2{width: 100%;height: auto;}  
+#yunshuthree_img3{width: 100%;height: auto;}  
+#yunshuthree_img4{width: 100%;height: auto;}  
+#set_img1{width: 100%;height: auto;}  
+#set_img2{width: 100%;height: auto;}  
+#set_img1{width: 100%;height: auto;}  
+#second_img1{width: 100%;height: auto;}  
+#second_img2{width: 100%;height: auto;}  
+#second_img3{width: 100%;height: auto;}  
+#about_img{width: 100%;height: auto;}  
+#picTwo_img1{width: 100%;height: auto;}  
+#picTwo_img2{width: 100%;height: auto;}  
+#picTwo_img3{width: 100%;height: auto;} 
+#picTwo_img{width: 100%;height: auto;} 
+}

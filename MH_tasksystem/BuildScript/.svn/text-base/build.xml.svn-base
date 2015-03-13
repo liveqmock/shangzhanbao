@@ -1,0 +1,413 @@
+<project name="MINIPAGE" default="all">
+	<property name="project.home.dir" value="../../MH_tasksystem" />
+	<property name="project.home.framework" value="../../MH_framework" />
+	<property name="project.home.service" value="../../MH_service" />
+	<property name="project.home.lib" value="../../MH_lib" />
+	<property name="project.home.uat" value="${project.home.dir}/BuildScript/uat" />
+	<property name="project.home.uat_x" value="${project.home.dir}/BuildScript/uat_x" />
+	<property name="project.home.dev15" value="${project.home.dir}/BuildScript/dev15" />
+	<property name="project.home.dev" value="${project.home.dir}/BuildScript/dev" />
+	<property name="project.home.dev_test" value="${project.home.dir}/BuildScript/dev_test" />
+
+	<property name="dist.out.dir" value="../../dist" />
+
+	<property name="project.version" value="1" />
+	<property name="project.name" value="MINIPAGE" />
+	<property name="project.encoding" value="UTF-8" />
+	<property name="project.debug" value="true" />
+
+	<path id="common.compile.classpath">
+		<fileset dir="${project.home.lib}">
+			<include name="**/*.jar" />
+			<include name="**/*.zip" />
+		</fileset>
+	</path>
+
+	<target name="init">
+		<mkdir dir="${dist.out.dir}/classes" />
+		<mkdir dir="${dist.out.dir}/bin" />
+		<mkdir dir="${dist.out.dir}/WebContent/WEB-INF/lib" />
+		<mkdir dir="${dist.out.dir}/test/classes" />
+		<mkdir dir="${dist.out.dir}/test/report" />
+	</target>
+	<target name="clear">
+		<delete dir="${dist.out.dir}">
+		</delete>
+	</target>
+
+
+
+	<target name="complie">
+		<echo>java home: ${java.home}</echo>
+		<echo>framework</echo>
+		<javac srcdir="${project.home.framework}/src" destdir="${dist.out.dir}/classes" encoding="${project.encoding}">
+			<classpath refid="common.compile.classpath" />
+		</javac>
+		<copy todir="${dist.out.dir}/classes">
+			<fileset dir="${project.home.framework}/src">
+				<include name="**/*" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+
+		<echo>service</echo>
+		<javac srcdir="${project.home.service}/src" destdir="${dist.out.dir}/classes"  encoding="${project.encoding}">
+			<classpath refid="common.compile.classpath" />
+			<classpath>
+				<pathelement location="${dist.out.dir}/classes" />
+			</classpath>
+		</javac>
+		<copy todir="${dist.out.dir}/classes">
+			<fileset dir="${project.home.service}/src">
+				<include name="**/*" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+
+		<!-- tsrc 
+		<javac srcdir="${project.home.service}/Tsrc" destdir="${dist.out.dir}/test/classes" encoding="${project.encoding}">
+			<classpath refid="common.compile.classpath" />
+			<classpath>
+				<pathelement location="${dist.out.dir}/classes" />
+			</classpath>
+		</javac>
+		<copy todir="${dist.out.dir}/test/classes">
+			<fileset dir="${project.home.service}/Tsrc">
+				<include name="**/*" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>-->
+
+		<echo>web</echo>
+		<javac srcdir="${project.home.dir}/src" destdir="${dist.out.dir}/classes" encoding="${project.encoding}">
+			<classpath refid="common.compile.classpath" />
+			<classpath>
+				<pathelement location="${dist.out.dir}/classes" />
+			</classpath>
+		</javac>
+		<copy todir="${dist.out.dir}/classes">
+			<fileset dir="${project.home.dir}/src">
+				<include name="**/*" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+
+
+	</target>
+
+	<target name="test">
+		<junit printsummary="on" fork="true" haltonfailure="false" maxmemory="256" failureproperty="tests.failed" showoutput="true">
+			<classpath refid="common.compile.classpath" />
+			<classpath>
+				<pathelement location="${dist.out.dir}/classes" />
+				<pathelement location="${dist.out.dir}/test/classes" />
+			</classpath>
+
+			<formatter type="xml" />
+			<batchtest todir="${dist.out.dir}/test/report">
+				<fileset dir="${dist.out.dir}/test/classes">
+					<include name="**/*Test.*" />
+				</fileset>
+			</batchtest>
+		</junit>
+
+		<junitreport todir="${dist.out.dir}/test/report">
+			<fileset dir="${dist.out.dir}/test/report">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${dist.out.dir}/test/report" />
+		</junitreport>
+
+		<fail if="tests.failed">
+	          ---------------------------------------------------------
+	          One or more tests failed, check the report for detail...
+	          ---------------------------------------------------------
+	    </fail>
+	</target>
+	<target name="web">
+		<copy todir="${dist.out.dir}/WebContent">
+			<fileset dir="${project.home.dir}/WebContent">
+				<include name="**/*" />
+				<exclude name="**/*.java" />
+				<exclude name="./WEB-INF/classes" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/lib">
+					<fileset dir="${project.home.dir}/WebContent/WEB-INF">
+						<include name="*.jar" />
+					</fileset>
+					<fileset dir="${project.home.lib}/lib">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/iText">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/activemq">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/berkeley">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Axis2">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/cxf">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/FineReport">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Drools">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/HBE">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Hibernate">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Javaee">
+						<!--
+						<include name="*.jar" />
+						-->
+						<include name="appserv-jstl.jar" />
+						<include name="javaee.jar" />
+						<include name="pager-taglib.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/jbpm">
+						<exclude name="asm-2.2.3.jar" />
+						<exclude name="asm.jar" />
+						<exclude name="cglib.jar" />
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+
+					<fileset dir="${project.home.lib}/jdom">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Json-lib">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Junit">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Jxl">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/pay">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<!--<fileset dir="${project.home.lib}/Shared（所有框架共享的资源库）">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>-->
+					<fileset dir="${project.home.lib}/Spring">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/Struts">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/quartz">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/memcache">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/ldap">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/pinyin4j">
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+					<fileset dir="${project.home.lib}/webservice">
+						<include name="xercesImpl.jar.jar" />
+						<include name="backport-util-concurrent.jar" />
+						<include name="commons-httpclient-3.1.jar" />
+						<include name="*.jar" />
+						<include name="*.zip" />
+					</fileset>
+						<!--
+						<fileset dir="${project.home.lib}/Javaee">
+							<include name="*.jar" />
+							<include name="*.zip" />
+						</fileset>
+						-->
+						<fileset dir="${project.home.lib}/Shared">
+							<exclude name="log4j-1.2.11.jar" />
+							<include name="*.jar" />
+							<include name="*.zip" />
+						</fileset>
+						<fileset dir="${project.home.lib}/imgTools">
+							<include name="*.jar" />
+							<include name="*.zip" />
+						</fileset>
+			<!--<fileset dir="${project.home.lib}/poi">
+							<include name="*.jar" />
+							<include name="*.zip" />
+						</fileset>-->
+				</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/classes">
+			<fileset dir="${dist.out.dir}/classes">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="deploy">
+		<war warfile="${dist.out.dir}/MINIPAGE.war" webxml="${dist.out.dir}/WebContent/WEB-INF/web.xml">
+			<lib dir="${dist.out.dir}/WebContent/WEB-INF/lib" />
+			<classes dir="${dist.out.dir}/WebContent/WEB-INF/classes" />
+			<fileset dir="${dist.out.dir}/WebContent">
+			</fileset>
+		</war>
+		<!--<copy file="${dist.out.dir}/rdfcc.war" todir="${project.home.dir}/../tomcat-5.5.9/webapps" overwrite="true" />-->
+	</target>
+
+	<target name="dev15_config">
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/spring" overwrite="true">
+			<fileset dir="${project.home.dev15}/spring">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<!--copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/log4j" overwrite="true">
+			<fileset dir="${project.home.dev15}/log4j">
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/cache/para" overwrite="true">
+			<fileset dir="${project.home.dev15}/para">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF" overwrite="true">
+			<fileset dir="${project.home.dev15}/WEB-INF">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/classes" overwrite="true">
+			<fileset dir="${project.home.dev15}/classes">
+				<include name="**/*.xml" />
+				<include name="**/*.properties" />
+			</fileset>
+		</copy-->
+		<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/jsp-2.1.jar" />
+		<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/jsp-api-2.1.jar" />
+		<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/servlet-api-2.5-6.1.12rc1.jar" />
+		<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/Javaee.jar" />
+	</target>
+
+	<target name="dev_config">
+
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/rdf/configuration/spring" overwrite="true">
+			<fileset dir="${project.home.dev}/spring">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+
+	</target>
+	<target name="dev_test">
+
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/rdf/configuration/spring" overwrite="true">
+			<fileset dir="${project.home.dev_test}/spring">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+
+	</target>
+
+	<target name="uat_config">
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/log4j" overwrite="true">
+			<fileset dir="${project.home.uat}/log4j">
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/spring" overwrite="true">
+			<fileset dir="${project.home.uat}/spring">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/cache/para" overwrite="true">
+			<fileset dir="${project.home.uat}/para">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF" overwrite="true">
+			<fileset dir="${project.home.uat}/WEB-INF">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/classes" overwrite="true">
+			<fileset dir="${project.home.uat}/classes">
+				<include name="**/*.xml" />
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+		<!--delete file="${dist.out.dir}/WebContent/WEB-INF/lib/jsp-2.1.jar"/>
+			<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/jsp-api-2.1.jar"/>
+			<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/servlet-api-2.5-6.1.12rc1.jar"/>
+			<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/Javaee.jar"/-->
+	</target>
+
+	<target name="uat_config_x">
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/log4j" overwrite="true">
+			<fileset dir="${project.home.uat_x}/log4j">
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/spring" overwrite="true">
+			<fileset dir="${project.home.uat_x}/spring">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/configuration/cache/para" overwrite="true">
+			<fileset dir="${project.home.uat_x}/para">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF" overwrite="true">
+			<fileset dir="${project.home.uat_x}/WEB-INF">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${dist.out.dir}/WebContent/WEB-INF/classes" overwrite="true">
+			<fileset dir="${project.home.uat_x}/classes">
+				<include name="**/*.xml" />
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+		<!--delete file="${dist.out.dir}/WebContent/WEB-INF/lib/jsp-2.1.jar"/>
+			<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/jsp-api-2.1.jar"/>
+			<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/servlet-api-2.5-6.1.12rc1.jar"/>
+			<delete file="${dist.out.dir}/WebContent/WEB-INF/lib/Javaee.jar"/-->
+	</target>
+	<target name="dev" depends="clear,init,complie,web,dev_config,deploy" />
+	<target name="devtest" depends="clear,init,complie,web,dev_test,deploy" />
+
+	<target name="all" depends="clear,init,complie,web,deploy" />
+	<target name="uat" depends="clear,init,complie,web,uat_config,deploy" />
+	<target name="uat_x" depends="clear,init,complie,web,uat_config_x,deploy" />
+	<target name="dev15" depends="clear,init,complie,web,dev15_config,deploy,clear" />
+
+</project>

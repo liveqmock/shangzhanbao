@@ -1,0 +1,114 @@
+/*---------公共类定义----------*/
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;  COLOR:#444444; FONT-SIZE:12px; FONT-FAMILY:"宋体";
+}
+UL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+FORM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+P {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+H1 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+H2 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+H4 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none;
+}
+A:hover {
+	COLOR:#125702; TEXT-DECORATION: none;
+}
+HTML {
+	OVERFLOW-X: hidden; OVERFLOW: scroll
+}
+
+table  {
+	border-collapse:collapse;
+	width:100%;
+}
+
+table td{
+	border: 0px;
+	padding-left: 5px;
+	height:25px;
+	line-height:25px;
+}
+/*-------按钮定义----------------*/
+input[type=text] 
+{
+	background-color: #fff;
+	border:1px #BDBDBD solid;
+	width:100px;
+	color:#808080;
+}
+
+input[type=checkbox],input[type=radio] 
+{
+	width: 20px; border: 0px;
+}
+
+.select{
+	border:1px solid #F74B09;
+	width:100px;
+    color:#000;
+	display:inline;
+}
+
+p{ line-height:2.0em; text-indent:2.4em;}
+
+a.gotitle{
+   color:#fff;
+   text-decoration:none;
+}
+a.gotitle:hover{ 
+   color:#003366;
+   text-decoration:none; 
+}
+
+a.{   
+   color:#F76D0D; 
+   text-decoration:none;
+}
+
+a:hover{   
+   color:#C00000; 
+   text-decoration:none;
+}
+
+.font14{
+   font-size:14px;
+   font-weight:bold;
+   color:#000;
+}
+
+.font15{
+   font-size:14px;
+   font-weight:bold;
+   color:#fff;
+}
+
+/*-------总层定义-----------------*/
+#box {
+      margin:0px auto;
+	  width:1000px;
+      height:auto;
+	  overflow:hidden; 
+}
+
+.cl{
+  clear:both;
+}

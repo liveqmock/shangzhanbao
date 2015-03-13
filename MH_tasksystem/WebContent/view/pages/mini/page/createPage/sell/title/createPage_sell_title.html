@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../../../css/ifrma.css"/>
+<style>
+body {
+	margin:0 auto;
+	background:url(../../../images/Titlebg.jpg) repeat-x left  bottom #ececec;
+	font-size:12px;
+	color:#fff;
+	}
+</style>
+</head>
+<script>
+function set_left(){
+	var mytitle = window.top.document.getElementById("title");
+	if (mytitle != null){
+		//修改maindiv
+		var mymain = window.top.document.getElementById("main");
+		var newheight = parseInt(mymain.style.height) + 60;
+		mymain.style.height=newheight;
+		mymain.style.top="50px";
+		mytitle.parentNode.removeChild(mytitle);//移除该div
+	}
+}
+</script>
+<body>
+  <div id="frame_Title">
+  <h1>编辑卖点：</h1>
+  <p>卖点是产品着陆页最核心，也是最重要的部分。请您仔细思考下面左侧的问题并填写内容，当您填写相应内容时，您可以在右侧看到这些内容的展示位置。如果您不喜欢页面中的图片和样式，没关系，之后可以修改。</p>
+  <span onClick="set_left()"><img alt="" src="../../../images/Delete-32.png"  class="imgTemp"></span>
+</div>
+</body>
+</html>

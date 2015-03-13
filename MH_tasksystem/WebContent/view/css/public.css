@@ -1,0 +1,160 @@
+/* CSS Document */
+/*--------公共定义块-----------*/
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;  COLOR:#444444; FONT-SIZE:12px; FONT-FAMILY:"宋体";
+}
+UL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+FORM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+P {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+INPUT {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #656565 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #656565 1px solid; COLOR: #33447a; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: 宋体; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+SELECT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px solid; COLOR: #003366; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 宋体
+}
+TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #003366; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: 宋体
+}
+H1 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+H2 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+H4 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none;
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none;
+}
+HTML {
+	OVERFLOW-X: hidden; OVERFLOW: scroll
+}
+
+.table td{ 
+  border:0px;
+  cellpadding:0px;
+  cellspacing:0px;
+  height:20px;
+  line-height:20px;
+  text-align:center;
+  border-collapse:collapse;
+}
+
+/*-------主页公共区域定义----------------*/
+input{ 
+  border:1px #BDBDBD solid;
+  width:100px;
+  color:#808080;
+}
+
+.select{
+	border:1px solid #F74B09;
+	width:100px;
+    color:#000;
+	display:inline;
+}
+
+p{ line-height:2.0em; text-indent:2.4em;}
+
+a.gotitle{
+   color:#fff;
+   text-decoration:none;
+}
+a.gotitle:hover{ 
+   color:#003366;
+   text-decoration:none; 
+}
+
+a.{   
+   color:#F76D0D; 
+   text-decoration:none;
+}
+
+a:hover{   
+   color:#C00000; 
+   text-decoration:none;
+}
+
+/*表的定义*/
+table {
+   font-size:12px;
+   font-family:"宋体";
+   color:#000000;
+}
+
+.dataTable {
+	border-collapse:collapse;
+	width:100%;
+	color:#000;
+}
+
+.contentTable_lace {
+	background-image:url(../images/table-bj.gif);
+	background-repeat: repeat-x;
+	height: 25px;
+}
+
+
+.dataTable td {
+	border: 1px solid #96FB5E;
+	padding-left: 5px;
+	text-align:center;
+}
+
+.contentTable_row1 {
+	color:#000;
+	height: 22px;
+	background-color: #FFFFFF;
+}
+
+.contentTable_row2 {
+	color:#000;
+	height: 22px;
+	background-color: #DCFCCA;
+}
+
+.dataTable a {
+   color:#696969; 
+   text-decoration:none;
+}
+
+.dataTable a:hover{  
+   color:#05960B; 
+   text-decoration:none;
+}
+
+#fenye{
+   height:25px;
+   line-height:25px;
+   text-align:center;
+   vertical-align:middle;
+   background-color:#96FB5E;
+}
+
+#fenye li{
+	list-style-type: none;
+	float:left;
+	padding:0 8px;
+}
+
+
+
+
+
+

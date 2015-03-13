@@ -1,0 +1,111 @@
+/* CSS Document */
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;  COLOR:#444444; FONT-SIZE:12px; FONT-FAMILY:"����";
+}
+
+/*-------ͷ���ļ����壨head��----------------*/
+.head{
+	width:auto;
+	height:70px;
+	background-image: url(../images/head-bj.gif);
+}
+
+#logo{
+	width:290px;
+	height:70px;
+	background-image: url(../images/logo.gif);
+	background-repeat: no-repeat;
+	float:left;
+}
+#right{
+  width:auto;
+  float:right;
+  height:70px;
+}
+#login{
+   width:auto;
+   height:44px;
+   text-algin:right;
+   margin-right:50px;
+ }
+
+#menu{
+	width:auto;
+	height:26px;
+	line-height:26px;
+	padding:0px 2px;
+	font-size:14px;
+	font-weight:bold;
+	color:#608D45;
+	margin-right:20px;
+	float:right;
+	    white-space: nowrap;
+}
+
+#menu li{
+	width:84px;
+	height:26px;
+	line-height:26px;
+	margin:0 2px;
+	float:left;
+	text-align:center;
+	display:block;
+	background-image: url(../images/menu-bj.gif);
+	background-repeat: no-repeat;
+	white-space: nowrap;
+    word-break: keep-all;
+    
+
+}
+
+#menu a{
+	width:84px;
+	height:26px;
+	color:#608D45;
+	line-height:26px;
+	float:left;
+	text-align:center;
+	display:block;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color:#fff;
+	background-image: url(../images/menu-bj-active.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#menu a:visited { 
+background:url(../images/indexico.gif) no-repeat -380px 0px; 
+color:#608D45;
+}
+
+#login{
+  width:200px;
+  height:18px;
+  line-height:18px;
+  float:right;
+}
+
+#login li{
+  list-style-type: none; 
+  float:left;
+  padding:0 5px;
+}
+
+#bj{
+	height:10px;
+	width:auto;
+	background-image: url(../images/bj2.gif);
+	background-repeat: repeat-x;
+}
+
+#bj1{
+	width:190px;
+	height:10px;
+	background-image: url(../images/bj1.gif);
+	background-repeat: repeat-x;
+	float:left;
+}
+

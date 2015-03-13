@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="../css/frma_left.css">
+<style>
+body {
+	background:url(../images/leftbg.jpg) repeat-y left top;
+	margin:0 auto;
+	color:#ffffff;
+	border-top:1px solid #3d5164;
+}
+</style>
+</head>
+<body>
+<div id="Frma_Left_top">跟着我，3步搞定卖点编辑<span>2/3</span></div>
+<div class="clear"></div>
+<div id="Frma_Left_Starp1">
+  <h1>第二步</h1>
+  <div class="Frma_Left_Starp1_tab">
+    <h2>展示说服用户购买的理由：</h2>
+    <div class="FormTab">
+      <form action="" method="get">
+        <input type="text" class="input_bg" value="第一个理由" style="width:218px">
+        <input type="text" class="input_bg" value="第二个理由" style="width:218px">
+        <input type="text" class="input_bg" value="第三个理由" style="width:218px">
+        <input type="text" class="input_bg" value="第四个理由" style="width:218px">
+        
+      </form>
+      <div><a href="#" class="Btn_more">添加更多理由</a></div>
+    </div>
+    <div class="clear"></div>
+    
+    <div class="FormBtn">
+      <div style="float:left"><a href="template1_left_step1.html" class="Btn_next">返回</a></div>
+      <div style="float:right"><a href="template1_left_step3.html" class="Btn_next">下一步</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

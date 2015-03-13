@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="../css/frma_left.css">
+<style>
+body {
+	background:url(../images/leftbg.jpg) repeat-y left top;
+	margin:0 auto;
+	color:#ffffff;
+	border-top:1px solid #3d5164;
+}
+</style>
+</head>
+<body>
+<div id="Frma_Left_top">完善细节，就OK了<span style="padding-left:47px">5/6</span></div>
+<div class="clear"></div>
+<div id="Frma_Left_Starp1">
+  <h1>第五步</h1>
+  <div class="Frma_Left_Starp1_tab">
+    <h2>客户案例<span><a href="#" class="blueLine">修改导航名称</a></span></h2>
+    <div class="FormTab">
+      <p>上传案例Logo</p>
+      <label>
+        <input type="file" name="fileField" id="fileField">
+      </label>
+      <div style="margin-top:10px"><a href="#" class="Btn_Upload">上传</a></div>
+   
+      <div style="margin:10px 0 0 0; float:left">
+        <p>案例链接：</p>
+        <input type="text" class="input_bg" value="http://www." style="width:205px">
+      </div>
+      <div class="clear"></div>
+      <div><a href="#" class="Btn_more">继续添加</a></div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="FormBtn">
+      <div style="float:left;margin:0 15px 0 0;"><a href="template1_left_step4_4.html" class="Btn_next">返回上一步</a></div>
+      <div style="float:left"><a href="template1_left_step4_6.html" class="Btn_next">跳过</a></div>
+      <div style="float:right"><a href="template1_left_step4_6.html" class="Btn_next">下一步</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

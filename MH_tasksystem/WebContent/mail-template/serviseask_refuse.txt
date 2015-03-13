@@ -1,0 +1,15 @@
+<p>
+	尊敬的用户，您好：
+</p>
+<p>
+	&nbsp; &nbsp; 管理员拒绝了您于${serviseAskTime}的服务商申请。
+</p>
+<p>
+	&nbsp; &nbsp; 拒绝原因如下：
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; ${serviseAskRefuse}
+</p>
+<p>
+	&nbsp; &nbsp; 本邮件为ctn系统邮件请勿回复!
+</p>

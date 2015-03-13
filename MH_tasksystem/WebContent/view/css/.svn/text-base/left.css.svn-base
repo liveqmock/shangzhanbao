@@ -1,0 +1,133 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+body{
+  margin:0px;
+  padding:0px;
+  font-size:12px;
+}
+
+#left{
+	width:190px;
+	min-height:600px;
+	height:600px;
+	clear:both;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #7DB35B;
+}
+
+#PARENT{
+	width:170px;
+	float:left;
+}
+
+/*---------一级目录---------*/
+#nav {
+	width:190px;
+    line-height: 30px; 
+	list-style-type: none;
+	text-align:left;
+	padding:0px;
+	margin:0px;
+	 /*定义整个ul菜单的行高和背景色*/
+}
+
+#nav a {
+	width: 190px; 
+	display: block;
+	/*Width(一定要)，否则下面的Li会变形*/
+}
+
+#nav li {
+    width:190px; 
+	text-align:center;
+	float:left;
+	background-image: url(../images/head-bj1.gif);
+	background-repeat: no-repeat;
+	border-bottom:#FFF 1px solid; /*下面的一条白边*/
+}
+
+#nav a{
+color:#676767;
+font-weight:bold; 		
+}
+
+#nav a:link  {
+   text-decoration:none;
+   font-weight:bold;	
+}
+
+#nav a:visited  {
+	color:#494B48;
+	text-decoration:none;
+	background-image: url(../images/head-bj2.gif);
+	background-repeat: no-repeat;
+}
+#nav a:hover  {
+	color:#676767; text-decoration:none;font-weight:bold;
+	
+}
+
+/*==================二级目录===================*/
+#nav li ul {
+	width: 170px;
+	list-style:none;
+	text-align:left;
+	float:left;
+}
+#nav li ul li{	
+    width:170px; 
+	background: #fff; /*二级目录的背景色*/
+	float:left;
+}
+
+#nav li ul a{ 
+         width:170px;
+		 height:30px;
+		 margin:0px;
+		 padding:0px;
+	     /* padding-left二级目录中文字向右移动，但Width必须重新设置=(总宽度-padding-left)*/
+}
+
+/*下面是二级目录的链接样式*/
+#nav li ul a:link  {
+	color:#676767;
+	text-decoration:none;
+}
+
+#nav li ul a:visited  {
+	color:#000;
+	text-decoration:none;
+}
+
+#nav li ul a:hover {
+	color:#000;
+	text-decoration:none;
+	background-image: url(../images/heng-bj3.gif);
+	background-repeat: no-repeat;	/* 二级onmouseover的字体颜色、背景色*/
+}
+
+/*==============================*/
+#nav li:hover ul {
+	left: auto;
+	width:190px;
+}
+#nav li.sfhover ul {
+	left: auto;
+}
+#content {
+	clear: left; 
+}
+#nav ul.collapsed {
+	display: none;
+}
+-->
+
+

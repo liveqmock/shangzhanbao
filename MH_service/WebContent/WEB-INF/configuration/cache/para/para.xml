@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paradic>
+	<!--屏蔽自有酒店开关:open,开  off,关-->
+	<section name="屏蔽自有酒店开关">
+		<item name="hideOwnHotel" value="open"/>
+	</section>
+	<!--酒店查询同步中航信开关:open,开  off,关-->
+	<section name="酒店查询同步中航信开关">
+		<item name="isSyncHBE" value="off"/>
+	</section>
+	<section name="系统运行基本配置">
+		<!--demo:演示界面,link，联合运行-->
+		<item name="runMode" value="link"/>
+		<!--true:md5,other,明码-->
+		<item name="passwordMD5" value=""/>
+		<!-- 当前操作渠道 "01"代表网站下单;"02"代表cc下单;"03"代表自助终端机下单;...以后扩展不同的订单下单渠道 -->
+		<item name="channel" value="02"/>
+		<!--tree:树，cascade:级联-->
+		<item name="menuMode" value="cascade"/>
+	</section>
+	
+	<section name="纵横天地账号">
+		<item name="HostGroupBaseID" value="8a00a25e22963bfe01229640db010001"/>
+	</section>
+	<section name="纵横天地联系人预定中航信酒店时的联系人及电话">
+		<item name="Contact" value="梁福添"/>
+		<item name="ContactTel" value="020-38114888-3648"/>
+		<item name="ContactMobile" value="18922212225"/>
+		<item name="ContactFax" value="020-38114702"/>
+		<item name="ContactEmail" value="liangft@itour.cn"/>
+	</section>
+	<section name="发送邀请时所需的服务器地址">
+		<item name="HostServerUrl" value="http://etip.itour.cn"/>
+	</section>
+	<section name="订单快照数据存储路径">
+		<!-- 1-在店审 2离店审 -->
+		<item name="orderFilePath" value="D:/dbsoft/BerkekeyDB"/>
+	</section>
+	<section name="中航信接口信息">
+		<!--代理的Office代码:CAN453-->
+		<item name="HBE_OfficeID" value="CAN453"/>
+		<!--代理的密码:tr54hn-->
+		<item name="HBE_Password" value="tr54hn"/>
+		<!--提交中航信的URL-->
+		<item name="HBE_strUrl" value="http://hbe.sohoto.com/HBE/servlet/tdplogicbookingcontroller"/>
+		<!--中航信的供应商ID-->
+		<item name="HBE_hbeSupplierID" value="8a00a25f23d13eb00123d141acbf0002"/>
+		<!--中航信的供应商ID-->
+		<item name="HBE_hbeSupplierName" value="HBESYNC"/>
+		<!--中航信酒店同步开关：true/false（开/关）-->
+		<item name="HBE_HotelSync" value="true"/>
+		<!--中航信酒店订单开关：true/false（开/关）-->
+		<item name="HBE_HotelOrder" value="true"/>
+		<!--同步中航信酒店动态信息有效期设置（单位：小时）-->
+		<item name="HBE_TermOfValidity" value="24"/>
+	</section>
+	
+    <section name="ETIP框架的CacheUtil中引用的IOC容器中配置的applicationContext-cache.xml中配置的DataCache、DBCache、ExceptionCache、ParaCache的ID">
+    	   <item name="DBCache_Bean_ID" value="dbCache"/>
+    	   <item name="ExceptionCache_Bean_ID" value="exceptionCache"/>
+    	   <item name="DataCache_Bean_ID" value="dataCache"/>
+    	   <item name="ParaCache_Bean_ID" value="paraCache"/>
+    </section>
+	<section name="酒店资源审批标志">
+		<item name="hotelBaseInfo" value="false"/>
+		<item name="hotelRoomInfo" value="false"/>
+		<item name="roomPrice" value="false"/>
+		<item name="hotelControl" value="false"/>
+		<item name="roomPriceControl" value="false"/>
+	</section>
+	
+	<section name="JMS服务器地址">
+		<item name="JMSConnect" value="true"/>
+		<item name="JMSServer" value="etip15.itour.cn:7676"/>
+		<item name="JMSUser" value="admin"/>
+		<item name="JMSPassword" value="admin"/>
+		<item name="FaxQueue" value="jmsSendFax"/>
+		<item name="DBLogQueue" value="DBLog"/>
+		<item name="DesktopMsgQueue" value="DesktopMsg"/>
+		<item name="SMSQueue" value="SMS"/>
+		<item name="DroolsQueue" value="Drools"/>
+		<item name="MailQueue" value="Mail"/>
+		<item name="TibcoEmailQueue" value="jmsSendEmail"/>
+		<item name="EmailFrom" value="etip@itour.cn"/>
+		<item name="TibcoSMSQueue" value="jmsSendSms"/>
+		<item name="ScoreForAirOrdersQueue" value="scoreForAirOrders"/>
+	</section>
+	
+	<section name="规则引擎Drools配置">
+		<item name="propertiesFile" value="/ruleagent.properties"/>
+		<item name="ScoreForOrders_factType" value="ScoreForOrders.GiveScoreAction"/>
+	</section>
+	<section name="信用卡支付配置">
+		<!--正式环境-->
+		<item name="creditPayAddress" value="http://10.124.0.43/MotoService/Service.asmx"/>
+		<!--测试环境
+		<item name="creditPayAddress" value="http://10.128.34.34:1212/Service.asmx"/>-->
+		<item name="creditPayVersion" value="3.0(C#)"/>
+		<item name="creditPaySoapActionPrefix" value="http://tempuri.org/"/>
+		<item name="Merchant" value="20540508"/>
+		<item name="Terminal" value="00000002"/>
+	</section>
+	
+	<section name="传真Ftp参数">
+		<item name="FtpIP" value="10.124.7.25"/>
+		<item name="FtpPort" value="20009"/>
+		<item name="FtpUser" value="etipfaxclient"/>
+		<item name="FtpPassword" value="etipfaxclient123"/>
+	</section>
+	
+	<section name="缓冲区使用配置">
+		<item name="MemCacheUsed" value="false"/>
+		<item name="MemCacheServer" value="10.124.20.26"/>
+		<item name="MemCachePort" value="11211"/>
+	</section>
+	<section name="订单类型编号">
+		<item name="BigOrder" value="BO"/>
+		<item name="HotelOrder" value="HO"/>
+		<item name="AirOrder" value="AO"/>
+	</section>
+	<section name="哪些品牌可以发送短信">
+		<!--item name="brandCanSendSMS" value="itour,17"/-->
+		<item name="brandCanSendSMS" value="itour"/>
+	</section>
+	<section name="调用.net会员，操作员同步的webservice接口">
+		<item name="MemberSynchronize" value="true"/>
+		<item name="UserMemberServerUrl" value="http://10.124.20.10:8077/MemberService.asmx"/>
+		<item name="GroupUserServerUrl" value="http://10.124.20.10:8010/CallService/CCService.asmx"/>
+	</section>
+	
+	<section name="合同到期提醒配置">
+		<!--合同到期前多少天/-->
+		<item name="GroupBizDistanceDay" value="30"/>
+		<!--提示给谁限ID，多人以，分隔  admin,test/-->
+		<item name="GroupBiSendMessageTo" value="8a00a25e229b4d7101229b4f819b0002"/>
+	</section>
+	<section name="艺龙接口有关常量配置">
+		<item name="elongid" value="8afc9e9525aaeb100125ab302de7000d"/>
+		<!--代理的代码-->
+		<item name="ELong_OfficeID" value="zhtd"/>
+		<!--密码-->
+		<item name="ELong_Password" value="zhtd888"/>
+		<item name="ELong_Language" value="CN"/>
+		<item name="ELong_Version" value="1.1"/>
+		<item name="Elong_Name" value="Elong"/>
+		<item name="Elong_Hotel_CN" value="http://114-svc.elong.com/xml/hotel_cn.xml"/>
+		<item name="Elong_Geo_CN" value="http://114-svc.elong.com/xml/geo_cn.xml"/>
+		<item name="Elong_URL" value="http://114-svc.elong.com/NorthBoundService/V1.1/NorthBoundAPIService.asmx"/>
+	</section>
+	<!--中航信，ELONG"-->
+	<section name="酒店供应商配置">
+		<item name="providerIds" value="8afc9e9525aaeb100125ab302de7000d-8a00a25f23d13eb00123d141acbf0002"/>
+	</section>
+</paradic>
+

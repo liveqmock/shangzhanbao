@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<errordic>
+ <item cause="中航信接口调用错误,错误码[code],错误原因[description]" code="HBEException" name="下单错误" solution="请根据错误原因，处理相关问题"/>
+</errordic>
+

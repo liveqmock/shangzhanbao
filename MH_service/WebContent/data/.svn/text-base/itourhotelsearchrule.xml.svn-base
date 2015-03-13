@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaseData>
+	<Rules>
+		<Rule>
+			<Code>1</Code>
+			<Name>按照指定的供应商查询 </Name>
+		</Rule>
+		<Rule>
+			<Code>2</Code>
+			<Name>照最低价格查询  </Name>
+		</Rule>
+		<Rule>
+			<Code>3</Code>
+			<Name>按照最高佣金查询 </Name>
+		</Rule>
+	</Rules>
+</BaseData>

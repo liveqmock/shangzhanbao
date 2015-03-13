@@ -1,0 +1,563 @@
+K 25
+svn:wc:ra_dav:version-url
+V 227
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib
+END
+spring-security-config-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 268
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-security-config-3.1.0.RELEASE.jar
+END
+cas-client-core-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/cas-client-core-3.2.1.jar
+END
+jaxb-api-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jaxb-api-2.2.jar
+END
+hibernate-commons-annotations-4.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 273
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar
+END
+bcprov-jdk15-1.45.jar
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/bcprov-jdk15-1.45.jar
+END
+validation-api-1.0.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/validation-api-1.0.0.GA.jar
+END
+commons-codec-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/commons-codec-1.4.jar
+END
+jcip-annotations-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jcip-annotations-1.0.jar
+END
+commons-lang-2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/commons-lang-2.5.jar
+END
+ezmorph-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 245
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/ezmorph-1.0.4.jar
+END
+spring-asm-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar
+END
+joda-time-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 245
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/joda-time-2.1.jar
+END
+spring-jdbc-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-jdbc-3.1.1.RELEASE.jar
+END
+slf4j-api-1.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/slf4j-api-1.7.1.jar
+END
+xstream-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xstream-1.3.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/antlr-2.7.7.jar
+END
+xml-resolver-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xml-resolver-1.2.jar
+END
+cas-server-core-3.5.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/cas-server-core-3.5.2.1.jar
+END
+person-directory-impl-1.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 259
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/person-directory-impl-1.5.1.jar
+END
+standard-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/standard-1.1.2.jar
+END
+xmldsig-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xmldsig-1.0.jar
+END
+spring-binding-2.3.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-binding-2.3.0.RELEASE.jar
+END
+hibernate-validator-4.2.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/hibernate-validator-4.2.0.Final.jar
+END
+spring-security-cas-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-security-cas-3.1.0.RELEASE.jar
+END
+esapi-2.0GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/esapi-2.0GA.jar
+END
+stax-api-1.0-2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/stax-api-1.0-2.jar
+END
+javassist-3.7.ga.jar
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/javassist-3.7.ga.jar
+END
+openws-1.4.2-1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/openws-1.4.2-1.jar
+END
+spring-web-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar
+END
+activation-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/activation-1.1.jar
+END
+jdom-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jdom-1.0.jar
+END
+xercesImpl-2.10.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xercesImpl-2.10.0.jar
+END
+cas-server-support-jdbc-3.5.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/cas-server-support-jdbc-3.5.2.1.jar
+END
+xalan-2.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xalan-2.7.1.jar
+END
+serializer-2.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/serializer-2.7.1.jar
+END
+spring-core-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar
+END
+spring-js-resources-2.3.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-js-resources-2.3.0.RELEASE.jar
+END
+inspektr-common-1.0.7.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/inspektr-common-1.0.7.GA.jar
+END
+xpp3_min-1.1.4c.jar
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xpp3_min-1.1.4c.jar
+END
+ognl-2.7.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/ognl-2.7.3.jar
+END
+xmlsec-1.4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xmlsec-1.4.3.jar
+END
+quartz-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/quartz-1.6.1.jar
+END
+opensaml-2.5.1-1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/opensaml-2.5.1-1.jar
+END
+jul-to-slf4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jul-to-slf4j-1.6.1.jar
+END
+aspectjrt-1.6.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/aspectjrt-1.6.10.jar
+END
+hibernate-core-4.1.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 258
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/hibernate-core-4.1.0.Final.jar
+END
+sojo-1.0.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/sojo-1.0.5.jar
+END
+stax-api-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/stax-api-1.0.1.jar
+END
+spring-orm-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-orm-3.1.1.RELEASE.jar
+END
+spring-security-crypto-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 268
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-security-crypto-3.1.0.RELEASE.jar
+END
+spring-context-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar
+END
+spring-json-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-json-1.3.1.jar
+END
+jcl-over-slf4j-1.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jcl-over-slf4j-1.7.1.jar
+END
+spring-context-support-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 268
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-context-support-3.1.1.RELEASE.jar
+END
+json-lib-2.2.3-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/json-lib-2.2.3-jdk15.jar
+END
+xml-apis-1.4.01.jar
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xml-apis-1.4.01.jar
+END
+casclient2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/casclient2.1.1.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/commons-collections-3.2.jar
+END
+commons-jexl-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/commons-jexl-1.1.jar
+END
+aspectjweaver-1.6.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/aspectjweaver-1.6.10.jar
+END
+aopalliance-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/aopalliance-1.0.jar
+END
+slf4j-log4j12-1.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 251
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/slf4j-log4j12-1.7.1.jar
+END
+javassist-3.15.0-GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 251
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/javassist-3.15.0-GA.jar
+END
+xmltooling-1.3.2-1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/xmltooling-1.3.2-1.jar
+END
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar
+END
+spring-aop-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-aop-3.1.1.RELEASE.jar
+END
+inspektr-support-spring-1.0.7.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 264
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/inspektr-support-spring-1.0.7.GA.jar
+END
+spring-webflow-2.3.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-webflow-2.3.0.RELEASE.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/dom4j-1.6.1.jar
+END
+spring-beans-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 258
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar
+END
+spring-tx-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-tx-3.1.1.RELEASE.jar
+END
+spring-security-web-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-security-web-3.1.0.RELEASE.jar
+END
+spring-webmvc-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 259
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-webmvc-3.1.1.RELEASE.jar
+END
+cas-server-support-ldap-3.5.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/cas-server-support-ldap-3.5.2.1.jar
+END
+jstl-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jstl-1.1.2.jar
+END
+jettison-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jettison-1.0.1.jar
+END
+spring-js-2.3.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-js-2.3.0.RELEASE.jar
+END
+cglib-nodep-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/cglib-nodep-2.2.2.jar
+END
+person-directory-api-1.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 258
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/person-directory-api-1.5.1.jar
+END
+spring-security-core-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-security-core-3.1.0.RELEASE.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/log4j-1.2.15.jar
+END
+jaxb-impl-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 245
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jaxb-impl-2.2.jar
+END
+inspektr-error-1.0.7.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/inspektr-error-1.0.7.GA.jar
+END
+not-yet-commons-ssl-0.3.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/not-yet-commons-ssl-0.3.9.jar
+END
+spring-expression-3.1.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar
+END
+perf4j-0.9.14-log4jonly.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/perf4j-0.9.14-log4jonly.jar
+END
+jboss-transaction-api_1.1_spec-1.0.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 274
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 254
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/commons-httpclient-3.1.jar
+END
+inspektr-audit-1.0.7.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/inspektr-audit-1.0.7.GA.jar
+END
+velocity-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/velocity-1.5.jar
+END
+jboss-logging-3.1.0.CR2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar
+END
+commons-beanutils-1.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/commons-beanutils-1.7.0.jar
+END
+commons-io-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%B7%A5%E7%A8%8B%E4%B8%AD%E5%BF%83%E5%BA%93/!svn/ver/22210/02%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%BA%93/P2014021302-minipage/1.%E5%BC%80%E5%8F%91%E5%BA%93/1.%E4%BB%A3%E7%A0%81/mini-cas/gomai-cas/WebContent/WEB-INF/lib/commons-io-2.0.jar
+END

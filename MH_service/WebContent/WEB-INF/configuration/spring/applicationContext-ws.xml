@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+ 
+	<bean id="aegisBean"  
+		class="org.apache.cxf.aegis.databinding.AegisDatabinding" />   
+
+	<!-- 配置 WEB Service 开始-->
+	<!-- 测试exterior 开始-->
+
+	
+	<bean id="TaskExterior_jaxWsServiceFactoryBean" class="org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean">   
+		<property name="wrapped" value="true" />   
+		<property name="dataBinding" ref="aegisBean" />   
+	</bean>  
+	
+	<jaxws:endpoint id="TaskExterior" implementor="#ITaskExteriorServiceForWS" address="/TaskExteriorForWS">   
+		<jaxws:serviceFactory>   
+			<ref bean="TaskExterior_jaxWsServiceFactoryBean"/>   
+		</jaxws:serviceFactory>   
+	</jaxws:endpoint>  
+	<!-- 测试exterior 结束-->
+	<!-- 配置 taskinfo 开始-->
+	
+	<!--  task info 接口	-->
+	<bean id="TaskInfo_jaxWsServiceFactoryBean" class="org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean">   
+		<property name="wrapped" value="true" />   
+		<property name="dataBinding" ref="aegisBean" />   
+	</bean>  
+	
+	<jaxws:endpoint id="TaskInfo" implementor="#ITaskInfoServiceForWS" address="/TaskInfoForWS">   
+		<jaxws:serviceFactory>   
+			<ref bean="TaskInfo_jaxWsServiceFactoryBean"/>  
+		</jaxws:serviceFactory>   
+	</jaxws:endpoint>  
+	<!-- 配置 taskinfo 结束-->
+	<!-- 配置 WEB Service 结束-->
+</beans>

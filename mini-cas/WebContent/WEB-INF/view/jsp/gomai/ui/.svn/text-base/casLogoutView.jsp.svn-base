@@ -1,0 +1,3 @@
+<%
+response.sendRedirect(request.getScheme()+"://localhost:8080/frame/key/toIndex");
+%>

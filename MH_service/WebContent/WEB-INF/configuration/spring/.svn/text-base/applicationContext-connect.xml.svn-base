@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<!-- Connection Info -->
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		
+		<property name="url" value="jdbc:oracle:thin:@192.168.1.2:1521:gomai" />
+		<property name="username" value="mhtask" />
+		<property name="password" value="mhtask" />
+<!--		<property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" />-->
+<!--		<property name="username" value="etip" />-->
+<!--		<property name="password" value="etip" />-->
+		
+<!--		<property name="url" value="jdbc:oracle:thin:@10.0.8.131:1521:orcl" />-->
+<!--		<property name="username" value="etip" />-->
+<!--		<property name="password" value="etip" />-->
+
+		<!-- Connection Pooling Info -->
+		<property name="initialSize" value="1" />
+		<property name="maxActive" value="5" />
+		<property name="maxIdle" value="5" />
+		<property name="defaultAutoCommit" value="true" />
+	</bean>
+	
+</beans>

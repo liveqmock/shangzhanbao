@@ -1,0 +1,5 @@
+亲爱的${userName}：<br/>
+您好！<br/>
+您于${orderCreateTime}提交的订单【${orderCode}】已生成，请尽快付款。付款完成后，我们会尽快为您开通服务。<br/>
+更多产品请浏览【<a href="http://localhost:8080" target="_blank">服务中心首页</a>】。<br/>
+谢谢您的支持。<br/>

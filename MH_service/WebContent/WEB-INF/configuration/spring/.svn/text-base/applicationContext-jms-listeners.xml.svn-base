@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jms="http://www.springframework.org/schema/jms"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+       http://www.springframework.org/schema/context 
+       http://www.springframework.org/schema/context/spring-context-2.5.xsd 
+       http://www.springframework.org/schema/jms 
+       http://www.springframework.org/schema/jms/spring-jms-2.5.xsd"
+	default-lazy-init="true">
+	<!--jms:listener-container connection-factory="jmsFactory"
+		task-executor="taskExecutor" concurrency="10" acknowledge="transacted">
+		<jms:listener destination="DBLog" ref="messageReceiver"
+			method="receiveLog" />
+		<jms:listener destination="DesktopMsg" ref="messageReceiver"
+			method="receiveDesktop" />
+		<jms:listener destination="Mail" ref="messageReceiver"
+			method="receiveMail" />
+		<jms:listener destination="SMS" ref="messageReceiver"
+			method="receiveSMS" />
+		<jms:listener destination="Drools" ref="messageReceiver"
+			method="receiveDrools" />	
+		<jms:listener destination="refreshRole" ref="messageReceiver"
+			method="receiveRefreshRole" />	
+		<jms:listener destination="refreshName" ref="messageReceiver"
+			method="receiveRefreshNameCache" />	
+		<jms:listener destination="scoreForAirOrders" ref="messageReceiver"
+			method="receiveScoreForAirOrders" />			
+	</jms:listener-container> 
+
+	<bean id="jmsFactory" class="com.itour.etip.pub.kit.jms.OpenMqConnectionFactory">
+		<constructor-arg type="java.lang.String" value="10.124.20.15:7676" />
+	</bean>
+
+	<bean id="messageReceiver" class="com.itour.etip.pub.kit.jms.jmsReciever">
+		<constructor-arg ref="taskExecutor" />
+	</bean>
+
+	<bean id="taskExecutor"
+		class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+		<property name="corePoolSize" value="5" />
+		<property name="maxPoolSize" value="10" />
+		<property name="queueCapacity" value="5" />
+	</bean-->
+</beans>

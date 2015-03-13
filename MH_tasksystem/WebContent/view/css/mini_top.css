@@ -1,0 +1,931 @@
+body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1400px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1400px;
+  height:100px;
+  font-family:'Microsoft YaHei';
+  font-size:28px;
+  color:#0099CC;
+  text-align:left;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1400px;
+  height:100px;
+}
+#u1 {
+  position:absolute;
+  left:4px;
+  top:32px;
+  width:1298px;
+  word-wrap:break-word;
+}
+#u2 {
+  position:absolute;
+  left:414px;
+  top:40px;
+  width:54px;
+  height:20px;
+  font-family:'Microsoft YaHei';
+  font-size:16px;
+  color:#0099CC;
+}
+#u2_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:54px;
+  height:20px;
+}
+#u3 {
+  position:absolute;
+  left:2px;
+  top:0px;
+  width:50px;
+  word-wrap:break-word;
+}
+#u4 {
+  position:absolute;
+  left:492px;
+  top:40px;
+  width:80px;
+  height:20px;
+  font-family:'Microsoft YaHei';
+  font-size:16px;
+}
+#u4_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:20px;
+}
+#u4_img.mouseOver {
+}
+#u4.mouseOver {
+}
+#u5 {
+  position:absolute;
+  left:2px;
+  top:0px;
+  width:76px;
+  word-wrap:break-word;
+}
+#u6 {
+  position:absolute;
+  left:596px;
+  top:40px;
+  width:65px;
+  height:20px;
+  font-family:'Microsoft YaHei';
+  font-size:16px;
+}
+#u6_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:65px;
+  height:20px;
+}
+#u6_img.mouseOver {
+}
+#u6.mouseOver {
+}
+#u7 {
+  position:absolute;
+  left:2px;
+  top:0px;
+  width:61px;
+  word-wrap:break-word;
+}
+#u8 {
+  position:absolute;
+  left:685px;
+  top:40px;
+  width:90px;
+  height:20px;
+  font-family:'Microsoft YaHei';
+  font-size:16px;
+}
+#u8_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:90px;
+  height:20px;
+}
+#u8_img.mouseOver {
+}
+#u8.mouseOver {
+}
+#u9 {
+  position:absolute;
+  left:2px;
+  top:0px;
+  width:86px;
+  word-wrap:break-word;
+}
+#u10 {
+  position:absolute;
+  left:799px;
+  top:40px;
+  width:80px;
+  height:20px;
+  font-family:'Microsoft YaHei';
+  font-size:16px;
+}
+#u10_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:20px;
+}
+#u10_img.mouseOver {
+}
+#u10.mouseOver {
+}
+#u11 {
+  position:absolute;
+  left:2px;
+  top:0px;
+  width:76px;
+  word-wrap:break-word;
+}
+#u12 {
+  position:absolute;
+  left:0px;
+  top:176px;
+  width:1400px;
+  height:290px;
+  font-family:'Microsoft YaHei';
+}
+#u12_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1400px;
+  height:290px;
+}
+#u13 {
+  position:absolute;
+  left:2px;
+  top:137px;
+  width:1396px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u14 {
+  position:absolute;
+  left:210px;
+  top:197px;
+  width:250px;
+  height:31px;
+  font-family:'Microsoft YaHei';
+  font-weight:400;
+  font-style:normal;
+  font-size:24px;
+  color:#333333;
+}
+#u32 {
+  position:absolute;
+  left:1010px;
+  top:35px;
+  width:268px;
+  height:250px;
+  overflow:hidden;
+}
+#u32_state0 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:268px;
+  height:250px;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-image:none;
+}
+#u32_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u33 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  color:#FFFFFF;
+}
+#u33_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:30px;
+}
+#u33_img.mouseOver {
+}
+#u33.mouseOver {
+}
+#u34 {
+  position:absolute;
+  left:2px;
+  top:8px;
+  width:100px;
+  word-wrap:break-word;
+}
+#u35 {
+  position:absolute;
+  left:120px;
+  top:0px;
+  width:71px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  color:#FFFFFF;
+}
+#u35_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:71px;
+  height:30px;
+}
+#u35_img.mouseOver {
+}
+#u35.mouseOver {
+}
+#u36 {
+  position:absolute;
+  left:2px;
+  top:8px;
+  width:67px;
+  word-wrap:break-word;
+}
+#u41 {
+  position:absolute;
+  left:0px;
+  top:30px;
+  width:150px;
+  height:210px;
+  visibility:hidden;
+}
+#u41_menu {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:156px;
+  height:216px;
+}
+#u42 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:155px;
+  height:215px;
+}
+#u43 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+  font-size:16px;
+}
+#u43_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+}
+#u43_img.selected {
+}
+#u43.selected {
+}
+#u43_img.mouseOver {
+}
+#u43.mouseOver {
+}
+#u44 {
+  position:absolute;
+  left:30px;
+  top:6px;
+  width:118px;
+  word-wrap:break-word;
+}
+#u45 {
+  position:absolute;
+  left:0px;
+  top:30px;
+  width:150px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-size:16px;
+}
+#u45_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+}
+#u45_img.selected {
+}
+#u45.selected {
+}
+#u45_img.mouseOver {
+}
+#u45.mouseOver {
+}
+#u46 {
+  position:absolute;
+  left:30px;
+  top:7px;
+  width:118px;
+  word-wrap:break-word;
+}
+#u47 {
+  position:absolute;
+  left:0px;
+  top:60px;
+  width:150px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-size:16px;
+}
+#u47_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+}
+#u47_img.selected {
+}
+#u47.selected {
+}
+#u47_img.mouseOver {
+}
+#u47.mouseOver {
+}
+#u48 {
+  position:absolute;
+  left:30px;
+  top:7px;
+  width:118px;
+  word-wrap:break-word;
+}
+#u49 {
+  position:absolute;
+  left:0px;
+  top:90px;
+  width:150px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-size:16px;
+}
+#u49_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+}
+#u49_img.selected {
+}
+#u49.selected {
+}
+#u49_img.mouseOver {
+}
+#u49.mouseOver {
+}
+#u50 {
+  position:absolute;
+  left:30px;
+  top:7px;
+  width:118px;
+  word-wrap:break-word;
+}
+#u51 {
+  position:absolute;
+  left:0px;
+  top:120px;
+  width:150px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-size:16px;
+}
+#u51_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+}
+#u51_img.selected {
+}
+#u51.selected {
+}
+#u51_img.mouseOver {
+}
+#u51.mouseOver {
+}
+#u52 {
+  position:absolute;
+  left:30px;
+  top:7px;
+  width:118px;
+  word-wrap:break-word;
+}
+#u53 {
+  position:absolute;
+  left:0px;
+  top:150px;
+  width:150px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-size:16px;
+}
+#u53_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+}
+#u53_img.selected {
+}
+#u53.selected {
+}
+#u53_img.mouseOver {
+}
+#u53.mouseOver {
+}
+#u54 {
+  position:absolute;
+  left:30px;
+  top:7px;
+  width:118px;
+  word-wrap:break-word;
+}
+#u55 {
+  position:absolute;
+  left:0px;
+  top:180px;
+  width:150px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-size:16px;
+}
+#u55_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:30px;
+}
+#u55_img.selected {
+}
+#u55.selected {
+}
+#u55_img.mouseOver {
+}
+#u55.mouseOver {
+}
+#u56 {
+  position:absolute;
+  left:30px;
+  top:7px;
+  width:118px;
+  word-wrap:break-word;
+}
+#u57 {
+  position:absolute;
+  left:3px;
+  top:4px;
+  width:23px;
+  height:21px;
+}
+#u57_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:23px;
+  height:21px;
+}
+#u58 {
+  position:absolute;
+  left:2px;
+  top:2px;
+  width:19px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u59 {
+  position:absolute;
+  left:160px;
+  top:0px;
+  width:105px;
+  height:30px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  font-size:14px;
+  color:#FFFFFF;
+}
+#u59_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:105px;
+  height:30px;
+}
+#u60 {
+  position:absolute;
+  left:2px;
+  top:8px;
+  width:101px;
+  word-wrap:break-word;
+}
+#u61 {
+  position:absolute;
+  left:239px;
+  top:1px;
+  width:26px;
+  height:28px;
+  color:#00B4CA;
+}
+#u61_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:26px;
+  height:28px;
+}
+#u62 {
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:22px;
+  word-wrap:break-word;
+}
+#u63 {
+  position:absolute;
+  left:163px;
+  top:2px;
+  width:26px;
+  height:25px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
+  color:#00B4CA;
+}
+#u63_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:26px;
+  height:25px;
+}
+#u64 {
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:22px;
+  word-wrap:break-word;
+}
+.ax_1 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_order {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_table {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_table_1 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_形状 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_文本 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_h1 {
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_h2 {
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:24px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_h3 {
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_h4 {
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_h5 {
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_h6 {
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:10px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_图片 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_文本链接 {
+  color:#0000FF;
+}
+.ax_鼠标悬停文本链接 {
+}
+.ax_鼠标按下文本链接 {
+}
+.ax_文本框_单行_ {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_文本框_多行_ {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_下拉列表框 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_列表选择框 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_复选框 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_单选框 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_流程形状 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_树节点 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_html_button {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_hot_spot {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_内部框架 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_动态面板 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_编辑选项 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_中继器 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_表格 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_表格单元 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_菜单 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_poorline {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_垂直线 {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_connector {
+  font-family:'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+

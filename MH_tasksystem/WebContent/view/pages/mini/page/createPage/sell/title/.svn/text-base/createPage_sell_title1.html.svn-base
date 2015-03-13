@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../../../css/ifrma.css"/>
+<style>
+body {
+	margin:0 auto;
+	background:url(../../../images/Titlebg.jpg) repeat-x left  bottom #ececec;
+	font-size:12px;
+	color:#fff;
+	}
+</style>
+</head>
+<script>
+function set_left(){
+	var mytitle = window.top.document.getElementById("title");
+	if (mytitle != null){
+		//修改maindiv
+		var mymain = window.top.document.getElementById("main");
+		var newheight = parseInt(mymain.style.height) + 60;
+		mymain.style.height=newheight;
+		mymain.style.top="50px";
+		mytitle.parentNode.removeChild(mytitle);//移除该div
+	}
+}
+</script>
+<body>
+  <div id="frame_Title">
+  <h1>完善细节：</h1>
+  <p>模板中的文字描述和图片，都可以换成你想要的。同样，在左侧编辑内容时，您可以在右侧看到这些内容的展示位置，如果你还没想好，没关系，之后可以继续修改。</p>
+  <span onClick="set_left()"><img alt="" src="../../../images/Delete-32.png"  class="imgTemp"></span>
+</div>
+</body>
+</html>

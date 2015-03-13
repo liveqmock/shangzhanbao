@@ -1,0 +1,14 @@
+log4j.rootLogger=WARN,CONSOLE
+log4j.category.CONSOLE=WARN,CONSOLE
+log4j.category.ModularName=WARN,ModularName
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender 
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout 
+log4j.appender.CONSOLE.layout.ConversionPattern= [%c.%p] %m %d{yyyy-MM-dd HH:mm:ss,SSS} %n 
+log4j.appender.ModularName=org.apache.log4j.RollingFileAppender 
+log4j.appender.ModularName.File=project.log 
+log4j.appender.ModularName.MaxFileSize=500KB 
+log4j.appender.ModularName.MaxBackupIndex=10
+log4j.appender.ModularName.layout=org.apache.log4j.PatternLayout
+log4j.appender.ModularName.layout.ConversionPattern= [%c.%p] %m  %d{yyyy-MM-dd HH:mm:ss,SSS} %n
+
+

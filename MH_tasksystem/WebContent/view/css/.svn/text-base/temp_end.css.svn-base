@@ -1,0 +1,46 @@
+/* 模板底部样式*/
+.footerForPage {
+ width: 100%;
+ 	
+}
+
+.footerForPageLine {
+ background: none repeat scroll 0 0 #25282d;
+ border-left: 0 solid #25282d;
+ display: block;
+ height: 4px;
+ width: 100%;
+ margin: 0 0 10px 0;
+ float: left;
+}
+
+.footerForPageClear{
+ clear: both;
+ display: block;
+ visibility: hidden;
+ overflow: hidden;
+ width: 0;
+ height: 0;
+ }
+
+.FooterForPageContent {
+ align:center;
+ line-height: 60px;
+ text-align: center;
+ padding: 0px 0 0px 0;
+ font-size: 10px;
+ font-family:"";
+ clear:both;
+ }
+ .footerDiv{
+ float: left;margin-top: -3px;
+  font-size: 12px;
+ }
+ .footerImg{
+ float: left; margin-left: 10%;margin-top: 13px;height: 30px;
+ }
+ 
+@media (max-width: 480px){
+	.footerImg{margin-left: 5%;}
+
+	}
